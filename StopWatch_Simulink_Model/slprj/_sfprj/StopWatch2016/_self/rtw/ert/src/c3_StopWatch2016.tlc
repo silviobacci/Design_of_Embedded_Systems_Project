@@ -1,0 +1,150 @@
+%implements "chartSource" "C"
+%function ChartConfig(block, system) void
+  %createrecord chartConfiguration { ...
+          executeAtInitialization  1 ...
+  }
+  %return chartConfiguration
+%endfunction
+%function ChartDataMap(block, system) void
+  %createrecord ChartDataElements {\
+    NumChartData   22 \
+    ChartDataDefaults {\
+      RecordType   "ChartData"\
+      Dimensions   []\
+      IsTestPoint  0\
+    }\
+    ChartData {\
+      Name         "sfEvent"\
+      Description  "ActiveChartEvent"\
+      SFName       ""\
+      Path         ""\
+    }\
+    ChartData {\
+      Name         "is_Control"\
+      Description  "StateActiveChild"\
+      SFName       ""\
+      Path         "Control"\
+    }\
+    ChartData {\
+      Name         "is_active_Control"\
+      Description  "StateIsActive"\
+      SFName       ""\
+      Path         "Control"\
+    }\
+    ChartData {\
+      Name         "is_timesetmode"\
+      Description  "StateActiveChild"\
+      SFName       ""\
+      Path         "Control.timesetmode"\
+    }\
+    ChartData {\
+      Name         "is_swatchmode"\
+      Description  "StateActiveChild"\
+      SFName       ""\
+      Path         "Control.swatchmode"\
+    }\
+    ChartData {\
+      Name         "is_running"\
+      Description  "StateActiveChild"\
+      SFName       ""\
+      Path         "Control.swatchmode.running"\
+    }\
+    ChartData {\
+      Name         "is_alarmmode"\
+      Description  "StateActiveChild"\
+      SFName       ""\
+      Path         "Control.alarmmode"\
+    }\
+    ChartData {\
+      Name         "is_TimeCount"\
+      Description  "StateActiveChild"\
+      SFName       ""\
+      Path         "TimeCount"\
+    }\
+    ChartData {\
+      Name         "is_active_TimeCount"\
+      Description  "StateIsActive"\
+      SFName       ""\
+      Path         "TimeCount"\
+    }\
+    ChartData {\
+      Name         "is_AlarmMng"\
+      Description  "StateActiveChild"\
+      SFName       ""\
+      Path         "AlarmMng"\
+    }\
+    ChartData {\
+      Name         "is_active_AlarmMng"\
+      Description  "StateIsActive"\
+      SFName       ""\
+      Path         "AlarmMng"\
+    }\
+    ChartData {\
+      Name         "hours"\
+      Description  "ChartLocal"\
+      SFName       ""\
+      Path         "hours"\
+    }\
+    ChartData {\
+      Name         "minutes"\
+      Description  "ChartLocal"\
+      SFName       ""\
+      Path         "minutes"\
+    }\
+    ChartData {\
+      Name         "seconds"\
+      Description  "ChartLocal"\
+      SFName       ""\
+      Path         "seconds"\
+    }\
+    ChartData {\
+      Name         "tenths"\
+      Description  "ChartLocal"\
+      SFName       ""\
+      Path         "tenths"\
+    }\
+    ChartData {\
+      Name         "SWhours"\
+      Description  "ChartLocal"\
+      SFName       ""\
+      Path         "SWhours"\
+    }\
+    ChartData {\
+      Name         "SWminutes"\
+      Description  "ChartLocal"\
+      SFName       ""\
+      Path         "SWminutes"\
+    }\
+    ChartData {\
+      Name         "SWseconds"\
+      Description  "ChartLocal"\
+      SFName       ""\
+      Path         "SWseconds"\
+    }\
+    ChartData {\
+      Name         "SWtenths"\
+      Description  "ChartLocal"\
+      SFName       ""\
+      Path         "SWtenths"\
+    }\
+    ChartData {\
+      Name         "Ahours"\
+      Description  "ChartLocal"\
+      SFName       ""\
+      Path         "Ahours"\
+    }\
+    ChartData {\
+      Name         "Aminutes"\
+      Description  "ChartLocal"\
+      SFName       ""\
+      Path         "Aminutes"\
+    }\
+    ChartData {\
+      Name         "lapmode"\
+      Description  "ChartLocal"\
+      SFName       ""\
+      Path         "lapmode"\
+    }\
+  }
+  %return ChartDataElements
+%endfunction

@@ -1,0 +1,2023 @@
+Archive member included to satisfy reference by file (symbol)
+
+libee.a(ee_hal_structs.o)     obj/code.o (EE_IRQ_nesting_level)
+libee.a(ee_utils.o)           obj/code.o (EE_system_init)
+libee.a(ee_gnu_change_context_isr.o)
+                              obj/code.o (EE_switch_context)
+libee.a(ee_irqendin.o)        libee.a(ee_gnu_change_context_isr.o) (EE_IRQ_end_instance)
+libee.a(ee_tstub.o)           obj/eecfg.o (EE_oo_thread_stub)
+libee.a(ee_lookup.o)          libee.a(ee_irqendin.o) (EE_oo_IRQ_disable_count)
+libee.a(ee_rq_exchg.o)        libee.a(ee_irqendin.o) (EE_rq2stk_exchange)
+libee.a(ee_alsetrel.o)        obj/code.o (EE_oo_SetRelAlarm)
+libee.a(ee_altick.o)          libee.a(ee_alsetrel.o) (EE_oo_counter_object_insert)
+libee.a(ee_context.o)         libee.a(ee_gnu_change_context_isr.o) (EE_cortex_mx_change_context)
+libee.a(ee_gnu_oo.o)          libee.a(ee_tstub.o) (EE_hal_terminate_savestk)
+libee.a(ee_tnterm.o)          libee.a(ee_gnu_oo.o) (EE_thread_not_terminated)
+libee.a(ee_rq_inser.o)        libee.a(ee_altick.o) (EE_rq_insert)
+libee.a(ee_context.o)         libee.a(ee_context.o) (EE_std_run_task_code)
+libee.a(ee_thendin.o)         libee.a(ee_context.o) (EE_thread_end_instance)
+libstm32f4discovery.a(stm32f4_discovery_lcd.o)
+                              obj/WidgetConfig.o (Font16x24)
+libstm32f4xxspd.a(stm32f4xx_dma.o)
+                              obj/STMPE811QTR.o (DMA_DeInit)
+libstm32f4xxspd.a(stm32f4xx_fsmc.o)
+                              libstm32f4discovery.a(stm32f4_discovery_lcd.o) (FSMC_NORSRAMDeInit)
+libstm32f4xxspd.a(stm32f4xx_gpio.o)
+                              obj/STMPE811QTR.o (GPIO_Init)
+libstm32f4xxspd.a(stm32f4xx_i2c.o)
+                              obj/STMPE811QTR.o (I2C_Init)
+libstm32f4xxspd.a(stm32f4xx_rcc.o)
+                              libstm32f4xxspd.a(stm32f4xx_i2c.o) (RCC_GetClocksFreq)
+/Users/silviobacci/Applications/gcc-arm-none-eabi-5_4-2016q3/bin/../lib/gcc/arm-none-eabi/5.4.1/armv7e-m/libgcc.a(_arm_addsubdf3.o)
+                              obj/Watch.o (__aeabi_dsub)
+/Users/silviobacci/Applications/gcc-arm-none-eabi-5_4-2016q3/bin/../lib/gcc/arm-none-eabi/5.4.1/armv7e-m/libgcc.a(_arm_muldivdf3.o)
+                              obj/Watch.o (__aeabi_dmul)
+/Users/silviobacci/Applications/gcc-arm-none-eabi-5_4-2016q3/bin/../lib/gcc/arm-none-eabi/5.4.1/armv7e-m/libgcc.a(_arm_cmpdf2.o)
+                              libstm32f4discovery.a(stm32f4_discovery_lcd.o) (__aeabi_dcmplt)
+/Users/silviobacci/Applications/gcc-arm-none-eabi-5_4-2016q3/bin/../lib/gcc/arm-none-eabi/5.4.1/armv7e-m/libgcc.a(_arm_fixdfsi.o)
+                              obj/Touch.o (__aeabi_d2iz)
+/Users/silviobacci/Applications/gcc-arm-none-eabi-5_4-2016q3/bin/../lib/gcc/arm-none-eabi/5.4.1/armv7e-m/libgcc.a(_arm_fixunsdfsi.o)
+                              obj/Watch.o (__aeabi_d2uiz)
+/Users/silviobacci/Applications/gcc-arm-none-eabi-5_4-2016q3/bin/../lib/gcc/arm-none-eabi/5.4.1/armv7e-m/libgcc.a(_arm_truncdfsf2.o)
+                              obj/Watch.o (__aeabi_d2f)
+/Users/silviobacci/Applications/gcc-arm-none-eabi-5_4-2016q3/bin/../lib/gcc/arm-none-eabi/5.4.1/armv7e-m/libgcc.a(_arm_addsubsf3.o)
+                              obj/Touch.o (__aeabi_fsub)
+/Users/silviobacci/Applications/gcc-arm-none-eabi-5_4-2016q3/bin/../lib/gcc/arm-none-eabi/5.4.1/armv7e-m/libgcc.a(_arm_muldivsf3.o)
+                              obj/Touch.o (__aeabi_fmul)
+/Users/silviobacci/Applications/gcc-arm-none-eabi-5_4-2016q3/bin/../lib/gcc/arm-none-eabi/5.4.1/armv7e-m/libgcc.a(_arm_fixsfsi.o)
+                              obj/Touch.o (__aeabi_f2iz)
+/Users/silviobacci/Applications/gcc-arm-none-eabi-5_4-2016q3/bin/../lib/gcc/arm-none-eabi/5.4.1/armv7e-m/libgcc.a(_arm_fixunssfsi.o)
+                              obj/Touch.o (__aeabi_f2uiz)
+/Users/silviobacci/Applications/gcc-arm-none-eabi-5_4-2016q3/arm-none-eabi/lib/thumb/libc.a(lib_a-exit.o)
+                              /Users/silviobacci/Applications/gcc-arm-none-eabi-5_4-2016q3/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7e-m/crt0.o (exit)
+/Users/silviobacci/Applications/gcc-arm-none-eabi-5_4-2016q3/arm-none-eabi/lib/thumb/libc.a(lib_a-impure.o)
+                              /Users/silviobacci/Applications/gcc-arm-none-eabi-5_4-2016q3/arm-none-eabi/lib/thumb/libc.a(lib_a-exit.o) (_global_impure_ptr)
+/Users/silviobacci/Applications/gcc-arm-none-eabi-5_4-2016q3/arm-none-eabi/lib/thumb/libc.a(lib_a-init.o)
+                              /Users/silviobacci/Applications/gcc-arm-none-eabi-5_4-2016q3/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7e-m/crt0.o (__libc_init_array)
+/Users/silviobacci/Applications/gcc-arm-none-eabi-5_4-2016q3/arm-none-eabi/lib/thumb/libc.a(lib_a-memset.o)
+                              /Users/silviobacci/Applications/gcc-arm-none-eabi-5_4-2016q3/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7e-m/crt0.o (memset)
+/Users/silviobacci/Applications/gcc-arm-none-eabi-5_4-2016q3/arm-none-eabi/lib/thumb/libc.a(lib_a-sprintf.o)
+                              obj/debug.o (sprintf)
+/Users/silviobacci/Applications/gcc-arm-none-eabi-5_4-2016q3/arm-none-eabi/lib/thumb/libc.a(lib_a-svfprintf.o)
+                              /Users/silviobacci/Applications/gcc-arm-none-eabi-5_4-2016q3/arm-none-eabi/lib/thumb/libc.a(lib_a-sprintf.o) (_svfprintf_r)
+/Users/silviobacci/Applications/gcc-arm-none-eabi-5_4-2016q3/arm-none-eabi/lib/thumb/libc.a(lib_a-__call_atexit.o)
+                              /Users/silviobacci/Applications/gcc-arm-none-eabi-5_4-2016q3/arm-none-eabi/lib/thumb/libc.a(lib_a-exit.o) (__call_exitprocs)
+/Users/silviobacci/Applications/gcc-arm-none-eabi-5_4-2016q3/arm-none-eabi/lib/thumb/libc.a(lib_a-atexit.o)
+                              /Users/silviobacci/Applications/gcc-arm-none-eabi-5_4-2016q3/arm-none-eabi/lib/thumb/libc.a(lib_a-__call_atexit.o) (atexit)
+/Users/silviobacci/Applications/gcc-arm-none-eabi-5_4-2016q3/arm-none-eabi/lib/thumb/libc.a(lib_a-dtoa.o)
+                              /Users/silviobacci/Applications/gcc-arm-none-eabi-5_4-2016q3/arm-none-eabi/lib/thumb/libc.a(lib_a-svfprintf.o) (_dtoa_r)
+/Users/silviobacci/Applications/gcc-arm-none-eabi-5_4-2016q3/arm-none-eabi/lib/thumb/libc.a(lib_a-fini.o)
+                              /Users/silviobacci/Applications/gcc-arm-none-eabi-5_4-2016q3/arm-none-eabi/lib/thumb/libc.a(lib_a-__call_atexit.o) (__libc_fini_array)
+/Users/silviobacci/Applications/gcc-arm-none-eabi-5_4-2016q3/arm-none-eabi/lib/thumb/libc.a(lib_a-localeconv.o)
+                              /Users/silviobacci/Applications/gcc-arm-none-eabi-5_4-2016q3/arm-none-eabi/lib/thumb/libc.a(lib_a-svfprintf.o) (_localeconv_r)
+/Users/silviobacci/Applications/gcc-arm-none-eabi-5_4-2016q3/arm-none-eabi/lib/thumb/libc.a(lib_a-mallocr.o)
+                              /Users/silviobacci/Applications/gcc-arm-none-eabi-5_4-2016q3/arm-none-eabi/lib/thumb/libc.a(lib_a-svfprintf.o) (_malloc_r)
+/Users/silviobacci/Applications/gcc-arm-none-eabi-5_4-2016q3/arm-none-eabi/lib/thumb/libc.a(lib_a-memchr-stub.o)
+                              /Users/silviobacci/Applications/gcc-arm-none-eabi-5_4-2016q3/arm-none-eabi/lib/thumb/libc.a(lib_a-svfprintf.o) (memchr)
+/Users/silviobacci/Applications/gcc-arm-none-eabi-5_4-2016q3/arm-none-eabi/lib/thumb/libc.a(lib_a-memcpy-stub.o)
+                              /Users/silviobacci/Applications/gcc-arm-none-eabi-5_4-2016q3/arm-none-eabi/lib/thumb/libc.a(lib_a-dtoa.o) (memcpy)
+/Users/silviobacci/Applications/gcc-arm-none-eabi-5_4-2016q3/arm-none-eabi/lib/thumb/libc.a(lib_a-mlock.o)
+                              /Users/silviobacci/Applications/gcc-arm-none-eabi-5_4-2016q3/arm-none-eabi/lib/thumb/libc.a(lib_a-mallocr.o) (__malloc_lock)
+/Users/silviobacci/Applications/gcc-arm-none-eabi-5_4-2016q3/arm-none-eabi/lib/thumb/libc.a(lib_a-mprec.o)
+                              /Users/silviobacci/Applications/gcc-arm-none-eabi-5_4-2016q3/arm-none-eabi/lib/thumb/libc.a(lib_a-dtoa.o) (_Balloc)
+/Users/silviobacci/Applications/gcc-arm-none-eabi-5_4-2016q3/arm-none-eabi/lib/thumb/libc.a(lib_a-sbrkr.o)
+                              /Users/silviobacci/Applications/gcc-arm-none-eabi-5_4-2016q3/arm-none-eabi/lib/thumb/libc.a(lib_a-mallocr.o) (_sbrk_r)
+/Users/silviobacci/Applications/gcc-arm-none-eabi-5_4-2016q3/arm-none-eabi/lib/thumb/libc.a(lib_a-strlen-stub.o)
+                              /Users/silviobacci/Applications/gcc-arm-none-eabi-5_4-2016q3/arm-none-eabi/lib/thumb/libc.a(lib_a-svfprintf.o) (strlen)
+/Users/silviobacci/Applications/gcc-arm-none-eabi-5_4-2016q3/arm-none-eabi/lib/thumb/libc.a(lib_a-svfiprintf.o)
+                              /Users/silviobacci/Applications/gcc-arm-none-eabi-5_4-2016q3/arm-none-eabi/lib/thumb/libc.a(lib_a-svfprintf.o) (__ssprint_r)
+/Users/silviobacci/Applications/gcc-arm-none-eabi-5_4-2016q3/arm-none-eabi/lib/thumb/libc.a(lib_a-__atexit.o)
+                              /Users/silviobacci/Applications/gcc-arm-none-eabi-5_4-2016q3/arm-none-eabi/lib/thumb/libc.a(lib_a-atexit.o) (__register_exitproc)
+/Users/silviobacci/Applications/gcc-arm-none-eabi-5_4-2016q3/arm-none-eabi/lib/thumb/libc.a(lib_a-callocr.o)
+                              /Users/silviobacci/Applications/gcc-arm-none-eabi-5_4-2016q3/arm-none-eabi/lib/thumb/libc.a(lib_a-mprec.o) (_calloc_r)
+/Users/silviobacci/Applications/gcc-arm-none-eabi-5_4-2016q3/arm-none-eabi/lib/thumb/libc.a(lib_a-freer.o)
+                              /Users/silviobacci/Applications/gcc-arm-none-eabi-5_4-2016q3/arm-none-eabi/lib/thumb/libc.a(lib_a-mallocr.o) (_free_r)
+/Users/silviobacci/Applications/gcc-arm-none-eabi-5_4-2016q3/arm-none-eabi/lib/thumb/libc.a(lib_a-locale.o)
+                              /Users/silviobacci/Applications/gcc-arm-none-eabi-5_4-2016q3/arm-none-eabi/lib/thumb/libc.a(lib_a-localeconv.o) (__global_locale)
+/Users/silviobacci/Applications/gcc-arm-none-eabi-5_4-2016q3/arm-none-eabi/lib/thumb/libc.a(lib_a-mbtowc_r.o)
+                              /Users/silviobacci/Applications/gcc-arm-none-eabi-5_4-2016q3/arm-none-eabi/lib/thumb/libc.a(lib_a-locale.o) (__ascii_mbtowc)
+/Users/silviobacci/Applications/gcc-arm-none-eabi-5_4-2016q3/arm-none-eabi/lib/thumb/libc.a(lib_a-memmove.o)
+                              /Users/silviobacci/Applications/gcc-arm-none-eabi-5_4-2016q3/arm-none-eabi/lib/thumb/libc.a(lib_a-svfiprintf.o) (memmove)
+/Users/silviobacci/Applications/gcc-arm-none-eabi-5_4-2016q3/arm-none-eabi/lib/thumb/libc.a(lib_a-reallocr.o)
+                              /Users/silviobacci/Applications/gcc-arm-none-eabi-5_4-2016q3/arm-none-eabi/lib/thumb/libc.a(lib_a-svfiprintf.o) (_realloc_r)
+/Users/silviobacci/Applications/gcc-arm-none-eabi-5_4-2016q3/arm-none-eabi/lib/thumb/libc.a(lib_a-reent.o)
+                              /Users/silviobacci/Applications/gcc-arm-none-eabi-5_4-2016q3/arm-none-eabi/lib/thumb/libc.a(lib_a-sbrkr.o) (errno)
+/Users/silviobacci/Applications/gcc-arm-none-eabi-5_4-2016q3/arm-none-eabi/lib/thumb/libc.a(lib_a-strcmp.o)
+                              /Users/silviobacci/Applications/gcc-arm-none-eabi-5_4-2016q3/arm-none-eabi/lib/thumb/libc.a(lib_a-locale.o) (strcmp)
+/Users/silviobacci/Applications/gcc-arm-none-eabi-5_4-2016q3/arm-none-eabi/lib/thumb/libc.a(lib_a-wctomb_r.o)
+                              /Users/silviobacci/Applications/gcc-arm-none-eabi-5_4-2016q3/arm-none-eabi/lib/thumb/libc.a(lib_a-locale.o) (__ascii_wctomb)
+/Users/silviobacci/Applications/gcc-arm-none-eabi-5_4-2016q3/arm-none-eabi/lib/thumb/libc.a(lib_a-ctype_.o)
+                              /Users/silviobacci/Applications/gcc-arm-none-eabi-5_4-2016q3/arm-none-eabi/lib/thumb/libc.a(lib_a-locale.o) (_ctype_)
+/Users/silviobacci/Applications/gcc-arm-none-eabi-5_4-2016q3/arm-none-eabi/lib/thumb/libm.a(lib_a-s_cos.o)
+                              obj/Watch.o (cos)
+/Users/silviobacci/Applications/gcc-arm-none-eabi-5_4-2016q3/arm-none-eabi/lib/thumb/libm.a(lib_a-s_sin.o)
+                              obj/Watch.o (sin)
+/Users/silviobacci/Applications/gcc-arm-none-eabi-5_4-2016q3/arm-none-eabi/lib/thumb/libm.a(lib_a-e_rem_pio2.o)
+                              /Users/silviobacci/Applications/gcc-arm-none-eabi-5_4-2016q3/arm-none-eabi/lib/thumb/libm.a(lib_a-s_cos.o) (__ieee754_rem_pio2)
+/Users/silviobacci/Applications/gcc-arm-none-eabi-5_4-2016q3/arm-none-eabi/lib/thumb/libm.a(lib_a-k_cos.o)
+                              /Users/silviobacci/Applications/gcc-arm-none-eabi-5_4-2016q3/arm-none-eabi/lib/thumb/libm.a(lib_a-s_cos.o) (__kernel_cos)
+/Users/silviobacci/Applications/gcc-arm-none-eabi-5_4-2016q3/arm-none-eabi/lib/thumb/libm.a(lib_a-k_rem_pio2.o)
+                              /Users/silviobacci/Applications/gcc-arm-none-eabi-5_4-2016q3/arm-none-eabi/lib/thumb/libm.a(lib_a-e_rem_pio2.o) (__kernel_rem_pio2)
+/Users/silviobacci/Applications/gcc-arm-none-eabi-5_4-2016q3/arm-none-eabi/lib/thumb/libm.a(lib_a-k_sin.o)
+                              /Users/silviobacci/Applications/gcc-arm-none-eabi-5_4-2016q3/arm-none-eabi/lib/thumb/libm.a(lib_a-s_cos.o) (__kernel_sin)
+/Users/silviobacci/Applications/gcc-arm-none-eabi-5_4-2016q3/arm-none-eabi/lib/thumb/libm.a(lib_a-s_fabs.o)
+                              /Users/silviobacci/Applications/gcc-arm-none-eabi-5_4-2016q3/arm-none-eabi/lib/thumb/libm.a(lib_a-e_rem_pio2.o) (fabs)
+/Users/silviobacci/Applications/gcc-arm-none-eabi-5_4-2016q3/arm-none-eabi/lib/thumb/libm.a(lib_a-s_floor.o)
+                              /Users/silviobacci/Applications/gcc-arm-none-eabi-5_4-2016q3/arm-none-eabi/lib/thumb/libm.a(lib_a-k_rem_pio2.o) (floor)
+/Users/silviobacci/Applications/gcc-arm-none-eabi-5_4-2016q3/arm-none-eabi/lib/thumb/libm.a(lib_a-s_scalbn.o)
+                              /Users/silviobacci/Applications/gcc-arm-none-eabi-5_4-2016q3/arm-none-eabi/lib/thumb/libm.a(lib_a-k_rem_pio2.o) (scalbn)
+/Users/silviobacci/Applications/gcc-arm-none-eabi-5_4-2016q3/arm-none-eabi/lib/thumb/libm.a(lib_a-s_copysign.o)
+                              /Users/silviobacci/Applications/gcc-arm-none-eabi-5_4-2016q3/arm-none-eabi/lib/thumb/libm.a(lib_a-s_scalbn.o) (copysign)
+/Users/silviobacci/Applications/gcc-arm-none-eabi-5_4-2016q3/arm-none-eabi/lib/thumb/libnosys.a(sbrk.o)
+                              /Users/silviobacci/Applications/gcc-arm-none-eabi-5_4-2016q3/arm-none-eabi/lib/thumb/libc.a(lib_a-sbrkr.o) (_sbrk)
+/Users/silviobacci/Applications/gcc-arm-none-eabi-5_4-2016q3/bin/../lib/gcc/arm-none-eabi/5.4.1/armv7e-m/libgcc.a(_udivsi3.o)
+                              /Users/silviobacci/Applications/gcc-arm-none-eabi-5_4-2016q3/arm-none-eabi/lib/thumb/libc.a(lib_a-dtoa.o) (__aeabi_uidiv)
+/Users/silviobacci/Applications/gcc-arm-none-eabi-5_4-2016q3/bin/../lib/gcc/arm-none-eabi/5.4.1/armv7e-m/libgcc.a(_divsi3.o)
+                              /Users/silviobacci/Applications/gcc-arm-none-eabi-5_4-2016q3/arm-none-eabi/lib/thumb/libc.a(lib_a-svfprintf.o) (__aeabi_idiv)
+/Users/silviobacci/Applications/gcc-arm-none-eabi-5_4-2016q3/bin/../lib/gcc/arm-none-eabi/5.4.1/armv7e-m/libgcc.a(_dvmd_tls.o)
+                              /Users/silviobacci/Applications/gcc-arm-none-eabi-5_4-2016q3/bin/../lib/gcc/arm-none-eabi/5.4.1/armv7e-m/libgcc.a(_udivsi3.o) (__aeabi_idiv0)
+/Users/silviobacci/Applications/gcc-arm-none-eabi-5_4-2016q3/bin/../lib/gcc/arm-none-eabi/5.4.1/armv7e-m/libgcc.a(_arm_unorddf2.o)
+                              /Users/silviobacci/Applications/gcc-arm-none-eabi-5_4-2016q3/arm-none-eabi/lib/thumb/libc.a(lib_a-svfprintf.o) (__aeabi_dcmpun)
+/Users/silviobacci/Applications/gcc-arm-none-eabi-5_4-2016q3/bin/../lib/gcc/arm-none-eabi/5.4.1/armv7e-m/libgcc.a(_aeabi_uldivmod.o)
+                              /Users/silviobacci/Applications/gcc-arm-none-eabi-5_4-2016q3/arm-none-eabi/lib/thumb/libc.a(lib_a-svfprintf.o) (__aeabi_uldivmod)
+/Users/silviobacci/Applications/gcc-arm-none-eabi-5_4-2016q3/bin/../lib/gcc/arm-none-eabi/5.4.1/armv7e-m/libgcc.a(_udivmoddi4.o)
+                              /Users/silviobacci/Applications/gcc-arm-none-eabi-5_4-2016q3/bin/../lib/gcc/arm-none-eabi/5.4.1/armv7e-m/libgcc.a(_aeabi_uldivmod.o) (__udivmoddi4)
+
+Allocating common symbols
+Common symbol       size              file
+
+hblink              0x1               obj/code.o
+EE_oo_IRQ_disable_count
+                    0x4               libee.a(ee_lookup.o)
+work_mode           0x5               obj/code.o
+errno               0x4               /Users/silviobacci/Applications/gcc-arm-none-eabi-5_4-2016q3/arm-none-eabi/lib/thumb/libc.a(lib_a-reent.o)
+min_visible         0x1               obj/code.o
+EE_terminate_data   0x8               obj/eecfg.o
+SW_State            0x8               obj/code.o
+alarmYellow         0x1               obj/code.o
+touch_points        0x14              obj/Touch.o
+EE_oo_counter_object_RAM
+                    0x20              obj/eecfg.o
+evts                0x1               obj/Event.o
+button              0x7               obj/code.o
+mblink              0x1               obj/code.o
+mode                0x1               obj/code.o
+EE_IRQ_nesting_level
+                    0x4               libee.a(ee_hal_structs.o)
+alarmOn             0x1               obj/code.o
+EE_ApplicationMode  0x4               obj/eecfg.o
+tick                0x1               obj/code.o
+tenths              0x1               obj/code.o
+ringing             0x1               obj/code.o
+seconds             0x1               obj/code.o
+EE_std_endcycle_next_tid
+                    0x4               libee.a(ee_hal_structs.o)
+var                 0xb               obj/code.o
+TS_State            0x8               obj/STMPE811QTR.o
+tcs                 0xc               obj/Touch.o
+minutes             0x1               obj/code.o
+hour_visible        0x1               obj/code.o
+hours               0x1               obj/code.o
+EE_oo_IRQ_suspend_status
+                    0x4               libee.a(ee_lookup.o)
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+FLASH            0x0000000008000000 0x0000000000100000 xr
+RAM              0x0000000020000000 0x0000000000020000 xrw
+CCM              0x0000000010000000 0x0000000000010000 xrw
+MEMORY_B1        0x0000000060000000 0x0000000000000000 xr
+*default*        0x0000000000000000 0xffffffffffffffff
+
+Linker script and memory map
+
+LOAD /Users/silviobacci/Applications/gcc-arm-none-eabi-5_4-2016q3/bin/../lib/gcc/arm-none-eabi/5.4.1/armv7e-m/crti.o
+LOAD /Users/silviobacci/Applications/gcc-arm-none-eabi-5_4-2016q3/bin/../lib/gcc/arm-none-eabi/5.4.1/armv7e-m/crtbegin.o
+LOAD /Users/silviobacci/Applications/gcc-arm-none-eabi-5_4-2016q3/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7e-m/crt0.o
+LOAD obj/Event.o
+LOAD obj/STMPE811QTR.o
+LOAD obj/StopWatch2016.o
+LOAD obj/Touch.o
+LOAD obj/Watch.o
+LOAD obj/Widget.o
+LOAD obj/WidgetConfig.o
+LOAD obj/code.o
+LOAD obj/debug.o
+LOAD obj/eecfg.o
+LOAD obj/pictures.o
+LOAD obj/pkg/mcu/st_stm32_stm32f4xx/src/startup_stm32f4xx_gnu.o
+LOAD obj/pkg/mcu/st_stm32_stm32f4xx/src/system_stm32f4xx.o
+LOAD libee.a
+LOAD libstm32f4discovery.a
+LOAD libstm32f4xxspd.a
+START GROUP
+LOAD /Users/silviobacci/Applications/gcc-arm-none-eabi-5_4-2016q3/bin/../lib/gcc/arm-none-eabi/5.4.1/armv7e-m/libgcc.a
+LOAD /Users/silviobacci/Applications/gcc-arm-none-eabi-5_4-2016q3/arm-none-eabi/lib/thumb/libc.a
+LOAD /Users/silviobacci/Applications/gcc-arm-none-eabi-5_4-2016q3/arm-none-eabi/lib/thumb/libm.a
+LOAD /Users/silviobacci/Applications/gcc-arm-none-eabi-5_4-2016q3/arm-none-eabi/lib/thumb/libnosys.a
+END GROUP
+
+.text           0x0000000008000000    0x4716c
+ *(.isr_vector)
+ .isr_vector    0x0000000008000000      0x188 obj/pkg/mcu/st_stm32_stm32f4xx/src/startup_stm32f4xx_gnu.o
+                0x0000000008000000                __isr_vector
+ *(.text*)
+ .text          0x0000000008000188        0x0 /Users/silviobacci/Applications/gcc-arm-none-eabi-5_4-2016q3/bin/../lib/gcc/arm-none-eabi/5.4.1/armv7e-m/crti.o
+ .text          0x0000000008000188       0x5c /Users/silviobacci/Applications/gcc-arm-none-eabi-5_4-2016q3/bin/../lib/gcc/arm-none-eabi/5.4.1/armv7e-m/crtbegin.o
+ .text          0x00000000080001e4       0x74 /Users/silviobacci/Applications/gcc-arm-none-eabi-5_4-2016q3/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7e-m/crt0.o
+                0x00000000080001e4                _mainCRTStartup
+                0x00000000080001e4                _start
+ .text          0x0000000008000258        0x0 obj/Event.o
+ .text          0x0000000008000258      0xe28 obj/STMPE811QTR.o
+                0x0000000008000258                IOE_Config
+                0x0000000008000290                IOE_ITConfig
+                0x00000000080002d4                IOE_TS_GetState
+                0x00000000080003a8                IOE_GetGITStatus
+                0x00000000080003e8                IOE_ClearGITPending
+                0x0000000008000410                IOE_GetIOITStatus
+                0x000000000800044c                IOE_IsOperational
+                0x0000000008000488                IOE_Reset
+                0x00000000080004bc                IOE_ReadID
+                0x00000000080004fc                IOE_FnctCmd
+                0x0000000008000558                IOE_IOPinConfig
+                0x00000000080005b4                IOE_GITCmd
+                0x0000000008000600                IOE_GITConfig
+                0x000000000800065c                IOE_IOITConfig
+                0x00000000080006b8                IOE_TS_Config
+                0x00000000080007b8                IOE_IOAFConfig
+                0x0000000008000814                IOE_IOEdgeConfig
+                0x00000000080008b4                IOE_ITOutConfig
+                0x0000000008000900                I2C_WriteDeviceRegister
+                0x0000000008000a70                I2C_ReadDeviceRegister
+                0x0000000008000c38                I2C_ReadDataBuffer
+                0x0000000008000e14                IOE_TS_Read_X
+                0x0000000008000e60                IOE_TS_Read_Y
+ .text          0x0000000008001080      0xe2c obj/StopWatch2016.o
+                0x0000000008001080                resetSwatch
+                0x00000000080010ac                incrementTenths
+                0x0000000008001174                choseEventExternalTimeMode
+                0x00000000080011c8                choseEventExternalAlarmMode
+                0x000000000800121c                choseEventExternalTimeSetMode
+                0x0000000008001258                choseEventExternalSwatchMode
+                0x0000000008001294                choseEventInternalAlarmMode
+                0x00000000080012d0                choseEventInternalSwatchMode
+                0x000000000800130c                choseEventInternalTimeSetMode
+                0x0000000008001348                transitionInControl
+                0x0000000008001390                exitTimesetAlarmMode
+                0x00000000080013b0                exitAlarmOnMode
+                0x00000000080013ec                setMinutesPlus
+                0x0000000008001434                setMinutesMinus
+                0x0000000008001470                setHoursPlus
+                0x00000000080014c0                setHoursMinus
+                0x0000000008001508                entrySetHours
+                0x0000000008001540                entrySetMinutes
+                0x0000000008001570                displayHour
+                0x00000000080015a4                manageControl
+                0x00000000080017ec                manageTimeSetMode
+                0x0000000008001924                manageAlarmMode
+                0x0000000008001a64                manageSwatchMode
+                0x0000000008001c18                manageAlarmManager
+                0x0000000008001ca0                StopWatch2016_step
+                0x0000000008001de0                StopWatch2016_initialize
+ .text          0x0000000008001eac      0x5d0 obj/Touch.o
+                0x0000000008001eac                delay
+                0x0000000008001ee0                Draw_Calibration_Mark
+                0x0000000008001f2c                Lcd_Touch_Calibration
+                0x00000000080021cc                GetTouch_TC_Async
+                0x0000000008002240                GetTouch_TC_Sync
+                0x00000000080022b0                GetTouch_SC_Async
+                0x0000000008002378                GetTouch_SC_Sync
+                0x0000000008002440                InitTouch
+ *fill*         0x000000000800247c        0x4 
+ .text          0x0000000008002480      0x6e8 obj/Watch.o
+                0x0000000008002480                drawTenths
+                0x0000000008002584                drawSeconds
+                0x0000000008002684                drawMinutes
+                0x000000000800279c                drawHours
+                0x00000000080028fc                drawTime
+                0x0000000008002958                drawCenter
+                0x000000000800298c                setTime
+                0x00000000080029c8                initTime
+                0x00000000080029f4                copyTime
+                0x0000000008002a28                tickSeconds
+                0x0000000008002ac4                updateClock
+ .text          0x0000000008002b68      0x280 obj/Widget.o
+                0x0000000008002b68                contains
+                0x0000000008002bc8                OnTouch
+                0x0000000008002c38                DrawInit
+                0x0000000008002c6c                DrawOn
+                0x0000000008002ccc                DrawOff
+                0x0000000008002d2c                WPrint
+                0x0000000008002da0                WClear
+ .text          0x0000000008002de8        0x0 obj/WidgetConfig.o
+ .text          0x0000000008002de8      0xac0 obj/code.o
+                0x0000000008002e1c                systick_handler
+                0x0000000008002ee8                ISR2_systick_handler
+                0x0000000008002ef8                FuncTaskLCD
+                0x0000000008002f38                strencode2digit
+                0x0000000008002f94                strencode1digit
+                0x0000000008002fd8                UpdateMode
+                0x0000000008003210                blinkAlarm
+                0x000000000800329c                blinkHoursMinutes
+                0x0000000008003378                FuncTaskClock
+                0x0000000008003704                main
+ .text          0x00000000080038a8       0x4c obj/debug.o
+                0x00000000080038a8                debuginfo
+ .text          0x00000000080038f4       0x34 obj/eecfg.o
+ .text          0x0000000008003928        0x0 obj/pictures.o
+ .text          0x0000000008003928        0x0 obj/pkg/mcu/st_stm32_stm32f4xx/src/startup_stm32f4xx_gnu.o
+ .text.EE_cortex_mx_default_reset_ISR
+                0x0000000008003928       0x40 obj/pkg/mcu/st_stm32_stm32f4xx/src/startup_stm32f4xx_gnu.o
+                0x0000000008003928                EE_cortex_mx_default_reset_ISR
+ .text.EE_cortex_mx_default_ISR
+                0x0000000008003968        0x4 obj/pkg/mcu/st_stm32_stm32f4xx/src/startup_stm32f4xx_gnu.o
+                0x0000000008003968                EE_CORTEX_MX_DMA1_Stream7_ISR
+                0x0000000008003968                EE_CORTEX_MX_USART6_ISR
+                0x0000000008003968                EE_CORTEX_MX_DMA1_STREAM6_ISR
+                0x0000000008003968                EE_CORTEX_MX_CRYP_ISR
+                0x0000000008003968                EE_CORTEX_MX_DMA1_STREAM5_ISR
+                0x0000000008003968                EE_CORTEX_MX_BUS_FAULT_ISR
+                0x0000000008003968                EE_CORTEX_MX_PVD_ISR
+                0x0000000008003968                EE_CORTEX_MX_SPI2_ISR
+                0x0000000008003968                EE_CORTEX_MX_CAN1_RX1_ISR
+                0x0000000008003968                EE_CORTEX_MX_DMA2_STREAM5_ISR
+                0x0000000008003968                EE_CORTEX_MX_TIM6_DAC_ISR
+                0x0000000008003968                EE_CORTEX_MX_I2C2_EV_ISR
+                0x0000000008003968                EE_CORTEX_MX_TIM1_UP_TIM10_ISR
+                0x0000000008003968                EE_CORTEX_MX_CAN1_RX0_ISR
+                0x0000000008003968                EE_CORTEX_MX_USART1_ISR
+                0x0000000008003968                EE_CORTEX_MX_TIM8_CC_ISR
+                0x0000000008003968                EE_CORTEX_MX_RTC_Alarm_ISR
+                0x0000000008003968                EE_CORTEX_MX_EXTI2_ISR
+                0x0000000008003968                EE_CORTEX_MX_OTG_HS_ISR
+                0x0000000008003968                EE_CORTEX_MX_DCMI_ISR
+                0x0000000008003968                EE_CORTEX_MX_DMA2_STREAM0_ISR
+                0x0000000008003968                EE_CORTEX_MX_SPI1_ISR
+                0x0000000008003968                EE_cortex_mx_default_ISR
+                0x0000000008003968                EE_CORTEX_MX_ETH_WKUP_ISR
+                0x0000000008003968                EE_CORTEX_MX_TIM8_TRG_COM_TIM14_ISR
+                0x0000000008003968                EE_CORTEX_MX_USAGE_FAULT_ISR
+                0x0000000008003968                EE_CORTEX_MX_TIM7_ISR
+                0x0000000008003968                EE_CORTEX_MX_TIM2_ISR
+                0x0000000008003968                EE_CORTEX_MX_I2C1_EV_ISR
+                0x0000000008003968                EE_CORTEX_MX_TIM1_TRG_COM_TIM11_ISR
+                0x0000000008003968                EE_CORTEX_MX_UART5_ISR
+                0x0000000008003968                EE_CORTEX_MX_UART4_ISR
+                0x0000000008003968                EE_CORTEX_MX_NMI_ISR
+                0x0000000008003968                EE_CORTEX_MX_TIM3_ISR
+                0x0000000008003968                EE_CORTEX_MX_USART3_ISR
+                0x0000000008003968                EE_CORTEX_MX_DMA2_STREAM4_ISR
+                0x0000000008003968                EE_CORTEX_MX_EXTI4_ISR
+                0x0000000008003968                EE_CORTEX_MX_ADC_ISR
+                0x0000000008003968                EE_CORTEX_MX_OTG_HS_EP1_IN_ISR
+                0x0000000008003968                EE_CORTEX_MX_DMA2_STREAM1_ISR
+                0x0000000008003968                EE_CORTEX_MX_CAN1_TX_ISR
+                0x0000000008003968                EE_CORTEX_MX_USART2_ISR
+                0x0000000008003968                EE_CORTEX_MX_SDIO_ISR
+                0x0000000008003968                EE_CORTEX_MX_I2C2_ER_ISR
+                0x0000000008003968                EE_CORTEX_MX_I2C3_EV_ISR
+                0x0000000008003968                EE_CORTEX_MX_HARD_FAULT_ISR
+                0x0000000008003968                EE_CORTEX_MX_DMA1_STREAM3_ISR
+                0x0000000008003968                EE_CORTEX_MX_OTG_HS_EP1_OUT_ISR
+                0x0000000008003968                EE_CORTEX_MX_TIM8_BRK_TIM12_ISR
+                0x0000000008003968                EE_CORTEX_MX_CAN1_SCE_ISR
+                0x0000000008003968                EE_CORTEX_MX_DMA1_STREAM1_ISR
+                0x0000000008003968                EE_CORTEX_MX_TIM4_ISR
+                0x0000000008003968                EE_CORTEX_MX_DMA2_STREAM3_ISR
+                0x0000000008003968                EE_CORTEX_MX_ETH_ISR
+                0x0000000008003968                EE_CORTEX_MX_OTG_FS_ISR
+                0x0000000008003968                EE_CORTEX_MX_CAN2_RX0_ISR
+                0x0000000008003968                EE_CORTEX_MX_CAN2_SCE_ISR
+                0x0000000008003968                EE_CORTEX_MX_FPU_ISR
+                0x0000000008003968                EE_CORTEX_MX_RTC_WKUP_ISR
+                0x0000000008003968                EE_CORTEX_MX_TIM8_UP_TIM13_ISR
+                0x0000000008003968                EE_CORTEX_MX_OTG_FS_WKUP_ISR
+                0x0000000008003968                EE_CORTEX_MX_DMA1_STREAM2_ISR
+                0x0000000008003968                EE_CORTEX_MX_EXTI9_5_ISR
+                0x0000000008003968                EE_CORTEX_MX_EXTI3_ISR
+                0x0000000008003968                EE_CORTEX_MX_EXTI0_ISR
+                0x0000000008003968                EE_CORTEX_MX_I2C1_ER_ISR
+                0x0000000008003968                EE_CORTEX_MX_FLASH_ISR
+                0x0000000008003968                EE_CORTEX_MX_OTG_HS_WKUP_ISR
+                0x0000000008003968                EE_CORTEX_MX_TIM1_BRK_TIM9_ISR
+                0x0000000008003968                EE_CORTEX_MX_I2C3_ER_ISR
+                0x0000000008003968                EE_CORTEX_MX_TIM1_CC_ISR
+                0x0000000008003968                EE_CORTEX_MX_SPI3_ISR
+                0x0000000008003968                EE_CORTEX_MX_EXTI15_10_ISR
+                0x0000000008003968                EE_CORTEX_MX_CAN2_TX_ISR
+                0x0000000008003968                EE_CORTEX_MX_RCC_ISR
+                0x0000000008003968                EE_CORTEX_MX_FSMC_ISR
+                0x0000000008003968                EE_CORTEX_MX_DMA2_STREAM2_ISR
+                0x0000000008003968                EE_CORTEX_MX_DMA2_STREAM7_ISR
+                0x0000000008003968                EE_CORTEX_MX_EXTI1_ISR
+                0x0000000008003968                EE_CORTEX_MX_DEBUG_MONITOR_ISR
+                0x0000000008003968                EE_CORTEX_MX_WWDG_ISR
+                0x0000000008003968                EE_CORTEX_MX_MPU_FAULT_ISR
+                0x0000000008003968                EE_CORTEX_MX_HASH_RNG_ISR
+                0x0000000008003968                EE_CORTEX_MX_DMA2_STREAM6_ISR
+                0x0000000008003968                EE_CORTEX_MX_TIM5_ISR
+                0x0000000008003968                EE_CORTEX_MX_DMA1_STREAM0_ISR
+                0x0000000008003968                EE_CORTEX_MX_TAMP_STAMP_ISR
+                0x0000000008003968                EE_CORTEX_MX_CAN2_RX1_ISR
+                0x0000000008003968                EE_CORTEX_MX_DMA1_STREAM4_ISR
+ .text._exit    0x000000000800396c        0x6 obj/pkg/mcu/st_stm32_stm32f4xx/src/startup_stm32f4xx_gnu.o
+                0x000000000800396c                _exit
+ *fill*         0x0000000008003972        0x2 
+ .text          0x0000000008003974      0x248 obj/pkg/mcu/st_stm32_stm32f4xx/src/system_stm32f4xx.o
+                0x0000000008003974                SystemInit
+                0x00000000080039d0                SystemCoreClockUpdate
+ .text          0x0000000008003bbc       0x34 libee.a(ee_hal_structs.o)
+ .text          0x0000000008003bf0       0x70 libee.a(ee_utils.o)
+                0x0000000008003c24                EE_system_init
+ .text          0x0000000008003c60       0x80 libee.a(ee_gnu_change_context_isr.o)
+                0x0000000008003c60                EE_set_switch_context_pri
+                0x0000000008003c7a                EE_switch_context
+                0x0000000008003c84                EE_cortex_mx_pendsv_ISR
+                0x0000000008003cc2                EE_cortex_mx_svc_ISR
+ .text          0x0000000008003ce0      0x110 libee.a(ee_irqendin.o)
+                0x0000000008003d34                EE_IRQ_end_instance
+                0x0000000008003dc8                EE_IRQ_end_post_stub
+ .text          0x0000000008003df0       0x58 libee.a(ee_tstub.o)
+                0x0000000008003e24                EE_oo_thread_stub
+ .text          0x0000000008003e48       0x34 libee.a(ee_lookup.o)
+ .text          0x0000000008003e7c       0x78 libee.a(ee_rq_exchg.o)
+                0x0000000008003eb0                EE_rq2stk_exchange
+ .text          0x0000000008003ef4      0x160 libee.a(ee_alsetrel.o)
+                0x0000000008003f28                EE_oo_SetRelAlarm
+ .text          0x0000000008004054      0x45c libee.a(ee_altick.o)
+                0x0000000008004088                EE_oo_counter_object_insert
+                0x0000000008004244                EE_oo_IncrementCounterImplementation
+                0x00000000080043ac                EE_oo_IncrementCounterHardware
+                0x00000000080043e0                EE_oo_IncrementCounter
+ .text          0x00000000080044b0       0x54 libee.a(ee_context.o)
+                0x00000000080044e4                EE_cortex_mx_change_context
+ .text          0x0000000008004504       0x80 libee.a(ee_gnu_oo.o)
+                0x0000000008004504                EE_hal_terminate_savestk
+                0x000000000800454e                EE_hal_terminate_task
+ .text          0x0000000008004584       0x4c libee.a(ee_tnterm.o)
+                0x00000000080045b8                EE_thread_not_terminated
+ .text          0x00000000080045d0       0xb4 libee.a(ee_rq_inser.o)
+                0x0000000008004604                EE_rq_insert
+ .text          0x0000000008004684       0x58 libee.a(ee_context.o)
+                0x00000000080046b8                EE_std_run_task_code
+ .text          0x00000000080046dc      0x194 libee.a(ee_thendin.o)
+                0x0000000008004730                EE_thread_end_instance
+ .text          0x0000000008004870     0x1c4c libstm32f4discovery.a(stm32f4_discovery_lcd.o)
+                0x0000000008004870                LCD_DeInit
+                0x0000000008004ab4                LCD_CtrlLinesConfig
+                0x0000000008004c30                LCD_FSMCConfig
+                0x0000000008004cb4                STM32f4_Discovery_LCD_Init
+                0x0000000008004e28                LCD_SetCursor
+                0x0000000008004e54                LCD_WriteReg
+                0x0000000008004e84                LCD_ReadReg
+                0x0000000008004eac                LCD_WriteRAM_Prepare
+                0x0000000008004ec0                LCD_WriteRAM
+                0x0000000008004ee0                LCD_ReadRAM
+                0x0000000008004ef8                LCD_RGB_Test
+                0x0000000008004f60                LCD_SetColors
+                0x0000000008004f94                LCD_GetColors
+                0x0000000008004fc4                LCD_SetTextColor
+                0x0000000008004fe4                LCD_SetBackColor
+                0x0000000008005004                LCD_DisplayOff
+                0x0000000008005010                LCD_DisplayOn
+                0x000000000800501c                LCD_SetFont
+                0x0000000008005038                LCD_GetFont
+                0x000000000800504c                LCD_ClearLine
+                0x0000000008005088                LCD_Clear
+                0x00000000080050c8                LCD_DrawPicture
+                0x00000000080051dc                LCD_DrawChar
+                0x00000000080052e0                LCD_DrawCharXY
+                0x000000000800541c                LCD_DisplayChar
+                0x0000000008005460                LCD_DisplayCharXY
+                0x00000000080054b0                LCD_DisplayStringXY
+                0x0000000008005504                LCD_DisplayStringLine
+                0x0000000008005558                LCD_SetDisplayWindow
+                0x00000000080055e0                LCD_WindowModeDisable
+                0x00000000080055ec                LCD_DrawLine
+                0x0000000008005688                LCD_DrawRect
+                0x00000000080056f4                LCD_DrawFilledCircle
+                0x0000000008005764                LCD_DrawCircle
+                0x0000000008005920                LCD_DrawMonoPict
+                0x00000000080059a8                LCD_WriteBMP
+                0x0000000008005a48                LCD_DrawFilledRect
+                0x0000000008005adc                LCD_DrawFullRect
+                0x0000000008005b98                LCD_DrawFullCircle
+                0x0000000008005cc0                LCD_DrawUniLine
+                0x0000000008005e40                LCD_PolyLine
+                0x0000000008005f4c                LCD_ClosedPolyLine
+                0x0000000008005fa8                LCD_PolyLineRelative
+                0x0000000008005fc8                LCD_ClosedPolyLineRelative
+                0x0000000008005fe8                LCD_FillPolyLine
+ .text          0x00000000080064bc      0x700 libstm32f4xxspd.a(stm32f4xx_dma.o)
+                0x00000000080064bc                DMA_DeInit
+                0x0000000008006660                DMA_Init
+                0x000000000800670c                DMA_StructInit
+                0x0000000008006778                DMA_Cmd
+                0x00000000080067b0                DMA_PeriphIncOffsetSizeConfig
+                0x00000000080067e4                DMA_FlowControllerConfig
+                0x0000000008006818                DMA_SetCurrDataCounter
+                0x0000000008006834                DMA_GetCurrDataCounter
+                0x000000000800684c                DMA_DoubleBufferModeConfig
+                0x0000000008006888                DMA_DoubleBufferModeCmd
+                0x00000000080068c0                DMA_MemoryTargetConfig
+                0x00000000080068ec                DMA_GetCurrentMemoryTarget
+                0x000000000800691c                DMA_GetCmdStatus
+                0x000000000800694c                DMA_GetFIFOStatus
+                0x0000000008006970                DMA_GetFlagStatus
+                0x00000000080069e4                DMA_ClearFlag
+                0x0000000008006a40                DMA_ITConfig
+                0x0000000008006ab4                DMA_GetITStatus
+                0x0000000008006b60                DMA_ClearITPendingBit
+ .text          0x0000000008006bbc      0x948 libstm32f4xxspd.a(stm32f4xx_fsmc.o)
+                0x0000000008006bbc                FSMC_NORSRAMDeInit
+                0x0000000008006c14                FSMC_NORSRAMInit
+                0x0000000008006d48                FSMC_NORSRAMStructInit
+                0x0000000008006e1c                FSMC_NORSRAMCmd
+                0x0000000008006e70                FSMC_NANDDeInit
+                0x0000000008006ecc                FSMC_NANDInit
+                0x0000000008006f98                FSMC_NANDStructInit
+                0x0000000008007014                FSMC_NANDCmd
+                0x0000000008007080                FSMC_NANDECCCmd
+                0x00000000080070ec                FSMC_GetECC
+                0x0000000008007120                FSMC_PCCARDDeInit
+                0x0000000008007154                FSMC_PCCARDInit
+                0x0000000008007200                FSMC_PCCARDStructInit
+                0x0000000008007284                FSMC_PCCARDCmd
+                0x00000000080072c0                FSMC_ITConfig
+                0x0000000008007360                FSMC_GetFlagStatus
+                0x00000000080073c4                FSMC_ClearFlag
+                0x0000000008007420                FSMC_GetITStatus
+                0x00000000080074a0                FSMC_ClearITPendingBit
+ .text          0x0000000008007504      0x484 libstm32f4xxspd.a(stm32f4xx_gpio.o)
+                0x0000000008007504                GPIO_DeInit
+                0x0000000008007624                GPIO_Init
+                0x0000000008007740                GPIO_StructInit
+                0x0000000008007774                GPIO_PinLockConfig
+                0x00000000080077b8                GPIO_ReadInputDataBit
+                0x00000000080077ec                GPIO_ReadInputData
+                0x0000000008007804                GPIO_ReadOutputDataBit
+                0x0000000008007838                GPIO_ReadOutputData
+                0x0000000008007850                GPIO_SetBits
+                0x000000000800786c                GPIO_ResetBits
+                0x0000000008007888                GPIO_WriteBit
+                0x00000000080078b8                GPIO_Write
+                0x00000000080078d4                GPIO_ToggleBits
+                0x00000000080078f8                GPIO_PinAFConfig
+ .text          0x0000000008007988      0x980 libstm32f4xxspd.a(stm32f4xx_i2c.o)
+                0x0000000008007988                I2C_DeInit
+                0x00000000080079fc                I2C_Init
+                0x0000000008007b80                I2C_StructInit
+                0x0000000008007bbc                I2C_Cmd
+                0x0000000008007bfc                I2C_GenerateSTART
+                0x0000000008007c3c                I2C_GenerateSTOP
+                0x0000000008007c7c                I2C_Send7bitAddress
+                0x0000000008007cb8                I2C_AcknowledgeConfig
+                0x0000000008007cf8                I2C_OwnAddress2Config
+                0x0000000008007d3c                I2C_DualAddressCmd
+                0x0000000008007d7c                I2C_GeneralCallCmd
+                0x0000000008007dbc                I2C_SoftwareResetCmd
+                0x0000000008007e00                I2C_StretchClockCmd
+                0x0000000008007e40                I2C_FastModeDutyCycleConfig
+                0x0000000008007e80                I2C_NACKPositionConfig
+                0x0000000008007ec0                I2C_SMBusAlertConfig
+                0x0000000008007f00                I2C_ARPCmd
+                0x0000000008007f40                I2C_SendData
+                0x0000000008007f60                I2C_ReceiveData
+                0x0000000008007f7c                I2C_TransmitPEC
+                0x0000000008007fbc                I2C_PECPositionConfig
+                0x0000000008007ffc                I2C_CalculatePEC
+                0x000000000800803c                I2C_GetPEC
+                0x000000000800805c                I2C_DMACmd
+                0x000000000800809c                I2C_DMALastTransferCmd
+                0x00000000080080dc                I2C_ReadRegister
+                0x0000000008008108                I2C_ITConfig
+                0x0000000008008150                I2C_CheckEvent
+                0x00000000080081b0                I2C_GetLastEvent
+                0x00000000080081f4                I2C_GetFlagStatus
+                0x0000000008008258                I2C_ClearFlag
+                0x0000000008008284                I2C_GetITStatus
+                0x00000000080082dc                I2C_ClearITPendingBit
+ .text          0x0000000008008308      0xa78 libstm32f4xxspd.a(stm32f4xx_rcc.o)
+                0x0000000008008308                RCC_DeInit
+                0x0000000008008358                RCC_HSEConfig
+                0x000000000800837c                RCC_WaitForHSEStartUp
+                0x00000000080083cc                RCC_AdjustHSICalibrationValue
+                0x0000000008008408                RCC_HSICmd
+                0x0000000008008428                RCC_LSEConfig
+                0x0000000008008468                RCC_LSICmd
+                0x0000000008008488                RCC_PLLConfig
+                0x00000000080084c4                RCC_PLLCmd
+                0x00000000080084e4                RCC_PLLI2SConfig
+                0x000000000800850c                RCC_PLLI2SCmd
+                0x000000000800852c                RCC_ClockSecuritySystemCmd
+                0x000000000800854c                RCC_MCO1Config
+                0x0000000008008588                RCC_MCO2Config
+                0x00000000080085c4                RCC_SYSCLKConfig
+                0x00000000080085fc                RCC_GetSYSCLKSource
+                0x0000000008008618                RCC_HCLKConfig
+                0x0000000008008650                RCC_PCLK1Config
+                0x0000000008008688                RCC_PCLK2Config
+                0x00000000080086c0                RCC_GetClocksFreq
+                0x0000000008008814                RCC_RTCCLKConfig
+                0x0000000008008870                RCC_RTCCLKCmd
+                0x0000000008008890                RCC_BackupResetCmd
+                0x00000000080088b0                RCC_I2SCLKConfig
+                0x00000000080088cc                RCC_AHB1PeriphClockCmd
+                0x0000000008008908                RCC_AHB2PeriphClockCmd
+                0x0000000008008944                RCC_AHB3PeriphClockCmd
+                0x0000000008008980                RCC_APB1PeriphClockCmd
+                0x00000000080089bc                RCC_APB2PeriphClockCmd
+                0x00000000080089f8                RCC_AHB1PeriphResetCmd
+                0x0000000008008a34                RCC_AHB2PeriphResetCmd
+                0x0000000008008a70                RCC_AHB3PeriphResetCmd
+                0x0000000008008aac                RCC_APB1PeriphResetCmd
+                0x0000000008008ae8                RCC_APB2PeriphResetCmd
+                0x0000000008008b24                RCC_AHB1PeriphClockLPModeCmd
+                0x0000000008008b60                RCC_AHB2PeriphClockLPModeCmd
+                0x0000000008008b9c                RCC_AHB3PeriphClockLPModeCmd
+                0x0000000008008bd8                RCC_APB1PeriphClockLPModeCmd
+                0x0000000008008c14                RCC_APB2PeriphClockLPModeCmd
+                0x0000000008008c50                RCC_ITConfig
+                0x0000000008008c9c                RCC_GetFlagStatus
+                0x0000000008008d10                RCC_ClearFlag
+                0x0000000008008d2c                RCC_GetITStatus
+                0x0000000008008d60                RCC_ClearITPendingBit
+ .text          0x0000000008008d80      0x370 /Users/silviobacci/Applications/gcc-arm-none-eabi-5_4-2016q3/bin/../lib/gcc/arm-none-eabi/5.4.1/armv7e-m/libgcc.a(_arm_addsubdf3.o)
+                0x0000000008008d80                __aeabi_drsub
+                0x0000000008008d88                __subdf3
+                0x0000000008008d88                __aeabi_dsub
+                0x0000000008008d8c                __aeabi_dadd
+                0x0000000008008d8c                __adddf3
+                0x0000000008009004                __aeabi_ui2d
+                0x0000000008009004                __floatunsidf
+                0x0000000008009024                __floatsidf
+                0x0000000008009024                __aeabi_i2d
+                0x0000000008009048                __extendsfdf2
+                0x0000000008009048                __aeabi_f2d
+                0x0000000008009084                __aeabi_ul2d
+                0x0000000008009084                __floatundidf
+                0x0000000008009094                __aeabi_l2d
+                0x0000000008009094                __floatdidf
+ .text          0x00000000080090f0      0x424 /Users/silviobacci/Applications/gcc-arm-none-eabi-5_4-2016q3/bin/../lib/gcc/arm-none-eabi/5.4.1/armv7e-m/libgcc.a(_arm_muldivdf3.o)
+                0x00000000080090f0                __aeabi_dmul
+                0x00000000080090f0                __muldf3
+                0x0000000008009344                __aeabi_ddiv
+                0x0000000008009344                __divdf3
+ .text          0x0000000008009514      0x110 /Users/silviobacci/Applications/gcc-arm-none-eabi-5_4-2016q3/bin/../lib/gcc/arm-none-eabi/5.4.1/armv7e-m/libgcc.a(_arm_cmpdf2.o)
+                0x0000000008009514                __gtdf2
+                0x0000000008009514                __gedf2
+                0x000000000800951c                __ltdf2
+                0x000000000800951c                __ledf2
+                0x0000000008009524                __eqdf2
+                0x0000000008009524                __nedf2
+                0x0000000008009524                __cmpdf2
+                0x00000000080095a0                __aeabi_cdrcmple
+                0x00000000080095b0                __aeabi_cdcmple
+                0x00000000080095b0                __aeabi_cdcmpeq
+                0x00000000080095c0                __aeabi_dcmpeq
+                0x00000000080095d4                __aeabi_dcmplt
+                0x00000000080095e8                __aeabi_dcmple
+                0x00000000080095fc                __aeabi_dcmpge
+                0x0000000008009610                __aeabi_dcmpgt
+ .text          0x0000000008009624       0x50 /Users/silviobacci/Applications/gcc-arm-none-eabi-5_4-2016q3/bin/../lib/gcc/arm-none-eabi/5.4.1/armv7e-m/libgcc.a(_arm_fixdfsi.o)
+                0x0000000008009624                __fixdfsi
+                0x0000000008009624                __aeabi_d2iz
+ .text          0x0000000008009674       0x40 /Users/silviobacci/Applications/gcc-arm-none-eabi-5_4-2016q3/bin/../lib/gcc/arm-none-eabi/5.4.1/armv7e-m/libgcc.a(_arm_fixunsdfsi.o)
+                0x0000000008009674                __fixunsdfsi
+                0x0000000008009674                __aeabi_d2uiz
+ .text          0x00000000080096b4       0xa0 /Users/silviobacci/Applications/gcc-arm-none-eabi-5_4-2016q3/bin/../lib/gcc/arm-none-eabi/5.4.1/armv7e-m/libgcc.a(_arm_truncdfsf2.o)
+                0x00000000080096b4                __aeabi_d2f
+                0x00000000080096b4                __truncdfsf2
+ .text          0x0000000008009754      0x21c /Users/silviobacci/Applications/gcc-arm-none-eabi-5_4-2016q3/bin/../lib/gcc/arm-none-eabi/5.4.1/armv7e-m/libgcc.a(_arm_addsubsf3.o)
+                0x0000000008009754                __aeabi_frsub
+                0x000000000800975c                __aeabi_fsub
+                0x000000000800975c                __subsf3
+                0x0000000008009760                __aeabi_fadd
+                0x0000000008009760                __addsf3
+                0x00000000080098c0                __aeabi_ui2f
+                0x00000000080098c0                __floatunsisf
+                0x00000000080098c8                __floatsisf
+                0x00000000080098c8                __aeabi_i2f
+                0x00000000080098e4                __aeabi_ul2f
+                0x00000000080098e4                __floatundisf
+                0x00000000080098f4                __aeabi_l2f
+                0x00000000080098f4                __floatdisf
+ .text          0x0000000008009970      0x2a0 /Users/silviobacci/Applications/gcc-arm-none-eabi-5_4-2016q3/bin/../lib/gcc/arm-none-eabi/5.4.1/armv7e-m/libgcc.a(_arm_muldivsf3.o)
+                0x0000000008009970                __mulsf3
+                0x0000000008009970                __aeabi_fmul
+                0x0000000008009ad8                __divsf3
+                0x0000000008009ad8                __aeabi_fdiv
+ .text          0x0000000008009c10       0x4c /Users/silviobacci/Applications/gcc-arm-none-eabi-5_4-2016q3/bin/../lib/gcc/arm-none-eabi/5.4.1/armv7e-m/libgcc.a(_arm_fixsfsi.o)
+                0x0000000008009c10                __fixsfsi
+                0x0000000008009c10                __aeabi_f2iz
+ .text          0x0000000008009c5c       0x40 /Users/silviobacci/Applications/gcc-arm-none-eabi-5_4-2016q3/bin/../lib/gcc/arm-none-eabi/5.4.1/armv7e-m/libgcc.a(_arm_fixunssfsi.o)
+                0x0000000008009c5c                __aeabi_f2uiz
+                0x0000000008009c5c                __fixunssfsi
+ .text          0x0000000008009c9c        0x0 /Users/silviobacci/Applications/gcc-arm-none-eabi-5_4-2016q3/arm-none-eabi/lib/thumb/libc.a(lib_a-exit.o)
+ .text.exit     0x0000000008009c9c       0x28 /Users/silviobacci/Applications/gcc-arm-none-eabi-5_4-2016q3/arm-none-eabi/lib/thumb/libc.a(lib_a-exit.o)
+                0x0000000008009c9c                exit
+ .text          0x0000000008009cc4        0x0 /Users/silviobacci/Applications/gcc-arm-none-eabi-5_4-2016q3/arm-none-eabi/lib/thumb/libc.a(lib_a-impure.o)
+ .text          0x0000000008009cc4        0x0 /Users/silviobacci/Applications/gcc-arm-none-eabi-5_4-2016q3/arm-none-eabi/lib/thumb/libc.a(lib_a-init.o)
+ .text.__libc_init_array
+                0x0000000008009cc4       0x58 /Users/silviobacci/Applications/gcc-arm-none-eabi-5_4-2016q3/arm-none-eabi/lib/thumb/libc.a(lib_a-init.o)
+                0x0000000008009cc4                __libc_init_array
+ .text          0x0000000008009d1c        0x0 /Users/silviobacci/Applications/gcc-arm-none-eabi-5_4-2016q3/arm-none-eabi/lib/thumb/libc.a(lib_a-memset.o)
+ .text.memset   0x0000000008009d1c       0x94 /Users/silviobacci/Applications/gcc-arm-none-eabi-5_4-2016q3/arm-none-eabi/lib/thumb/libc.a(lib_a-memset.o)
+                0x0000000008009d1c                memset
+ .text          0x0000000008009db0        0x0 /Users/silviobacci/Applications/gcc-arm-none-eabi-5_4-2016q3/arm-none-eabi/lib/thumb/libc.a(lib_a-sprintf.o)
+ .text._sprintf_r
+                0x0000000008009db0       0x40 /Users/silviobacci/Applications/gcc-arm-none-eabi-5_4-2016q3/arm-none-eabi/lib/thumb/libc.a(lib_a-sprintf.o)
+                0x0000000008009db0                _sprintf_r
+ .text.sprintf  0x0000000008009df0       0x44 /Users/silviobacci/Applications/gcc-arm-none-eabi-5_4-2016q3/arm-none-eabi/lib/thumb/libc.a(lib_a-sprintf.o)
+                0x0000000008009df0                sprintf
+ .text          0x0000000008009e34        0x0 /Users/silviobacci/Applications/gcc-arm-none-eabi-5_4-2016q3/arm-none-eabi/lib/thumb/libc.a(lib_a-svfprintf.o)
+ .text._svfprintf_r
+                0x0000000008009e34     0x17ec /Users/silviobacci/Applications/gcc-arm-none-eabi-5_4-2016q3/arm-none-eabi/lib/thumb/libc.a(lib_a-svfprintf.o)
+                0x0000000008009e34                _svfprintf_r
+ .text          0x000000000800b620        0x0 /Users/silviobacci/Applications/gcc-arm-none-eabi-5_4-2016q3/arm-none-eabi/lib/thumb/libc.a(lib_a-__call_atexit.o)
+ .text.startup.register_fini
+                0x000000000800b620       0x1c /Users/silviobacci/Applications/gcc-arm-none-eabi-5_4-2016q3/arm-none-eabi/lib/thumb/libc.a(lib_a-__call_atexit.o)
+ .text.__call_exitprocs
+                0x000000000800b63c      0x10c /Users/silviobacci/Applications/gcc-arm-none-eabi-5_4-2016q3/arm-none-eabi/lib/thumb/libc.a(lib_a-__call_atexit.o)
+                0x000000000800b63c                __call_exitprocs
+ .text          0x000000000800b748        0x0 /Users/silviobacci/Applications/gcc-arm-none-eabi-5_4-2016q3/arm-none-eabi/lib/thumb/libc.a(lib_a-atexit.o)
+ .text.atexit   0x000000000800b748       0x14 /Users/silviobacci/Applications/gcc-arm-none-eabi-5_4-2016q3/arm-none-eabi/lib/thumb/libc.a(lib_a-atexit.o)
+                0x000000000800b748                atexit
+ .text          0x000000000800b75c        0x0 /Users/silviobacci/Applications/gcc-arm-none-eabi-5_4-2016q3/arm-none-eabi/lib/thumb/libc.a(lib_a-dtoa.o)
+ .text.quorem   0x000000000800b75c      0x158 /Users/silviobacci/Applications/gcc-arm-none-eabi-5_4-2016q3/arm-none-eabi/lib/thumb/libc.a(lib_a-dtoa.o)
+ .text._dtoa_r  0x000000000800b8b4      0xfd8 /Users/silviobacci/Applications/gcc-arm-none-eabi-5_4-2016q3/arm-none-eabi/lib/thumb/libc.a(lib_a-dtoa.o)
+                0x000000000800b8b4                _dtoa_r
+ .text          0x000000000800c88c        0x0 /Users/silviobacci/Applications/gcc-arm-none-eabi-5_4-2016q3/arm-none-eabi/lib/thumb/libc.a(lib_a-fini.o)
+ .text.__libc_fini_array
+                0x000000000800c88c       0x3c /Users/silviobacci/Applications/gcc-arm-none-eabi-5_4-2016q3/arm-none-eabi/lib/thumb/libc.a(lib_a-fini.o)
+                0x000000000800c88c                __libc_fini_array
+ .text          0x000000000800c8c8        0x0 /Users/silviobacci/Applications/gcc-arm-none-eabi-5_4-2016q3/arm-none-eabi/lib/thumb/libc.a(lib_a-localeconv.o)
+ .text.__localeconv_l
+                0x000000000800c8c8        0x4 /Users/silviobacci/Applications/gcc-arm-none-eabi-5_4-2016q3/arm-none-eabi/lib/thumb/libc.a(lib_a-localeconv.o)
+                0x000000000800c8c8                __localeconv_l
+ .text._localeconv_r
+                0x000000000800c8cc       0x1c /Users/silviobacci/Applications/gcc-arm-none-eabi-5_4-2016q3/arm-none-eabi/lib/thumb/libc.a(lib_a-localeconv.o)
+                0x000000000800c8cc                _localeconv_r
+ .text.localeconv
+                0x000000000800c8e8       0x1c /Users/silviobacci/Applications/gcc-arm-none-eabi-5_4-2016q3/arm-none-eabi/lib/thumb/libc.a(lib_a-localeconv.o)
+                0x000000000800c8e8                localeconv
+ .text          0x000000000800c904        0x0 /Users/silviobacci/Applications/gcc-arm-none-eabi-5_4-2016q3/arm-none-eabi/lib/thumb/libc.a(lib_a-mallocr.o)
+ .text._malloc_r
+                0x000000000800c904      0x564 /Users/silviobacci/Applications/gcc-arm-none-eabi-5_4-2016q3/arm-none-eabi/lib/thumb/libc.a(lib_a-mallocr.o)
+                0x000000000800c904                _malloc_r
+ .text          0x000000000800ce68        0x0 /Users/silviobacci/Applications/gcc-arm-none-eabi-5_4-2016q3/arm-none-eabi/lib/thumb/libc.a(lib_a-memchr-stub.o)
+ .text.memchr   0x000000000800ce68       0x94 /Users/silviobacci/Applications/gcc-arm-none-eabi-5_4-2016q3/arm-none-eabi/lib/thumb/libc.a(lib_a-memchr-stub.o)
+                0x000000000800ce68                memchr
+ .text          0x000000000800cefc        0x0 /Users/silviobacci/Applications/gcc-arm-none-eabi-5_4-2016q3/arm-none-eabi/lib/thumb/libc.a(lib_a-memcpy-stub.o)
+ .text.memcpy   0x000000000800cefc       0x80 /Users/silviobacci/Applications/gcc-arm-none-eabi-5_4-2016q3/arm-none-eabi/lib/thumb/libc.a(lib_a-memcpy-stub.o)
+                0x000000000800cefc                memcpy
+ .text          0x000000000800cf7c        0x0 /Users/silviobacci/Applications/gcc-arm-none-eabi-5_4-2016q3/arm-none-eabi/lib/thumb/libc.a(lib_a-mlock.o)
+ .text.__malloc_lock
+                0x000000000800cf7c        0x4 /Users/silviobacci/Applications/gcc-arm-none-eabi-5_4-2016q3/arm-none-eabi/lib/thumb/libc.a(lib_a-mlock.o)
+                0x000000000800cf7c                __malloc_lock
+ .text.__malloc_unlock
+                0x000000000800cf80        0x4 /Users/silviobacci/Applications/gcc-arm-none-eabi-5_4-2016q3/arm-none-eabi/lib/thumb/libc.a(lib_a-mlock.o)
+                0x000000000800cf80                __malloc_unlock
+ .text          0x000000000800cf84        0x0 /Users/silviobacci/Applications/gcc-arm-none-eabi-5_4-2016q3/arm-none-eabi/lib/thumb/libc.a(lib_a-mprec.o)
+ .text._Balloc  0x000000000800cf84       0x54 /Users/silviobacci/Applications/gcc-arm-none-eabi-5_4-2016q3/arm-none-eabi/lib/thumb/libc.a(lib_a-mprec.o)
+                0x000000000800cf84                _Balloc
+ .text._Bfree   0x000000000800cfd8       0x14 /Users/silviobacci/Applications/gcc-arm-none-eabi-5_4-2016q3/arm-none-eabi/lib/thumb/libc.a(lib_a-mprec.o)
+                0x000000000800cfd8                _Bfree
+ .text.__multadd
+                0x000000000800cfec       0x94 /Users/silviobacci/Applications/gcc-arm-none-eabi-5_4-2016q3/arm-none-eabi/lib/thumb/libc.a(lib_a-mprec.o)
+                0x000000000800cfec                __multadd
+ .text.__s2b    0x000000000800d080       0x94 /Users/silviobacci/Applications/gcc-arm-none-eabi-5_4-2016q3/arm-none-eabi/lib/thumb/libc.a(lib_a-mprec.o)
+                0x000000000800d080                __s2b
+ .text.__hi0bits
+                0x000000000800d114       0x3c /Users/silviobacci/Applications/gcc-arm-none-eabi-5_4-2016q3/arm-none-eabi/lib/thumb/libc.a(lib_a-mprec.o)
+                0x000000000800d114                __hi0bits
+ .text.__lo0bits
+                0x000000000800d150       0x5c /Users/silviobacci/Applications/gcc-arm-none-eabi-5_4-2016q3/arm-none-eabi/lib/thumb/libc.a(lib_a-mprec.o)
+                0x000000000800d150                __lo0bits
+ .text.__i2b    0x000000000800d1ac       0x18 /Users/silviobacci/Applications/gcc-arm-none-eabi-5_4-2016q3/arm-none-eabi/lib/thumb/libc.a(lib_a-mprec.o)
+                0x000000000800d1ac                __i2b
+ .text.__multiply
+                0x000000000800d1c4      0x16c /Users/silviobacci/Applications/gcc-arm-none-eabi-5_4-2016q3/arm-none-eabi/lib/thumb/libc.a(lib_a-mprec.o)
+                0x000000000800d1c4                __multiply
+ .text.__pow5mult
+                0x000000000800d330       0xc0 /Users/silviobacci/Applications/gcc-arm-none-eabi-5_4-2016q3/arm-none-eabi/lib/thumb/libc.a(lib_a-mprec.o)
+                0x000000000800d330                __pow5mult
+ .text.__lshift
+                0x000000000800d3f0       0xc4 /Users/silviobacci/Applications/gcc-arm-none-eabi-5_4-2016q3/arm-none-eabi/lib/thumb/libc.a(lib_a-mprec.o)
+                0x000000000800d3f0                __lshift
+ .text.__mcmp   0x000000000800d4b4       0x40 /Users/silviobacci/Applications/gcc-arm-none-eabi-5_4-2016q3/arm-none-eabi/lib/thumb/libc.a(lib_a-mprec.o)
+                0x000000000800d4b4                __mcmp
+ .text.__mdiff  0x000000000800d4f4      0x120 /Users/silviobacci/Applications/gcc-arm-none-eabi-5_4-2016q3/arm-none-eabi/lib/thumb/libc.a(lib_a-mprec.o)
+                0x000000000800d4f4                __mdiff
+ .text.__ulp    0x000000000800d614       0x50 /Users/silviobacci/Applications/gcc-arm-none-eabi-5_4-2016q3/arm-none-eabi/lib/thumb/libc.a(lib_a-mprec.o)
+                0x000000000800d614                __ulp
+ .text.__b2d    0x000000000800d664       0xdc /Users/silviobacci/Applications/gcc-arm-none-eabi-5_4-2016q3/arm-none-eabi/lib/thumb/libc.a(lib_a-mprec.o)
+                0x000000000800d664                __b2d
+ .text.__d2b    0x000000000800d740       0xc0 /Users/silviobacci/Applications/gcc-arm-none-eabi-5_4-2016q3/arm-none-eabi/lib/thumb/libc.a(lib_a-mprec.o)
+                0x000000000800d740                __d2b
+ .text.__ratio  0x000000000800d800       0x78 /Users/silviobacci/Applications/gcc-arm-none-eabi-5_4-2016q3/arm-none-eabi/lib/thumb/libc.a(lib_a-mprec.o)
+                0x000000000800d800                __ratio
+ .text._mprec_log10
+                0x000000000800d878       0x38 /Users/silviobacci/Applications/gcc-arm-none-eabi-5_4-2016q3/arm-none-eabi/lib/thumb/libc.a(lib_a-mprec.o)
+                0x000000000800d878                _mprec_log10
+ .text.__copybits
+                0x000000000800d8b0       0x44 /Users/silviobacci/Applications/gcc-arm-none-eabi-5_4-2016q3/arm-none-eabi/lib/thumb/libc.a(lib_a-mprec.o)
+                0x000000000800d8b0                __copybits
+ .text.__any_on
+                0x000000000800d8f4       0x64 /Users/silviobacci/Applications/gcc-arm-none-eabi-5_4-2016q3/arm-none-eabi/lib/thumb/libc.a(lib_a-mprec.o)
+                0x000000000800d8f4                __any_on
+ .text          0x000000000800d958        0x0 /Users/silviobacci/Applications/gcc-arm-none-eabi-5_4-2016q3/arm-none-eabi/lib/thumb/libc.a(lib_a-sbrkr.o)
+ .text._sbrk_r  0x000000000800d958       0x28 /Users/silviobacci/Applications/gcc-arm-none-eabi-5_4-2016q3/arm-none-eabi/lib/thumb/libc.a(lib_a-sbrkr.o)
+                0x000000000800d958                _sbrk_r
+ .text          0x000000000800d980        0x0 /Users/silviobacci/Applications/gcc-arm-none-eabi-5_4-2016q3/arm-none-eabi/lib/thumb/libc.a(lib_a-strlen-stub.o)
+ .text.strlen   0x000000000800d980       0x6c /Users/silviobacci/Applications/gcc-arm-none-eabi-5_4-2016q3/arm-none-eabi/lib/thumb/libc.a(lib_a-strlen-stub.o)
+                0x000000000800d980                strlen
+ .text          0x000000000800d9ec        0x0 /Users/silviobacci/Applications/gcc-arm-none-eabi-5_4-2016q3/arm-none-eabi/lib/thumb/libc.a(lib_a-svfiprintf.o)
+ .text.__ssprint_r
+                0x000000000800d9ec      0x134 /Users/silviobacci/Applications/gcc-arm-none-eabi-5_4-2016q3/arm-none-eabi/lib/thumb/libc.a(lib_a-svfiprintf.o)
+                0x000000000800d9ec                __ssprint_r
+ .text._svfiprintf_r
+                0x000000000800db20      0xc60 /Users/silviobacci/Applications/gcc-arm-none-eabi-5_4-2016q3/arm-none-eabi/lib/thumb/libc.a(lib_a-svfiprintf.o)
+                0x000000000800db20                _svfiprintf_r
+ .text          0x000000000800e780        0x0 /Users/silviobacci/Applications/gcc-arm-none-eabi-5_4-2016q3/arm-none-eabi/lib/thumb/libc.a(lib_a-__atexit.o)
+ .text.__register_exitproc
+                0x000000000800e780       0xd8 /Users/silviobacci/Applications/gcc-arm-none-eabi-5_4-2016q3/arm-none-eabi/lib/thumb/libc.a(lib_a-__atexit.o)
+                0x000000000800e780                __register_exitproc
+ .text          0x000000000800e858        0x0 /Users/silviobacci/Applications/gcc-arm-none-eabi-5_4-2016q3/arm-none-eabi/lib/thumb/libc.a(lib_a-callocr.o)
+ .text._calloc_r
+                0x000000000800e858       0x64 /Users/silviobacci/Applications/gcc-arm-none-eabi-5_4-2016q3/arm-none-eabi/lib/thumb/libc.a(lib_a-callocr.o)
+                0x000000000800e858                _calloc_r
+ .text          0x000000000800e8bc        0x0 /Users/silviobacci/Applications/gcc-arm-none-eabi-5_4-2016q3/arm-none-eabi/lib/thumb/libc.a(lib_a-freer.o)
+ .text._malloc_trim_r
+                0x000000000800e8bc       0xa4 /Users/silviobacci/Applications/gcc-arm-none-eabi-5_4-2016q3/arm-none-eabi/lib/thumb/libc.a(lib_a-freer.o)
+                0x000000000800e8bc                _malloc_trim_r
+ .text._free_r  0x000000000800e960      0x1c8 /Users/silviobacci/Applications/gcc-arm-none-eabi-5_4-2016q3/arm-none-eabi/lib/thumb/libc.a(lib_a-freer.o)
+                0x000000000800e960                _free_r
+ .text          0x000000000800eb28        0x0 /Users/silviobacci/Applications/gcc-arm-none-eabi-5_4-2016q3/arm-none-eabi/lib/thumb/libc.a(lib_a-locale.o)
+ .text.__get_current_locale
+                0x000000000800eb28       0x18 /Users/silviobacci/Applications/gcc-arm-none-eabi-5_4-2016q3/arm-none-eabi/lib/thumb/libc.a(lib_a-locale.o)
+ .text._setlocale_r
+                0x000000000800eb40       0x48 /Users/silviobacci/Applications/gcc-arm-none-eabi-5_4-2016q3/arm-none-eabi/lib/thumb/libc.a(lib_a-locale.o)
+                0x000000000800eb40                _setlocale_r
+ .text.__locale_mb_cur_max
+                0x000000000800eb88       0x20 /Users/silviobacci/Applications/gcc-arm-none-eabi-5_4-2016q3/arm-none-eabi/lib/thumb/libc.a(lib_a-locale.o)
+                0x000000000800eb88                __locale_mb_cur_max
+ .text.__locale_ctype_ptr_l
+                0x000000000800eba8        0x8 /Users/silviobacci/Applications/gcc-arm-none-eabi-5_4-2016q3/arm-none-eabi/lib/thumb/libc.a(lib_a-locale.o)
+                0x000000000800eba8                __locale_ctype_ptr_l
+ .text.__locale_ctype_ptr
+                0x000000000800ebb0       0x18 /Users/silviobacci/Applications/gcc-arm-none-eabi-5_4-2016q3/arm-none-eabi/lib/thumb/libc.a(lib_a-locale.o)
+                0x000000000800ebb0                __locale_ctype_ptr
+ .text.setlocale
+                0x000000000800ebc8       0x1c /Users/silviobacci/Applications/gcc-arm-none-eabi-5_4-2016q3/arm-none-eabi/lib/thumb/libc.a(lib_a-locale.o)
+                0x000000000800ebc8                setlocale
+ .text          0x000000000800ebe4        0x0 /Users/silviobacci/Applications/gcc-arm-none-eabi-5_4-2016q3/arm-none-eabi/lib/thumb/libc.a(lib_a-mbtowc_r.o)
+ .text._mbtowc_r
+                0x000000000800ebe4       0x34 /Users/silviobacci/Applications/gcc-arm-none-eabi-5_4-2016q3/arm-none-eabi/lib/thumb/libc.a(lib_a-mbtowc_r.o)
+                0x000000000800ebe4                _mbtowc_r
+ .text.__ascii_mbtowc
+                0x000000000800ec18       0x2c /Users/silviobacci/Applications/gcc-arm-none-eabi-5_4-2016q3/arm-none-eabi/lib/thumb/libc.a(lib_a-mbtowc_r.o)
+                0x000000000800ec18                __ascii_mbtowc
+ .text          0x000000000800ec44        0x0 /Users/silviobacci/Applications/gcc-arm-none-eabi-5_4-2016q3/arm-none-eabi/lib/thumb/libc.a(lib_a-memmove.o)
+ .text.memmove  0x000000000800ec44       0x9c /Users/silviobacci/Applications/gcc-arm-none-eabi-5_4-2016q3/arm-none-eabi/lib/thumb/libc.a(lib_a-memmove.o)
+                0x000000000800ec44                memmove
+ .text          0x000000000800ece0        0x0 /Users/silviobacci/Applications/gcc-arm-none-eabi-5_4-2016q3/arm-none-eabi/lib/thumb/libc.a(lib_a-reallocr.o)
+ .text._realloc_r
+                0x000000000800ece0      0x3ec /Users/silviobacci/Applications/gcc-arm-none-eabi-5_4-2016q3/arm-none-eabi/lib/thumb/libc.a(lib_a-reallocr.o)
+                0x000000000800ece0                _realloc_r
+ .text          0x000000000800f0cc        0x0 /Users/silviobacci/Applications/gcc-arm-none-eabi-5_4-2016q3/arm-none-eabi/lib/thumb/libc.a(lib_a-reent.o)
+ .text.cleanup_glue
+                0x000000000800f0cc       0x20 /Users/silviobacci/Applications/gcc-arm-none-eabi-5_4-2016q3/arm-none-eabi/lib/thumb/libc.a(lib_a-reent.o)
+                0x000000000800f0cc                cleanup_glue
+ .text._reclaim_reent
+                0x000000000800f0ec       0xa0 /Users/silviobacci/Applications/gcc-arm-none-eabi-5_4-2016q3/arm-none-eabi/lib/thumb/libc.a(lib_a-reent.o)
+                0x000000000800f0ec                _reclaim_reent
+ .text          0x000000000800f18c      0x224 /Users/silviobacci/Applications/gcc-arm-none-eabi-5_4-2016q3/arm-none-eabi/lib/thumb/libc.a(lib_a-strcmp.o)
+                0x000000000800f18c                strcmp
+ .text          0x000000000800f3b0        0x0 /Users/silviobacci/Applications/gcc-arm-none-eabi-5_4-2016q3/arm-none-eabi/lib/thumb/libc.a(lib_a-wctomb_r.o)
+ .text._wctomb_r
+                0x000000000800f3b0       0x2c /Users/silviobacci/Applications/gcc-arm-none-eabi-5_4-2016q3/arm-none-eabi/lib/thumb/libc.a(lib_a-wctomb_r.o)
+                0x000000000800f3b0                _wctomb_r
+ .text.__ascii_wctomb
+                0x000000000800f3dc       0x1c /Users/silviobacci/Applications/gcc-arm-none-eabi-5_4-2016q3/arm-none-eabi/lib/thumb/libc.a(lib_a-wctomb_r.o)
+                0x000000000800f3dc                __ascii_wctomb
+ .text          0x000000000800f3f8        0x0 /Users/silviobacci/Applications/gcc-arm-none-eabi-5_4-2016q3/arm-none-eabi/lib/thumb/libc.a(lib_a-ctype_.o)
+ .text          0x000000000800f3f8        0x0 /Users/silviobacci/Applications/gcc-arm-none-eabi-5_4-2016q3/arm-none-eabi/lib/thumb/libm.a(lib_a-s_cos.o)
+ .text.cos      0x000000000800f3f8       0x90 /Users/silviobacci/Applications/gcc-arm-none-eabi-5_4-2016q3/arm-none-eabi/lib/thumb/libm.a(lib_a-s_cos.o)
+                0x000000000800f3f8                cos
+ .text          0x000000000800f488        0x0 /Users/silviobacci/Applications/gcc-arm-none-eabi-5_4-2016q3/arm-none-eabi/lib/thumb/libm.a(lib_a-s_sin.o)
+ .text.sin      0x000000000800f488       0x94 /Users/silviobacci/Applications/gcc-arm-none-eabi-5_4-2016q3/arm-none-eabi/lib/thumb/libm.a(lib_a-s_sin.o)
+                0x000000000800f488                sin
+ .text          0x000000000800f51c        0x0 /Users/silviobacci/Applications/gcc-arm-none-eabi-5_4-2016q3/arm-none-eabi/lib/thumb/libm.a(lib_a-e_rem_pio2.o)
+ .text.__ieee754_rem_pio2
+                0x000000000800f51c      0x410 /Users/silviobacci/Applications/gcc-arm-none-eabi-5_4-2016q3/arm-none-eabi/lib/thumb/libm.a(lib_a-e_rem_pio2.o)
+                0x000000000800f51c                __ieee754_rem_pio2
+ .text          0x000000000800f92c        0x0 /Users/silviobacci/Applications/gcc-arm-none-eabi-5_4-2016q3/arm-none-eabi/lib/thumb/libm.a(lib_a-k_cos.o)
+ .text.__kernel_cos
+                0x000000000800f92c      0x238 /Users/silviobacci/Applications/gcc-arm-none-eabi-5_4-2016q3/arm-none-eabi/lib/thumb/libm.a(lib_a-k_cos.o)
+                0x000000000800f92c                __kernel_cos
+ .text          0x000000000800fb64        0x0 /Users/silviobacci/Applications/gcc-arm-none-eabi-5_4-2016q3/arm-none-eabi/lib/thumb/libm.a(lib_a-k_rem_pio2.o)
+ .text.__kernel_rem_pio2
+                0x000000000800fb64      0x8a8 /Users/silviobacci/Applications/gcc-arm-none-eabi-5_4-2016q3/arm-none-eabi/lib/thumb/libm.a(lib_a-k_rem_pio2.o)
+                0x000000000800fb64                __kernel_rem_pio2
+ .text          0x000000000801040c        0x0 /Users/silviobacci/Applications/gcc-arm-none-eabi-5_4-2016q3/arm-none-eabi/lib/thumb/libm.a(lib_a-k_sin.o)
+ .text.__kernel_sin
+                0x000000000801040c      0x164 /Users/silviobacci/Applications/gcc-arm-none-eabi-5_4-2016q3/arm-none-eabi/lib/thumb/libm.a(lib_a-k_sin.o)
+                0x000000000801040c                __kernel_sin
+ .text          0x0000000008010570        0x0 /Users/silviobacci/Applications/gcc-arm-none-eabi-5_4-2016q3/arm-none-eabi/lib/thumb/libm.a(lib_a-s_fabs.o)
+ .text.fabs     0x0000000008010570        0x8 /Users/silviobacci/Applications/gcc-arm-none-eabi-5_4-2016q3/arm-none-eabi/lib/thumb/libm.a(lib_a-s_fabs.o)
+                0x0000000008010570                fabs
+ .text          0x0000000008010578        0x0 /Users/silviobacci/Applications/gcc-arm-none-eabi-5_4-2016q3/arm-none-eabi/lib/thumb/libm.a(lib_a-s_floor.o)
+ .text.floor    0x0000000008010578      0x134 /Users/silviobacci/Applications/gcc-arm-none-eabi-5_4-2016q3/arm-none-eabi/lib/thumb/libm.a(lib_a-s_floor.o)
+                0x0000000008010578                floor
+ .text          0x00000000080106ac        0x0 /Users/silviobacci/Applications/gcc-arm-none-eabi-5_4-2016q3/arm-none-eabi/lib/thumb/libm.a(lib_a-s_scalbn.o)
+ .text.scalbn   0x00000000080106ac       0xd4 /Users/silviobacci/Applications/gcc-arm-none-eabi-5_4-2016q3/arm-none-eabi/lib/thumb/libm.a(lib_a-s_scalbn.o)
+                0x00000000080106ac                scalbn
+ .text          0x0000000008010780        0x0 /Users/silviobacci/Applications/gcc-arm-none-eabi-5_4-2016q3/arm-none-eabi/lib/thumb/libm.a(lib_a-s_copysign.o)
+ .text.copysign
+                0x0000000008010780       0x14 /Users/silviobacci/Applications/gcc-arm-none-eabi-5_4-2016q3/arm-none-eabi/lib/thumb/libm.a(lib_a-s_copysign.o)
+                0x0000000008010780                copysign
+ .text          0x0000000008010794        0x0 /Users/silviobacci/Applications/gcc-arm-none-eabi-5_4-2016q3/arm-none-eabi/lib/thumb/libnosys.a(sbrk.o)
+ .text._sbrk    0x0000000008010794       0x1c /Users/silviobacci/Applications/gcc-arm-none-eabi-5_4-2016q3/arm-none-eabi/lib/thumb/libnosys.a(sbrk.o)
+                0x0000000008010794                _sbrk
+ .text          0x00000000080107b0       0x24 /Users/silviobacci/Applications/gcc-arm-none-eabi-5_4-2016q3/bin/../lib/gcc/arm-none-eabi/5.4.1/armv7e-m/libgcc.a(_udivsi3.o)
+                0x00000000080107b0                __udivsi3
+                0x00000000080107b0                __aeabi_uidiv
+                0x00000000080107c4                __aeabi_uidivmod
+ .text          0x00000000080107d4       0x2c /Users/silviobacci/Applications/gcc-arm-none-eabi-5_4-2016q3/bin/../lib/gcc/arm-none-eabi/5.4.1/armv7e-m/libgcc.a(_divsi3.o)
+                0x00000000080107d4                __aeabi_idiv
+                0x00000000080107d4                __divsi3
+                0x00000000080107f0                __aeabi_idivmod
+ .text          0x0000000008010800        0x4 /Users/silviobacci/Applications/gcc-arm-none-eabi-5_4-2016q3/bin/../lib/gcc/arm-none-eabi/5.4.1/armv7e-m/libgcc.a(_dvmd_tls.o)
+                0x0000000008010800                __aeabi_ldiv0
+                0x0000000008010800                __aeabi_idiv0
+ .text          0x0000000008010804       0x2c /Users/silviobacci/Applications/gcc-arm-none-eabi-5_4-2016q3/bin/../lib/gcc/arm-none-eabi/5.4.1/armv7e-m/libgcc.a(_arm_unorddf2.o)
+                0x0000000008010804                __aeabi_dcmpun
+                0x0000000008010804                __unorddf2
+ .text          0x0000000008010830       0x30 /Users/silviobacci/Applications/gcc-arm-none-eabi-5_4-2016q3/bin/../lib/gcc/arm-none-eabi/5.4.1/armv7e-m/libgcc.a(_aeabi_uldivmod.o)
+                0x0000000008010830                __aeabi_uldivmod
+ .text          0x0000000008010860      0x2e4 /Users/silviobacci/Applications/gcc-arm-none-eabi-5_4-2016q3/bin/../lib/gcc/arm-none-eabi/5.4.1/armv7e-m/libgcc.a(_udivmoddi4.o)
+                0x0000000008010860                __udivmoddi4
+ .text          0x0000000008010b44        0x0 /Users/silviobacci/Applications/gcc-arm-none-eabi-5_4-2016q3/bin/../lib/gcc/arm-none-eabi/5.4.1/armv7e-m/crtend.o
+ .text          0x0000000008010b44        0x0 /Users/silviobacci/Applications/gcc-arm-none-eabi-5_4-2016q3/bin/../lib/gcc/arm-none-eabi/5.4.1/armv7e-m/crtn.o
+ *(.init)
+ .init          0x0000000008010b44        0x4 /Users/silviobacci/Applications/gcc-arm-none-eabi-5_4-2016q3/bin/../lib/gcc/arm-none-eabi/5.4.1/armv7e-m/crti.o
+                0x0000000008010b44                _init
+ .init          0x0000000008010b48        0x8 /Users/silviobacci/Applications/gcc-arm-none-eabi-5_4-2016q3/bin/../lib/gcc/arm-none-eabi/5.4.1/armv7e-m/crtn.o
+ *(.fini)
+ .fini          0x0000000008010b50        0x4 /Users/silviobacci/Applications/gcc-arm-none-eabi-5_4-2016q3/bin/../lib/gcc/arm-none-eabi/5.4.1/armv7e-m/crti.o
+                0x0000000008010b50                _fini
+ .fini          0x0000000008010b54        0x8 /Users/silviobacci/Applications/gcc-arm-none-eabi-5_4-2016q3/bin/../lib/gcc/arm-none-eabi/5.4.1/armv7e-m/crtn.o
+ *crtbegin.o(.ctors)
+ *crtbegin.o(.ctors)
+ *crtbegin?.o(.ctors)
+ *(EXCLUDE_FILE(*crtend.o *crtend?.o) .ctors)
+ *(SORT(.ctors.*))
+ *(.ctors)
+ *crtbegin.o(.dtors)
+ *crtbegin?.o(.dtors)
+ *(EXCLUDE_FILE(*crtend.o *crtend?.o) .dtors)
+ *(SORT(.dtors.*))
+ *(.dtors)
+ *(.rodata*)
+ .rodata        0x0000000008010b5c       0xf0 obj/WidgetConfig.o
+                0x0000000008010b5c                MyWatchScr
+ .rodata        0x0000000008010c4c        0x6 obj/code.o
+ *fill*         0x0000000008010c52        0x2 
+ .rodata        0x0000000008010c54       0x15 obj/debug.o
+ *fill*         0x0000000008010c69        0x3 
+ .rodata        0x0000000008010c6c       0x6c obj/eecfg.o
+                0x0000000008010c6c                EE_hal_thread_body
+                0x0000000008010c74                EE_terminate_real_th_body
+                0x0000000008010c7c                EE_th_ready_prio
+                0x0000000008010c84                EE_th_dispatch_prio
+                0x0000000008010c8c                EE_counter_ROM
+                0x0000000008010c98                EE_alarm_ROM
+                0x0000000008010ca0                EE_oo_counter_object_ROM
+                0x0000000008010cb8                EE_oo_action_ROM
+ .rodata        0x0000000008010cd8    0x33346 obj/pictures.o
+                0x0000000008010cd8                ImageBuffer
+                0x0000000008036510                icontime_on
+                0x0000000008037364                icontime_off
+                0x00000000080381b8                icontimeset_on
+                0x000000000803900c                icontimeset_off
+                0x0000000008039e60                iconalarm_on
+                0x000000000803acb4                iconalarm_off
+                0x000000000803bb08                iconswatch_on
+                0x000000000803c95c                iconswatch_off
+                0x000000000803d7b0                hoursBground
+                0x000000000803e758                minutesBground
+                0x000000000803f700                secondsBground
+                0x00000000080406a8                tenthsBground
+                0x0000000008040f00                sep1Bground
+                0x0000000008041758                sep2Bground
+                0x0000000008041fb0                sep3Bground
+                0x0000000008042808                alarmON
+                0x0000000008043010                alarmOFF
+                0x0000000008043818                emptySpace
+ *fill*         0x000000000804401e        0x2 
+ .rodata        0x0000000008044020     0x29d0 libstm32f4discovery.a(stm32f4_discovery_lcd.o)
+                0x0000000008044020                ASCII16x24_Table
+                0x00000000080451f0                ASCII12x12_Table
+                0x0000000008045af0                ASCII8x12_Table
+                0x00000000080463f0                ASCII8x8_Table
+ .rodata._global_impure_ptr
+                0x00000000080469f0        0x4 /Users/silviobacci/Applications/gcc-arm-none-eabi-5_4-2016q3/arm-none-eabi/lib/thumb/libc.a(lib_a-impure.o)
+                0x00000000080469f0                _global_impure_ptr
+ .rodata._svfprintf_r
+                0x00000000080469f4      0x164 /Users/silviobacci/Applications/gcc-arm-none-eabi-5_4-2016q3/arm-none-eabi/lib/thumb/libc.a(lib_a-svfprintf.o)
+ .rodata.zeroes.7256
+                0x0000000008046b58       0x10 /Users/silviobacci/Applications/gcc-arm-none-eabi-5_4-2016q3/arm-none-eabi/lib/thumb/libc.a(lib_a-svfprintf.o)
+ .rodata.str1.4
+                0x0000000008046b68       0x42 /Users/silviobacci/Applications/gcc-arm-none-eabi-5_4-2016q3/arm-none-eabi/lib/thumb/libc.a(lib_a-svfprintf.o)
+ *fill*         0x0000000008046baa        0x2 
+ .rodata.blanks.7255
+                0x0000000008046bac       0x10 /Users/silviobacci/Applications/gcc-arm-none-eabi-5_4-2016q3/arm-none-eabi/lib/thumb/libc.a(lib_a-svfprintf.o)
+ .rodata.str1.4
+                0x0000000008046bbc       0x10 /Users/silviobacci/Applications/gcc-arm-none-eabi-5_4-2016q3/arm-none-eabi/lib/thumb/libc.a(lib_a-dtoa.o)
+                                         0x12 (size before relaxing)
+ *fill*         0x0000000008046bcc        0x4 
+ .rodata.__mprec_tens
+                0x0000000008046bd0       0xc8 /Users/silviobacci/Applications/gcc-arm-none-eabi-5_4-2016q3/arm-none-eabi/lib/thumb/libc.a(lib_a-mprec.o)
+                0x0000000008046bd0                __mprec_tens
+ .rodata.p05.6085
+                0x0000000008046c98        0xc /Users/silviobacci/Applications/gcc-arm-none-eabi-5_4-2016q3/arm-none-eabi/lib/thumb/libc.a(lib_a-mprec.o)
+ *fill*         0x0000000008046ca4        0x4 
+ .rodata.__mprec_bigtens
+                0x0000000008046ca8       0x28 /Users/silviobacci/Applications/gcc-arm-none-eabi-5_4-2016q3/arm-none-eabi/lib/thumb/libc.a(lib_a-mprec.o)
+                0x0000000008046ca8                __mprec_bigtens
+ .rodata.__mprec_tinytens
+                0x0000000008046cd0       0x28 /Users/silviobacci/Applications/gcc-arm-none-eabi-5_4-2016q3/arm-none-eabi/lib/thumb/libc.a(lib_a-mprec.o)
+                0x0000000008046cd0                __mprec_tinytens
+ .rodata._svfiprintf_r
+                0x0000000008046cf8      0x164 /Users/silviobacci/Applications/gcc-arm-none-eabi-5_4-2016q3/arm-none-eabi/lib/thumb/libc.a(lib_a-svfiprintf.o)
+ .rodata.blanks.7235
+                0x0000000008046e5c       0x10 /Users/silviobacci/Applications/gcc-arm-none-eabi-5_4-2016q3/arm-none-eabi/lib/thumb/libc.a(lib_a-svfiprintf.o)
+ .rodata.str1.4
+                0x0000000008046e6c       0x2f /Users/silviobacci/Applications/gcc-arm-none-eabi-5_4-2016q3/arm-none-eabi/lib/thumb/libc.a(lib_a-svfiprintf.o)
+ .rodata.zeroes.7236
+                0x0000000008046e6c       0x10 /Users/silviobacci/Applications/gcc-arm-none-eabi-5_4-2016q3/arm-none-eabi/lib/thumb/libc.a(lib_a-svfiprintf.o)
+ .rodata.str1.4
+                0x0000000008046e7c       0x10 /Users/silviobacci/Applications/gcc-arm-none-eabi-5_4-2016q3/arm-none-eabi/lib/thumb/libc.a(lib_a-locale.o)
+                                         0x12 (size before relaxing)
+ .rodata._ctype_
+                0x0000000008046e8c      0x101 /Users/silviobacci/Applications/gcc-arm-none-eabi-5_4-2016q3/arm-none-eabi/lib/thumb/libc.a(lib_a-ctype_.o)
+                0x0000000008046e8c                _ctype_
+ *fill*         0x0000000008046f8d        0x3 
+ .rodata.npio2_hw
+                0x0000000008046f90       0x80 /Users/silviobacci/Applications/gcc-arm-none-eabi-5_4-2016q3/arm-none-eabi/lib/thumb/libm.a(lib_a-e_rem_pio2.o)
+ .rodata.two_over_pi
+                0x0000000008047010      0x108 /Users/silviobacci/Applications/gcc-arm-none-eabi-5_4-2016q3/arm-none-eabi/lib/thumb/libm.a(lib_a-e_rem_pio2.o)
+ .rodata.init_jk
+                0x0000000008047118       0x10 /Users/silviobacci/Applications/gcc-arm-none-eabi-5_4-2016q3/arm-none-eabi/lib/thumb/libm.a(lib_a-k_rem_pio2.o)
+ .rodata.PIo2   0x0000000008047128       0x40 /Users/silviobacci/Applications/gcc-arm-none-eabi-5_4-2016q3/arm-none-eabi/lib/thumb/libm.a(lib_a-k_rem_pio2.o)
+ *(.eh_frame*)
+ .eh_frame      0x0000000008047168        0x0 /Users/silviobacci/Applications/gcc-arm-none-eabi-5_4-2016q3/bin/../lib/gcc/arm-none-eabi/5.4.1/armv7e-m/crtbegin.o
+ .eh_frame      0x0000000008047168        0x4 /Users/silviobacci/Applications/gcc-arm-none-eabi-5_4-2016q3/bin/../lib/gcc/arm-none-eabi/5.4.1/armv7e-m/crtend.o
+
+.glue_7         0x000000000804716c        0x0
+ .glue_7        0x000000000804716c        0x0 linker stubs
+
+.glue_7t        0x000000000804716c        0x0
+ .glue_7t       0x000000000804716c        0x0 linker stubs
+
+.vfp11_veneer   0x000000000804716c        0x0
+ .vfp11_veneer  0x000000000804716c        0x0 linker stubs
+
+.v4_bx          0x000000000804716c        0x0
+ .v4_bx         0x000000000804716c        0x0 linker stubs
+
+.iplt           0x000000000804716c        0x0
+ .iplt          0x000000000804716c        0x0 /Users/silviobacci/Applications/gcc-arm-none-eabi-5_4-2016q3/bin/../lib/gcc/arm-none-eabi/5.4.1/armv7e-m/crtbegin.o
+
+.ARM.extab      0x000000000804716c        0x0
+ *(.ARM.extab* .gnu.linkonce.armextab.*)
+ .ARM.extab     0x000000000804716c        0x0 /Users/silviobacci/Applications/gcc-arm-none-eabi-5_4-2016q3/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7e-m/crt0.o
+ .ARM.extab     0x000000000804716c        0x0 /Users/silviobacci/Applications/gcc-arm-none-eabi-5_4-2016q3/bin/../lib/gcc/arm-none-eabi/5.4.1/armv7e-m/libgcc.a(_udivmoddi4.o)
+                0x000000000804716c                __exidx_start = .
+
+.ARM.exidx      0x000000000804716c        0x8
+ *(.ARM.exidx* .gnu.linkonce.armexidx.*)
+ .ARM.exidx     0x000000000804716c        0x8 /Users/silviobacci/Applications/gcc-arm-none-eabi-5_4-2016q3/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7e-m/crt0.o
+ .ARM.exidx     0x0000000008047174        0x0 /Users/silviobacci/Applications/gcc-arm-none-eabi-5_4-2016q3/bin/../lib/gcc/arm-none-eabi/5.4.1/armv7e-m/libgcc.a(_udivmoddi4.o)
+                                          0x8 (size before relaxing)
+                0x0000000008047174                __exidx_end = .
+                0x0000000008047174                __etext = .
+
+.rel.dyn        0x0000000008047174        0x0
+ .rel.iplt      0x0000000008047174        0x0 /Users/silviobacci/Applications/gcc-arm-none-eabi-5_4-2016q3/bin/../lib/gcc/arm-none-eabi/5.4.1/armv7e-m/crtbegin.o
+
+.data           0x0000000020000000      0xb50 load address 0x0000000008047174
+                0x0000000020000000                __data_start__ = .
+ *(vtable)
+ *(.data*)
+ .data          0x0000000020000000        0x0 /Users/silviobacci/Applications/gcc-arm-none-eabi-5_4-2016q3/bin/../lib/gcc/arm-none-eabi/5.4.1/armv7e-m/crti.o
+ .data          0x0000000020000000        0x4 /Users/silviobacci/Applications/gcc-arm-none-eabi-5_4-2016q3/bin/../lib/gcc/arm-none-eabi/5.4.1/armv7e-m/crtbegin.o
+                0x0000000020000000                __dso_handle
+ .data          0x0000000020000004        0x0 /Users/silviobacci/Applications/gcc-arm-none-eabi-5_4-2016q3/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7e-m/crt0.o
+ .data          0x0000000020000004        0x0 obj/Event.o
+ .data          0x0000000020000004        0x4 obj/STMPE811QTR.o
+                0x0000000020000004                IOE_TimeOut
+ .data          0x0000000020000008        0x0 obj/StopWatch2016.o
+ .data          0x0000000020000008       0x14 obj/Touch.o
+ .data          0x000000002000001c        0x0 obj/Watch.o
+ .data          0x000000002000001c        0x0 obj/Widget.o
+ .data          0x000000002000001c       0xc8 obj/WidgetConfig.o
+                0x000000002000001c                buttontime
+                0x0000000020000028                buttontimeset
+                0x0000000020000034                buttonalarm
+                0x0000000020000040                buttonswatch
+                0x000000002000004c                buttonplus
+                0x0000000020000058                buttonminus
+                0x0000000020000064                buttonOnOff
+                0x0000000020000070                hoursTxt
+                0x0000000020000080                minutesTxt
+                0x0000000020000090                secondsTxt
+                0x00000000200000a0                tenthsTxt
+                0x00000000200000b0                sep1Txt
+                0x00000000200000c0                sep2Txt
+                0x00000000200000d0                sep3Txt
+                0x00000000200000e0                backg
+ .data          0x00000000200000e4        0x5 obj/code.o
+ .data          0x00000000200000e9        0x0 obj/debug.o
+ *fill*         0x00000000200000e9        0x3 
+ .data          0x00000000200000ec       0x30 obj/eecfg.o
+                0x00000000200000ec                EE_th_status
+                0x00000000200000f4                EE_th_next
+                0x00000000200000fc                EE_stkfirst
+                0x0000000020000100                EE_th_rnact
+                0x0000000020000108                EE_rq_first
+                0x000000002000010c                EE_th_terminate_nextask
+                0x0000000020000114                EE_counter_RAM
+ .data          0x000000002000011c        0x0 obj/pictures.o
+ .data          0x000000002000011c        0x0 obj/pkg/mcu/st_stm32_stm32f4xx/src/startup_stm32f4xx_gnu.o
+ .data          0x000000002000011c       0x14 obj/pkg/mcu/st_stm32_stm32f4xx/src/system_stm32f4xx.o
+                0x000000002000011c                SystemCoreClock
+                0x0000000020000120                AHBPrescTable
+ .data          0x0000000020000130        0x0 libee.a(ee_hal_structs.o)
+ .data          0x0000000020000130        0x0 libee.a(ee_utils.o)
+ .data          0x0000000020000130        0x0 libee.a(ee_gnu_change_context_isr.o)
+ .data          0x0000000020000130        0x0 libee.a(ee_irqendin.o)
+ .data          0x0000000020000130        0x0 libee.a(ee_tstub.o)
+ .data          0x0000000020000130        0x0 libee.a(ee_lookup.o)
+ .data          0x0000000020000130        0x0 libee.a(ee_rq_exchg.o)
+ .data          0x0000000020000130        0x0 libee.a(ee_alsetrel.o)
+ .data          0x0000000020000130        0x0 libee.a(ee_altick.o)
+ .data          0x0000000020000130        0x0 libee.a(ee_context.o)
+ .data          0x0000000020000130        0x0 libee.a(ee_gnu_oo.o)
+ .data          0x0000000020000130        0x0 libee.a(ee_tnterm.o)
+ .data          0x0000000020000130        0x0 libee.a(ee_rq_inser.o)
+ .data          0x0000000020000130        0x0 libee.a(ee_context.o)
+ .data          0x0000000020000130        0x0 libee.a(ee_thendin.o)
+ .data          0x0000000020000130       0x56 libstm32f4discovery.a(stm32f4_discovery_lcd.o)
+                0x0000000020000130                Font48x72
+                0x000000002000013c                Font32x48
+                0x0000000020000148                Font24x36
+                0x0000000020000154                Font16x24
+                0x0000000020000160                Font12x12
+                0x000000002000016c                Font8x12
+                0x0000000020000178                Font8x8
+ .data          0x0000000020000186        0x0 libstm32f4xxspd.a(stm32f4xx_dma.o)
+ .data          0x0000000020000186        0x0 libstm32f4xxspd.a(stm32f4xx_fsmc.o)
+ .data          0x0000000020000186        0x0 libstm32f4xxspd.a(stm32f4xx_gpio.o)
+ .data          0x0000000020000186        0x0 libstm32f4xxspd.a(stm32f4xx_i2c.o)
+ *fill*         0x0000000020000186        0x2 
+ .data          0x0000000020000188       0x10 libstm32f4xxspd.a(stm32f4xx_rcc.o)
+ .data          0x0000000020000198        0x0 /Users/silviobacci/Applications/gcc-arm-none-eabi-5_4-2016q3/bin/../lib/gcc/arm-none-eabi/5.4.1/armv7e-m/libgcc.a(_arm_addsubdf3.o)
+ .data          0x0000000020000198        0x0 /Users/silviobacci/Applications/gcc-arm-none-eabi-5_4-2016q3/bin/../lib/gcc/arm-none-eabi/5.4.1/armv7e-m/libgcc.a(_arm_muldivdf3.o)
+ .data          0x0000000020000198        0x0 /Users/silviobacci/Applications/gcc-arm-none-eabi-5_4-2016q3/bin/../lib/gcc/arm-none-eabi/5.4.1/armv7e-m/libgcc.a(_arm_cmpdf2.o)
+ .data          0x0000000020000198        0x0 /Users/silviobacci/Applications/gcc-arm-none-eabi-5_4-2016q3/bin/../lib/gcc/arm-none-eabi/5.4.1/armv7e-m/libgcc.a(_arm_fixdfsi.o)
+ .data          0x0000000020000198        0x0 /Users/silviobacci/Applications/gcc-arm-none-eabi-5_4-2016q3/bin/../lib/gcc/arm-none-eabi/5.4.1/armv7e-m/libgcc.a(_arm_fixunsdfsi.o)
+ .data          0x0000000020000198        0x0 /Users/silviobacci/Applications/gcc-arm-none-eabi-5_4-2016q3/bin/../lib/gcc/arm-none-eabi/5.4.1/armv7e-m/libgcc.a(_arm_truncdfsf2.o)
+ .data          0x0000000020000198        0x0 /Users/silviobacci/Applications/gcc-arm-none-eabi-5_4-2016q3/bin/../lib/gcc/arm-none-eabi/5.4.1/armv7e-m/libgcc.a(_arm_addsubsf3.o)
+ .data          0x0000000020000198        0x0 /Users/silviobacci/Applications/gcc-arm-none-eabi-5_4-2016q3/bin/../lib/gcc/arm-none-eabi/5.4.1/armv7e-m/libgcc.a(_arm_muldivsf3.o)
+ .data          0x0000000020000198        0x0 /Users/silviobacci/Applications/gcc-arm-none-eabi-5_4-2016q3/bin/../lib/gcc/arm-none-eabi/5.4.1/armv7e-m/libgcc.a(_arm_fixsfsi.o)
+ .data          0x0000000020000198        0x0 /Users/silviobacci/Applications/gcc-arm-none-eabi-5_4-2016q3/bin/../lib/gcc/arm-none-eabi/5.4.1/armv7e-m/libgcc.a(_arm_fixunssfsi.o)
+ .data          0x0000000020000198        0x0 /Users/silviobacci/Applications/gcc-arm-none-eabi-5_4-2016q3/arm-none-eabi/lib/thumb/libc.a(lib_a-exit.o)
+ .data          0x0000000020000198        0x0 /Users/silviobacci/Applications/gcc-arm-none-eabi-5_4-2016q3/arm-none-eabi/lib/thumb/libc.a(lib_a-impure.o)
+ .data.impure_data
+                0x0000000020000198      0x428 /Users/silviobacci/Applications/gcc-arm-none-eabi-5_4-2016q3/arm-none-eabi/lib/thumb/libc.a(lib_a-impure.o)
+ .data._impure_ptr
+                0x00000000200005c0        0x4 /Users/silviobacci/Applications/gcc-arm-none-eabi-5_4-2016q3/arm-none-eabi/lib/thumb/libc.a(lib_a-impure.o)
+                0x00000000200005c0                _impure_ptr
+ .data          0x00000000200005c4        0x0 /Users/silviobacci/Applications/gcc-arm-none-eabi-5_4-2016q3/arm-none-eabi/lib/thumb/libc.a(lib_a-init.o)
+ .data          0x00000000200005c4        0x0 /Users/silviobacci/Applications/gcc-arm-none-eabi-5_4-2016q3/arm-none-eabi/lib/thumb/libc.a(lib_a-memset.o)
+ .data          0x00000000200005c4        0x0 /Users/silviobacci/Applications/gcc-arm-none-eabi-5_4-2016q3/arm-none-eabi/lib/thumb/libc.a(lib_a-sprintf.o)
+ .data          0x00000000200005c4        0x0 /Users/silviobacci/Applications/gcc-arm-none-eabi-5_4-2016q3/arm-none-eabi/lib/thumb/libc.a(lib_a-svfprintf.o)
+ .data          0x00000000200005c4        0x0 /Users/silviobacci/Applications/gcc-arm-none-eabi-5_4-2016q3/arm-none-eabi/lib/thumb/libc.a(lib_a-__call_atexit.o)
+ .data          0x00000000200005c4        0x0 /Users/silviobacci/Applications/gcc-arm-none-eabi-5_4-2016q3/arm-none-eabi/lib/thumb/libc.a(lib_a-atexit.o)
+ .data          0x00000000200005c4        0x0 /Users/silviobacci/Applications/gcc-arm-none-eabi-5_4-2016q3/arm-none-eabi/lib/thumb/libc.a(lib_a-dtoa.o)
+ .data          0x00000000200005c4        0x0 /Users/silviobacci/Applications/gcc-arm-none-eabi-5_4-2016q3/arm-none-eabi/lib/thumb/libc.a(lib_a-fini.o)
+ .data          0x00000000200005c4        0x0 /Users/silviobacci/Applications/gcc-arm-none-eabi-5_4-2016q3/arm-none-eabi/lib/thumb/libc.a(lib_a-localeconv.o)
+ .data          0x00000000200005c4        0x0 /Users/silviobacci/Applications/gcc-arm-none-eabi-5_4-2016q3/arm-none-eabi/lib/thumb/libc.a(lib_a-mallocr.o)
+ .data.__malloc_av_
+                0x00000000200005c4      0x408 /Users/silviobacci/Applications/gcc-arm-none-eabi-5_4-2016q3/arm-none-eabi/lib/thumb/libc.a(lib_a-mallocr.o)
+                0x00000000200005c4                __malloc_av_
+ .data.__malloc_trim_threshold
+                0x00000000200009cc        0x4 /Users/silviobacci/Applications/gcc-arm-none-eabi-5_4-2016q3/arm-none-eabi/lib/thumb/libc.a(lib_a-mallocr.o)
+                0x00000000200009cc                __malloc_trim_threshold
+ .data.__malloc_sbrk_base
+                0x00000000200009d0        0x4 /Users/silviobacci/Applications/gcc-arm-none-eabi-5_4-2016q3/arm-none-eabi/lib/thumb/libc.a(lib_a-mallocr.o)
+                0x00000000200009d0                __malloc_sbrk_base
+ .data          0x00000000200009d4        0x0 /Users/silviobacci/Applications/gcc-arm-none-eabi-5_4-2016q3/arm-none-eabi/lib/thumb/libc.a(lib_a-memchr-stub.o)
+ .data          0x00000000200009d4        0x0 /Users/silviobacci/Applications/gcc-arm-none-eabi-5_4-2016q3/arm-none-eabi/lib/thumb/libc.a(lib_a-memcpy-stub.o)
+ .data          0x00000000200009d4        0x0 /Users/silviobacci/Applications/gcc-arm-none-eabi-5_4-2016q3/arm-none-eabi/lib/thumb/libc.a(lib_a-mlock.o)
+ .data          0x00000000200009d4        0x0 /Users/silviobacci/Applications/gcc-arm-none-eabi-5_4-2016q3/arm-none-eabi/lib/thumb/libc.a(lib_a-mprec.o)
+ .data          0x00000000200009d4        0x0 /Users/silviobacci/Applications/gcc-arm-none-eabi-5_4-2016q3/arm-none-eabi/lib/thumb/libc.a(lib_a-sbrkr.o)
+ .data          0x00000000200009d4        0x0 /Users/silviobacci/Applications/gcc-arm-none-eabi-5_4-2016q3/arm-none-eabi/lib/thumb/libc.a(lib_a-strlen-stub.o)
+ .data          0x00000000200009d4        0x0 /Users/silviobacci/Applications/gcc-arm-none-eabi-5_4-2016q3/arm-none-eabi/lib/thumb/libc.a(lib_a-svfiprintf.o)
+ .data          0x00000000200009d4        0x0 /Users/silviobacci/Applications/gcc-arm-none-eabi-5_4-2016q3/arm-none-eabi/lib/thumb/libc.a(lib_a-__atexit.o)
+ .data          0x00000000200009d4        0x0 /Users/silviobacci/Applications/gcc-arm-none-eabi-5_4-2016q3/arm-none-eabi/lib/thumb/libc.a(lib_a-callocr.o)
+ .data          0x00000000200009d4        0x0 /Users/silviobacci/Applications/gcc-arm-none-eabi-5_4-2016q3/arm-none-eabi/lib/thumb/libc.a(lib_a-freer.o)
+ .data          0x00000000200009d4        0x0 /Users/silviobacci/Applications/gcc-arm-none-eabi-5_4-2016q3/arm-none-eabi/lib/thumb/libc.a(lib_a-locale.o)
+ .data.__global_locale
+                0x00000000200009d4      0x16c /Users/silviobacci/Applications/gcc-arm-none-eabi-5_4-2016q3/arm-none-eabi/lib/thumb/libc.a(lib_a-locale.o)
+                0x00000000200009d4                __global_locale
+ .data          0x0000000020000b40        0x0 /Users/silviobacci/Applications/gcc-arm-none-eabi-5_4-2016q3/arm-none-eabi/lib/thumb/libc.a(lib_a-mbtowc_r.o)
+ .data          0x0000000020000b40        0x0 /Users/silviobacci/Applications/gcc-arm-none-eabi-5_4-2016q3/arm-none-eabi/lib/thumb/libc.a(lib_a-memmove.o)
+ .data          0x0000000020000b40        0x0 /Users/silviobacci/Applications/gcc-arm-none-eabi-5_4-2016q3/arm-none-eabi/lib/thumb/libc.a(lib_a-reallocr.o)
+ .data          0x0000000020000b40        0x0 /Users/silviobacci/Applications/gcc-arm-none-eabi-5_4-2016q3/arm-none-eabi/lib/thumb/libc.a(lib_a-reent.o)
+ .data          0x0000000020000b40        0x0 /Users/silviobacci/Applications/gcc-arm-none-eabi-5_4-2016q3/arm-none-eabi/lib/thumb/libc.a(lib_a-strcmp.o)
+ .data          0x0000000020000b40        0x0 /Users/silviobacci/Applications/gcc-arm-none-eabi-5_4-2016q3/arm-none-eabi/lib/thumb/libc.a(lib_a-wctomb_r.o)
+ .data          0x0000000020000b40        0x0 /Users/silviobacci/Applications/gcc-arm-none-eabi-5_4-2016q3/arm-none-eabi/lib/thumb/libc.a(lib_a-ctype_.o)
+ .data          0x0000000020000b40        0x0 /Users/silviobacci/Applications/gcc-arm-none-eabi-5_4-2016q3/arm-none-eabi/lib/thumb/libm.a(lib_a-s_cos.o)
+ .data          0x0000000020000b40        0x0 /Users/silviobacci/Applications/gcc-arm-none-eabi-5_4-2016q3/arm-none-eabi/lib/thumb/libm.a(lib_a-s_sin.o)
+ .data          0x0000000020000b40        0x0 /Users/silviobacci/Applications/gcc-arm-none-eabi-5_4-2016q3/arm-none-eabi/lib/thumb/libm.a(lib_a-e_rem_pio2.o)
+ .data          0x0000000020000b40        0x0 /Users/silviobacci/Applications/gcc-arm-none-eabi-5_4-2016q3/arm-none-eabi/lib/thumb/libm.a(lib_a-k_cos.o)
+ .data          0x0000000020000b40        0x0 /Users/silviobacci/Applications/gcc-arm-none-eabi-5_4-2016q3/arm-none-eabi/lib/thumb/libm.a(lib_a-k_rem_pio2.o)
+ .data          0x0000000020000b40        0x0 /Users/silviobacci/Applications/gcc-arm-none-eabi-5_4-2016q3/arm-none-eabi/lib/thumb/libm.a(lib_a-k_sin.o)
+ .data          0x0000000020000b40        0x0 /Users/silviobacci/Applications/gcc-arm-none-eabi-5_4-2016q3/arm-none-eabi/lib/thumb/libm.a(lib_a-s_fabs.o)
+ .data          0x0000000020000b40        0x0 /Users/silviobacci/Applications/gcc-arm-none-eabi-5_4-2016q3/arm-none-eabi/lib/thumb/libm.a(lib_a-s_floor.o)
+ .data          0x0000000020000b40        0x0 /Users/silviobacci/Applications/gcc-arm-none-eabi-5_4-2016q3/arm-none-eabi/lib/thumb/libm.a(lib_a-s_scalbn.o)
+ .data          0x0000000020000b40        0x0 /Users/silviobacci/Applications/gcc-arm-none-eabi-5_4-2016q3/arm-none-eabi/lib/thumb/libm.a(lib_a-s_copysign.o)
+ .data          0x0000000020000b40        0x0 /Users/silviobacci/Applications/gcc-arm-none-eabi-5_4-2016q3/arm-none-eabi/lib/thumb/libnosys.a(sbrk.o)
+ .data          0x0000000020000b40        0x0 /Users/silviobacci/Applications/gcc-arm-none-eabi-5_4-2016q3/bin/../lib/gcc/arm-none-eabi/5.4.1/armv7e-m/libgcc.a(_udivsi3.o)
+ .data          0x0000000020000b40        0x0 /Users/silviobacci/Applications/gcc-arm-none-eabi-5_4-2016q3/bin/../lib/gcc/arm-none-eabi/5.4.1/armv7e-m/libgcc.a(_divsi3.o)
+ .data          0x0000000020000b40        0x0 /Users/silviobacci/Applications/gcc-arm-none-eabi-5_4-2016q3/bin/../lib/gcc/arm-none-eabi/5.4.1/armv7e-m/libgcc.a(_dvmd_tls.o)
+ .data          0x0000000020000b40        0x0 /Users/silviobacci/Applications/gcc-arm-none-eabi-5_4-2016q3/bin/../lib/gcc/arm-none-eabi/5.4.1/armv7e-m/libgcc.a(_arm_unorddf2.o)
+ .data          0x0000000020000b40        0x0 /Users/silviobacci/Applications/gcc-arm-none-eabi-5_4-2016q3/bin/../lib/gcc/arm-none-eabi/5.4.1/armv7e-m/libgcc.a(_aeabi_uldivmod.o)
+ .data          0x0000000020000b40        0x0 /Users/silviobacci/Applications/gcc-arm-none-eabi-5_4-2016q3/bin/../lib/gcc/arm-none-eabi/5.4.1/armv7e-m/libgcc.a(_udivmoddi4.o)
+ .data          0x0000000020000b40        0x0 /Users/silviobacci/Applications/gcc-arm-none-eabi-5_4-2016q3/bin/../lib/gcc/arm-none-eabi/5.4.1/armv7e-m/crtend.o
+ .data          0x0000000020000b40        0x0 /Users/silviobacci/Applications/gcc-arm-none-eabi-5_4-2016q3/bin/../lib/gcc/arm-none-eabi/5.4.1/armv7e-m/crtn.o
+                0x0000000020000b40                . = ALIGN (0x4)
+                0x0000000020000b40                PROVIDE (__preinit_array_start, .)
+ *(.preinit_array)
+                0x0000000020000b40                PROVIDE (__preinit_array_end, .)
+                0x0000000020000b40                . = ALIGN (0x4)
+                0x0000000020000b40                PROVIDE (__init_array_start, .)
+ *(SORT(.init_array.*))
+ .init_array.00000
+                0x0000000020000b40        0x4 /Users/silviobacci/Applications/gcc-arm-none-eabi-5_4-2016q3/arm-none-eabi/lib/thumb/libc.a(lib_a-__call_atexit.o)
+ *(.init_array)
+ .init_array    0x0000000020000b44        0x4 /Users/silviobacci/Applications/gcc-arm-none-eabi-5_4-2016q3/bin/../lib/gcc/arm-none-eabi/5.4.1/armv7e-m/crtbegin.o
+                0x0000000020000b48                PROVIDE (__init_array_end, .)
+                0x0000000020000b48                . = ALIGN (0x4)
+                0x0000000020000b48                PROVIDE (__fini_array_start, .)
+ *(SORT(.fini_array.*))
+ *(.fini_array)
+ .fini_array    0x0000000020000b48        0x4 /Users/silviobacci/Applications/gcc-arm-none-eabi-5_4-2016q3/bin/../lib/gcc/arm-none-eabi/5.4.1/armv7e-m/crtbegin.o
+                0x0000000020000b4c                PROVIDE (__fini_array_end, .)
+ *(.jcr*)
+ .jcr           0x0000000020000b4c        0x0 /Users/silviobacci/Applications/gcc-arm-none-eabi-5_4-2016q3/bin/../lib/gcc/arm-none-eabi/5.4.1/armv7e-m/crtbegin.o
+ .jcr           0x0000000020000b4c        0x4 /Users/silviobacci/Applications/gcc-arm-none-eabi-5_4-2016q3/bin/../lib/gcc/arm-none-eabi/5.4.1/armv7e-m/crtend.o
+                0x0000000020000b50                . = ALIGN (0x4)
+                0x0000000020000b50                __data_end__ = .
+
+.igot.plt       0x0000000020000b50        0x0 load address 0x0000000008047cc4
+ .igot.plt      0x0000000020000b50        0x0 /Users/silviobacci/Applications/gcc-arm-none-eabi-5_4-2016q3/bin/../lib/gcc/arm-none-eabi/5.4.1/armv7e-m/crtbegin.o
+
+.bss            0x0000000020000b50      0x118 load address 0x0000000008047cc4
+                0x0000000020000b50                . = ALIGN (0x4)
+                0x0000000020000b50                __bss_start__ = .
+ *(.bss*)
+ .bss           0x0000000020000b50        0x0 /Users/silviobacci/Applications/gcc-arm-none-eabi-5_4-2016q3/bin/../lib/gcc/arm-none-eabi/5.4.1/armv7e-m/crti.o
+ .bss           0x0000000020000b50       0x1c /Users/silviobacci/Applications/gcc-arm-none-eabi-5_4-2016q3/bin/../lib/gcc/arm-none-eabi/5.4.1/armv7e-m/crtbegin.o
+ .bss           0x0000000020000b6c        0x0 /Users/silviobacci/Applications/gcc-arm-none-eabi-5_4-2016q3/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7e-m/crt0.o
+ .bss           0x0000000020000b6c        0x0 obj/Event.o
+ .bss           0x0000000020000b6c        0x4 obj/STMPE811QTR.o
+ .bss           0x0000000020000b70        0x0 obj/StopWatch2016.o
+ .bss           0x0000000020000b70        0x0 obj/Touch.o
+ .bss           0x0000000020000b70        0x4 obj/Watch.o
+ .bss           0x0000000020000b74        0x0 obj/Widget.o
+ .bss           0x0000000020000b74        0x0 obj/WidgetConfig.o
+ .bss           0x0000000020000b74        0x6 obj/code.o
+ .bss           0x0000000020000b7a        0x0 obj/debug.o
+ *fill*         0x0000000020000b7a        0x2 
+ .bss           0x0000000020000b7c        0x4 obj/eecfg.o
+                0x0000000020000b7c                EE_sys_ceiling
+ .bss           0x0000000020000b80        0x0 obj/pictures.o
+ .bss           0x0000000020000b80        0x0 obj/pkg/mcu/st_stm32_stm32f4xx/src/startup_stm32f4xx_gnu.o
+ .bss           0x0000000020000b80        0x0 obj/pkg/mcu/st_stm32_stm32f4xx/src/system_stm32f4xx.o
+ .bss           0x0000000020000b80        0x0 libee.a(ee_hal_structs.o)
+ .bss           0x0000000020000b80        0x0 libee.a(ee_utils.o)
+ .bss           0x0000000020000b80        0x0 libee.a(ee_gnu_change_context_isr.o)
+ .bss           0x0000000020000b80        0x0 libee.a(ee_irqendin.o)
+ .bss           0x0000000020000b80        0x0 libee.a(ee_tstub.o)
+ .bss           0x0000000020000b80        0x0 libee.a(ee_lookup.o)
+ .bss           0x0000000020000b80        0x0 libee.a(ee_rq_exchg.o)
+ .bss           0x0000000020000b80        0x0 libee.a(ee_alsetrel.o)
+ .bss           0x0000000020000b80        0x0 libee.a(ee_altick.o)
+ .bss           0x0000000020000b80        0x0 libee.a(ee_context.o)
+ .bss           0x0000000020000b80        0x0 libee.a(ee_gnu_oo.o)
+ .bss           0x0000000020000b80        0x0 libee.a(ee_tnterm.o)
+ .bss           0x0000000020000b80        0x0 libee.a(ee_rq_inser.o)
+ .bss           0x0000000020000b80        0x0 libee.a(ee_context.o)
+ .bss           0x0000000020000b80        0x0 libee.a(ee_thendin.o)
+ .bss           0x0000000020000b80        0x6 libstm32f4discovery.a(stm32f4_discovery_lcd.o)
+ .bss           0x0000000020000b86        0x0 libstm32f4xxspd.a(stm32f4xx_dma.o)
+ .bss           0x0000000020000b86        0x0 libstm32f4xxspd.a(stm32f4xx_fsmc.o)
+ .bss           0x0000000020000b86        0x0 libstm32f4xxspd.a(stm32f4xx_gpio.o)
+ .bss           0x0000000020000b86        0x0 libstm32f4xxspd.a(stm32f4xx_i2c.o)
+ .bss           0x0000000020000b86        0x0 libstm32f4xxspd.a(stm32f4xx_rcc.o)
+ .bss           0x0000000020000b86        0x0 /Users/silviobacci/Applications/gcc-arm-none-eabi-5_4-2016q3/bin/../lib/gcc/arm-none-eabi/5.4.1/armv7e-m/libgcc.a(_arm_addsubdf3.o)
+ .bss           0x0000000020000b86        0x0 /Users/silviobacci/Applications/gcc-arm-none-eabi-5_4-2016q3/bin/../lib/gcc/arm-none-eabi/5.4.1/armv7e-m/libgcc.a(_arm_muldivdf3.o)
+ .bss           0x0000000020000b86        0x0 /Users/silviobacci/Applications/gcc-arm-none-eabi-5_4-2016q3/bin/../lib/gcc/arm-none-eabi/5.4.1/armv7e-m/libgcc.a(_arm_cmpdf2.o)
+ .bss           0x0000000020000b86        0x0 /Users/silviobacci/Applications/gcc-arm-none-eabi-5_4-2016q3/bin/../lib/gcc/arm-none-eabi/5.4.1/armv7e-m/libgcc.a(_arm_fixdfsi.o)
+ .bss           0x0000000020000b86        0x0 /Users/silviobacci/Applications/gcc-arm-none-eabi-5_4-2016q3/bin/../lib/gcc/arm-none-eabi/5.4.1/armv7e-m/libgcc.a(_arm_fixunsdfsi.o)
+ .bss           0x0000000020000b86        0x0 /Users/silviobacci/Applications/gcc-arm-none-eabi-5_4-2016q3/bin/../lib/gcc/arm-none-eabi/5.4.1/armv7e-m/libgcc.a(_arm_truncdfsf2.o)
+ .bss           0x0000000020000b86        0x0 /Users/silviobacci/Applications/gcc-arm-none-eabi-5_4-2016q3/bin/../lib/gcc/arm-none-eabi/5.4.1/armv7e-m/libgcc.a(_arm_addsubsf3.o)
+ .bss           0x0000000020000b86        0x0 /Users/silviobacci/Applications/gcc-arm-none-eabi-5_4-2016q3/bin/../lib/gcc/arm-none-eabi/5.4.1/armv7e-m/libgcc.a(_arm_muldivsf3.o)
+ .bss           0x0000000020000b86        0x0 /Users/silviobacci/Applications/gcc-arm-none-eabi-5_4-2016q3/bin/../lib/gcc/arm-none-eabi/5.4.1/armv7e-m/libgcc.a(_arm_fixsfsi.o)
+ .bss           0x0000000020000b86        0x0 /Users/silviobacci/Applications/gcc-arm-none-eabi-5_4-2016q3/bin/../lib/gcc/arm-none-eabi/5.4.1/armv7e-m/libgcc.a(_arm_fixunssfsi.o)
+ .bss           0x0000000020000b86        0x0 /Users/silviobacci/Applications/gcc-arm-none-eabi-5_4-2016q3/arm-none-eabi/lib/thumb/libc.a(lib_a-exit.o)
+ .bss           0x0000000020000b86        0x0 /Users/silviobacci/Applications/gcc-arm-none-eabi-5_4-2016q3/arm-none-eabi/lib/thumb/libc.a(lib_a-impure.o)
+ .bss           0x0000000020000b86        0x0 /Users/silviobacci/Applications/gcc-arm-none-eabi-5_4-2016q3/arm-none-eabi/lib/thumb/libc.a(lib_a-init.o)
+ .bss           0x0000000020000b86        0x0 /Users/silviobacci/Applications/gcc-arm-none-eabi-5_4-2016q3/arm-none-eabi/lib/thumb/libc.a(lib_a-memset.o)
+ .bss           0x0000000020000b86        0x0 /Users/silviobacci/Applications/gcc-arm-none-eabi-5_4-2016q3/arm-none-eabi/lib/thumb/libc.a(lib_a-sprintf.o)
+ .bss           0x0000000020000b86        0x0 /Users/silviobacci/Applications/gcc-arm-none-eabi-5_4-2016q3/arm-none-eabi/lib/thumb/libc.a(lib_a-svfprintf.o)
+ .bss           0x0000000020000b86        0x0 /Users/silviobacci/Applications/gcc-arm-none-eabi-5_4-2016q3/arm-none-eabi/lib/thumb/libc.a(lib_a-__call_atexit.o)
+ .bss           0x0000000020000b86        0x0 /Users/silviobacci/Applications/gcc-arm-none-eabi-5_4-2016q3/arm-none-eabi/lib/thumb/libc.a(lib_a-atexit.o)
+ .bss           0x0000000020000b86        0x0 /Users/silviobacci/Applications/gcc-arm-none-eabi-5_4-2016q3/arm-none-eabi/lib/thumb/libc.a(lib_a-dtoa.o)
+ .bss           0x0000000020000b86        0x0 /Users/silviobacci/Applications/gcc-arm-none-eabi-5_4-2016q3/arm-none-eabi/lib/thumb/libc.a(lib_a-fini.o)
+ .bss           0x0000000020000b86        0x0 /Users/silviobacci/Applications/gcc-arm-none-eabi-5_4-2016q3/arm-none-eabi/lib/thumb/libc.a(lib_a-localeconv.o)
+ .bss           0x0000000020000b86        0x0 /Users/silviobacci/Applications/gcc-arm-none-eabi-5_4-2016q3/arm-none-eabi/lib/thumb/libc.a(lib_a-mallocr.o)
+ *fill*         0x0000000020000b86        0x2 
+ .bss.__malloc_max_total_mem
+                0x0000000020000b88        0x4 /Users/silviobacci/Applications/gcc-arm-none-eabi-5_4-2016q3/arm-none-eabi/lib/thumb/libc.a(lib_a-mallocr.o)
+                0x0000000020000b88                __malloc_max_total_mem
+ .bss.__malloc_max_sbrked_mem
+                0x0000000020000b8c        0x4 /Users/silviobacci/Applications/gcc-arm-none-eabi-5_4-2016q3/arm-none-eabi/lib/thumb/libc.a(lib_a-mallocr.o)
+                0x0000000020000b8c                __malloc_max_sbrked_mem
+ .bss.__malloc_top_pad
+                0x0000000020000b90        0x4 /Users/silviobacci/Applications/gcc-arm-none-eabi-5_4-2016q3/arm-none-eabi/lib/thumb/libc.a(lib_a-mallocr.o)
+                0x0000000020000b90                __malloc_top_pad
+ .bss.__malloc_current_mallinfo
+                0x0000000020000b94       0x28 /Users/silviobacci/Applications/gcc-arm-none-eabi-5_4-2016q3/arm-none-eabi/lib/thumb/libc.a(lib_a-mallocr.o)
+                0x0000000020000b94                __malloc_current_mallinfo
+ .bss           0x0000000020000bbc        0x0 /Users/silviobacci/Applications/gcc-arm-none-eabi-5_4-2016q3/arm-none-eabi/lib/thumb/libc.a(lib_a-memchr-stub.o)
+ .bss           0x0000000020000bbc        0x0 /Users/silviobacci/Applications/gcc-arm-none-eabi-5_4-2016q3/arm-none-eabi/lib/thumb/libc.a(lib_a-memcpy-stub.o)
+ .bss           0x0000000020000bbc        0x0 /Users/silviobacci/Applications/gcc-arm-none-eabi-5_4-2016q3/arm-none-eabi/lib/thumb/libc.a(lib_a-mlock.o)
+ .bss           0x0000000020000bbc        0x0 /Users/silviobacci/Applications/gcc-arm-none-eabi-5_4-2016q3/arm-none-eabi/lib/thumb/libc.a(lib_a-mprec.o)
+ .bss           0x0000000020000bbc        0x0 /Users/silviobacci/Applications/gcc-arm-none-eabi-5_4-2016q3/arm-none-eabi/lib/thumb/libc.a(lib_a-sbrkr.o)
+ .bss           0x0000000020000bbc        0x0 /Users/silviobacci/Applications/gcc-arm-none-eabi-5_4-2016q3/arm-none-eabi/lib/thumb/libc.a(lib_a-strlen-stub.o)
+ .bss           0x0000000020000bbc        0x0 /Users/silviobacci/Applications/gcc-arm-none-eabi-5_4-2016q3/arm-none-eabi/lib/thumb/libc.a(lib_a-svfiprintf.o)
+ .bss           0x0000000020000bbc        0x0 /Users/silviobacci/Applications/gcc-arm-none-eabi-5_4-2016q3/arm-none-eabi/lib/thumb/libc.a(lib_a-__atexit.o)
+ .bss           0x0000000020000bbc        0x0 /Users/silviobacci/Applications/gcc-arm-none-eabi-5_4-2016q3/arm-none-eabi/lib/thumb/libc.a(lib_a-callocr.o)
+ .bss           0x0000000020000bbc        0x0 /Users/silviobacci/Applications/gcc-arm-none-eabi-5_4-2016q3/arm-none-eabi/lib/thumb/libc.a(lib_a-freer.o)
+ .bss           0x0000000020000bbc        0x0 /Users/silviobacci/Applications/gcc-arm-none-eabi-5_4-2016q3/arm-none-eabi/lib/thumb/libc.a(lib_a-locale.o)
+ .bss._PathLocale
+                0x0000000020000bbc        0x4 /Users/silviobacci/Applications/gcc-arm-none-eabi-5_4-2016q3/arm-none-eabi/lib/thumb/libc.a(lib_a-locale.o)
+                0x0000000020000bbc                _PathLocale
+ .bss           0x0000000020000bc0        0x0 /Users/silviobacci/Applications/gcc-arm-none-eabi-5_4-2016q3/arm-none-eabi/lib/thumb/libc.a(lib_a-mbtowc_r.o)
+ .bss           0x0000000020000bc0        0x0 /Users/silviobacci/Applications/gcc-arm-none-eabi-5_4-2016q3/arm-none-eabi/lib/thumb/libc.a(lib_a-memmove.o)
+ .bss           0x0000000020000bc0        0x0 /Users/silviobacci/Applications/gcc-arm-none-eabi-5_4-2016q3/arm-none-eabi/lib/thumb/libc.a(lib_a-reallocr.o)
+ .bss           0x0000000020000bc0        0x0 /Users/silviobacci/Applications/gcc-arm-none-eabi-5_4-2016q3/arm-none-eabi/lib/thumb/libc.a(lib_a-reent.o)
+ .bss           0x0000000020000bc0        0x0 /Users/silviobacci/Applications/gcc-arm-none-eabi-5_4-2016q3/arm-none-eabi/lib/thumb/libc.a(lib_a-strcmp.o)
+ .bss           0x0000000020000bc0        0x0 /Users/silviobacci/Applications/gcc-arm-none-eabi-5_4-2016q3/arm-none-eabi/lib/thumb/libc.a(lib_a-wctomb_r.o)
+ .bss           0x0000000020000bc0        0x0 /Users/silviobacci/Applications/gcc-arm-none-eabi-5_4-2016q3/arm-none-eabi/lib/thumb/libc.a(lib_a-ctype_.o)
+ .bss           0x0000000020000bc0        0x0 /Users/silviobacci/Applications/gcc-arm-none-eabi-5_4-2016q3/arm-none-eabi/lib/thumb/libm.a(lib_a-s_cos.o)
+ .bss           0x0000000020000bc0        0x0 /Users/silviobacci/Applications/gcc-arm-none-eabi-5_4-2016q3/arm-none-eabi/lib/thumb/libm.a(lib_a-s_sin.o)
+ .bss           0x0000000020000bc0        0x0 /Users/silviobacci/Applications/gcc-arm-none-eabi-5_4-2016q3/arm-none-eabi/lib/thumb/libm.a(lib_a-e_rem_pio2.o)
+ .bss           0x0000000020000bc0        0x0 /Users/silviobacci/Applications/gcc-arm-none-eabi-5_4-2016q3/arm-none-eabi/lib/thumb/libm.a(lib_a-k_cos.o)
+ .bss           0x0000000020000bc0        0x0 /Users/silviobacci/Applications/gcc-arm-none-eabi-5_4-2016q3/arm-none-eabi/lib/thumb/libm.a(lib_a-k_rem_pio2.o)
+ .bss           0x0000000020000bc0        0x0 /Users/silviobacci/Applications/gcc-arm-none-eabi-5_4-2016q3/arm-none-eabi/lib/thumb/libm.a(lib_a-k_sin.o)
+ .bss           0x0000000020000bc0        0x0 /Users/silviobacci/Applications/gcc-arm-none-eabi-5_4-2016q3/arm-none-eabi/lib/thumb/libm.a(lib_a-s_fabs.o)
+ .bss           0x0000000020000bc0        0x0 /Users/silviobacci/Applications/gcc-arm-none-eabi-5_4-2016q3/arm-none-eabi/lib/thumb/libm.a(lib_a-s_floor.o)
+ .bss           0x0000000020000bc0        0x0 /Users/silviobacci/Applications/gcc-arm-none-eabi-5_4-2016q3/arm-none-eabi/lib/thumb/libm.a(lib_a-s_scalbn.o)
+ .bss           0x0000000020000bc0        0x0 /Users/silviobacci/Applications/gcc-arm-none-eabi-5_4-2016q3/arm-none-eabi/lib/thumb/libm.a(lib_a-s_copysign.o)
+ .bss           0x0000000020000bc0        0x0 /Users/silviobacci/Applications/gcc-arm-none-eabi-5_4-2016q3/arm-none-eabi/lib/thumb/libnosys.a(sbrk.o)
+ .bss.heap_end.4167
+                0x0000000020000bc0        0x4 /Users/silviobacci/Applications/gcc-arm-none-eabi-5_4-2016q3/arm-none-eabi/lib/thumb/libnosys.a(sbrk.o)
+ .bss           0x0000000020000bc4        0x0 /Users/silviobacci/Applications/gcc-arm-none-eabi-5_4-2016q3/bin/../lib/gcc/arm-none-eabi/5.4.1/armv7e-m/libgcc.a(_udivsi3.o)
+ .bss           0x0000000020000bc4        0x0 /Users/silviobacci/Applications/gcc-arm-none-eabi-5_4-2016q3/bin/../lib/gcc/arm-none-eabi/5.4.1/armv7e-m/libgcc.a(_divsi3.o)
+ .bss           0x0000000020000bc4        0x0 /Users/silviobacci/Applications/gcc-arm-none-eabi-5_4-2016q3/bin/../lib/gcc/arm-none-eabi/5.4.1/armv7e-m/libgcc.a(_dvmd_tls.o)
+ .bss           0x0000000020000bc4        0x0 /Users/silviobacci/Applications/gcc-arm-none-eabi-5_4-2016q3/bin/../lib/gcc/arm-none-eabi/5.4.1/armv7e-m/libgcc.a(_arm_unorddf2.o)
+ .bss           0x0000000020000bc4        0x0 /Users/silviobacci/Applications/gcc-arm-none-eabi-5_4-2016q3/bin/../lib/gcc/arm-none-eabi/5.4.1/armv7e-m/libgcc.a(_aeabi_uldivmod.o)
+ .bss           0x0000000020000bc4        0x0 /Users/silviobacci/Applications/gcc-arm-none-eabi-5_4-2016q3/bin/../lib/gcc/arm-none-eabi/5.4.1/armv7e-m/libgcc.a(_udivmoddi4.o)
+ .bss           0x0000000020000bc4        0x0 /Users/silviobacci/Applications/gcc-arm-none-eabi-5_4-2016q3/bin/../lib/gcc/arm-none-eabi/5.4.1/armv7e-m/crtend.o
+ .bss           0x0000000020000bc4        0x0 /Users/silviobacci/Applications/gcc-arm-none-eabi-5_4-2016q3/bin/../lib/gcc/arm-none-eabi/5.4.1/armv7e-m/crtn.o
+ *(COMMON)
+ COMMON         0x0000000020000bc4        0x1 obj/Event.o
+                0x0000000020000bc4                evts
+ *fill*         0x0000000020000bc5        0x3 
+ COMMON         0x0000000020000bc8        0x8 obj/STMPE811QTR.o
+                0x0000000020000bc8                TS_State
+ COMMON         0x0000000020000bd0       0x20 obj/Touch.o
+                0x0000000020000bd0                touch_points
+                0x0000000020000be4                tcs
+ COMMON         0x0000000020000bf0       0x36 obj/code.o
+                0x0000000020000bf0                hblink
+                0x0000000020000bf4                work_mode
+                0x0000000020000bf9                min_visible
+                0x0000000020000bfc                SW_State
+                0x0000000020000c04                alarmYellow
+                0x0000000020000c08                button
+                0x0000000020000c0f                mblink
+                0x0000000020000c10                mode
+                0x0000000020000c11                alarmOn
+                0x0000000020000c12                tick
+                0x0000000020000c13                tenths
+                0x0000000020000c14                ringing
+                0x0000000020000c15                seconds
+                0x0000000020000c18                var
+                0x0000000020000c23                minutes
+                0x0000000020000c24                hour_visible
+                0x0000000020000c25                hours
+ *fill*         0x0000000020000c26        0x2 
+ COMMON         0x0000000020000c28       0x2c obj/eecfg.o
+                0x0000000020000c28                EE_terminate_data
+                0x0000000020000c30                EE_oo_counter_object_RAM
+                0x0000000020000c50                EE_ApplicationMode
+ COMMON         0x0000000020000c54        0x8 libee.a(ee_hal_structs.o)
+                0x0000000020000c54                EE_IRQ_nesting_level
+                0x0000000020000c58                EE_std_endcycle_next_tid
+ COMMON         0x0000000020000c5c        0x8 libee.a(ee_lookup.o)
+                0x0000000020000c5c                EE_oo_IRQ_disable_count
+                0x0000000020000c60                EE_oo_IRQ_suspend_status
+ COMMON         0x0000000020000c64        0x4 /Users/silviobacci/Applications/gcc-arm-none-eabi-5_4-2016q3/arm-none-eabi/lib/thumb/libc.a(lib_a-reent.o)
+                0x0000000020000c64                errno
+                0x0000000020000c68                . = ALIGN (0x4)
+                0x0000000020000c68                __bss_end__ = .
+
+.heap           0x0000000020000c68      0x100
+                0x0000000020000c68                __end__ = .
+                0x0000000020000c68                end = __end__
+ *(.heap*)
+ .heap          0x0000000020000c68      0x100 obj/pkg/mcu/st_stm32_stm32f4xx/src/startup_stm32f4xx_gnu.o
+                0x0000000020000c68                __HeapBase
+                0x0000000020000d68                __HeapLimit = .
+
+.stack_dummy    0x0000000020000c68      0xc00
+ *(.stack*)
+ .stack         0x0000000020000c68      0xc00 obj/pkg/mcu/st_stm32_stm32f4xx/src/startup_stm32f4xx_gnu.o
+                0x0000000020020000                __StackTop = (ORIGIN (RAM) + LENGTH (RAM))
+                0x000000002001f400                __StackLimit = (__StackTop - SIZEOF (.stack_dummy))
+                0x0000000020020000                PROVIDE (__stack, __StackTop)
+                0x0000000000000001                ASSERT ((__StackLimit >= __HeapLimit), region RAM overflowed with stack)
+                0x0000000010000000                __CcmOrigin = ORIGIN (CCM)
+                0x0000000000010000                __CcmLen = LENGTH (CCM)
+START GROUP
+LOAD /Users/silviobacci/Applications/gcc-arm-none-eabi-5_4-2016q3/bin/../lib/gcc/arm-none-eabi/5.4.1/armv7e-m/libgcc.a
+LOAD /Users/silviobacci/Applications/gcc-arm-none-eabi-5_4-2016q3/arm-none-eabi/lib/thumb/libg.a
+LOAD /Users/silviobacci/Applications/gcc-arm-none-eabi-5_4-2016q3/arm-none-eabi/lib/thumb/libc.a
+END GROUP
+LOAD /Users/silviobacci/Applications/gcc-arm-none-eabi-5_4-2016q3/bin/../lib/gcc/arm-none-eabi/5.4.1/armv7e-m/crtend.o
+LOAD /Users/silviobacci/Applications/gcc-arm-none-eabi-5_4-2016q3/bin/../lib/gcc/arm-none-eabi/5.4.1/armv7e-m/crtn.o
+OUTPUT(c_mX.elf elf32-littlearm)
+
+.ARM.attributes
+                0x0000000000000000       0x2c
+ .ARM.attributes
+                0x0000000000000000       0x1e /Users/silviobacci/Applications/gcc-arm-none-eabi-5_4-2016q3/bin/../lib/gcc/arm-none-eabi/5.4.1/armv7e-m/crti.o
+ .ARM.attributes
+                0x000000000000001e       0x2e /Users/silviobacci/Applications/gcc-arm-none-eabi-5_4-2016q3/bin/../lib/gcc/arm-none-eabi/5.4.1/armv7e-m/crtbegin.o
+ .ARM.attributes
+                0x000000000000004c       0x1c /Users/silviobacci/Applications/gcc-arm-none-eabi-5_4-2016q3/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7e-m/crt0.o
+ .ARM.attributes
+                0x0000000000000068       0x33 obj/Event.o
+ .ARM.attributes
+                0x000000000000009b       0x33 obj/STMPE811QTR.o
+ .ARM.attributes
+                0x00000000000000ce       0x33 obj/StopWatch2016.o
+ .ARM.attributes
+                0x0000000000000101       0x33 obj/Touch.o
+ .ARM.attributes
+                0x0000000000000134       0x33 obj/Watch.o
+ .ARM.attributes
+                0x0000000000000167       0x33 obj/Widget.o
+ .ARM.attributes
+                0x000000000000019a       0x33 obj/WidgetConfig.o
+ .ARM.attributes
+                0x00000000000001cd       0x33 obj/code.o
+ .ARM.attributes
+                0x0000000000000200       0x33 obj/debug.o
+ .ARM.attributes
+                0x0000000000000233       0x33 obj/eecfg.o
+ .ARM.attributes
+                0x0000000000000266       0x33 obj/pictures.o
+ .ARM.attributes
+                0x0000000000000299       0x1c obj/pkg/mcu/st_stm32_stm32f4xx/src/startup_stm32f4xx_gnu.o
+ .ARM.attributes
+                0x00000000000002b5       0x33 obj/pkg/mcu/st_stm32_stm32f4xx/src/system_stm32f4xx.o
+ .ARM.attributes
+                0x00000000000002e8       0x33 libee.a(ee_hal_structs.o)
+ .ARM.attributes
+                0x000000000000031b       0x33 libee.a(ee_utils.o)
+ .ARM.attributes
+                0x000000000000034e       0x21 libee.a(ee_gnu_change_context_isr.o)
+ .ARM.attributes
+                0x000000000000036f       0x33 libee.a(ee_irqendin.o)
+ .ARM.attributes
+                0x00000000000003a2       0x33 libee.a(ee_tstub.o)
+ .ARM.attributes
+                0x00000000000003d5       0x33 libee.a(ee_lookup.o)
+ .ARM.attributes
+                0x0000000000000408       0x33 libee.a(ee_rq_exchg.o)
+ .ARM.attributes
+                0x000000000000043b       0x33 libee.a(ee_alsetrel.o)
+ .ARM.attributes
+                0x000000000000046e       0x33 libee.a(ee_altick.o)
+ .ARM.attributes
+                0x00000000000004a1       0x33 libee.a(ee_context.o)
+ .ARM.attributes
+                0x00000000000004d4       0x21 libee.a(ee_gnu_oo.o)
+ .ARM.attributes
+                0x00000000000004f5       0x33 libee.a(ee_tnterm.o)
+ .ARM.attributes
+                0x0000000000000528       0x33 libee.a(ee_rq_inser.o)
+ .ARM.attributes
+                0x000000000000055b       0x33 libee.a(ee_context.o)
+ .ARM.attributes
+                0x000000000000058e       0x33 libee.a(ee_thendin.o)
+ .ARM.attributes
+                0x00000000000005c1       0x33 libstm32f4discovery.a(stm32f4_discovery_lcd.o)
+ .ARM.attributes
+                0x00000000000005f4       0x33 libstm32f4xxspd.a(stm32f4xx_dma.o)
+ .ARM.attributes
+                0x0000000000000627       0x33 libstm32f4xxspd.a(stm32f4xx_fsmc.o)
+ .ARM.attributes
+                0x000000000000065a       0x33 libstm32f4xxspd.a(stm32f4xx_gpio.o)
+ .ARM.attributes
+                0x000000000000068d       0x33 libstm32f4xxspd.a(stm32f4xx_i2c.o)
+ .ARM.attributes
+                0x00000000000006c0       0x33 libstm32f4xxspd.a(stm32f4xx_rcc.o)
+ .ARM.attributes
+                0x00000000000006f3       0x1e /Users/silviobacci/Applications/gcc-arm-none-eabi-5_4-2016q3/bin/../lib/gcc/arm-none-eabi/5.4.1/armv7e-m/libgcc.a(_arm_addsubdf3.o)
+ .ARM.attributes
+                0x0000000000000711       0x1e /Users/silviobacci/Applications/gcc-arm-none-eabi-5_4-2016q3/bin/../lib/gcc/arm-none-eabi/5.4.1/armv7e-m/libgcc.a(_arm_muldivdf3.o)
+ .ARM.attributes
+                0x000000000000072f       0x1e /Users/silviobacci/Applications/gcc-arm-none-eabi-5_4-2016q3/bin/../lib/gcc/arm-none-eabi/5.4.1/armv7e-m/libgcc.a(_arm_cmpdf2.o)
+ .ARM.attributes
+                0x000000000000074d       0x1e /Users/silviobacci/Applications/gcc-arm-none-eabi-5_4-2016q3/bin/../lib/gcc/arm-none-eabi/5.4.1/armv7e-m/libgcc.a(_arm_fixdfsi.o)
+ .ARM.attributes
+                0x000000000000076b       0x1e /Users/silviobacci/Applications/gcc-arm-none-eabi-5_4-2016q3/bin/../lib/gcc/arm-none-eabi/5.4.1/armv7e-m/libgcc.a(_arm_fixunsdfsi.o)
+ .ARM.attributes
+                0x0000000000000789       0x1e /Users/silviobacci/Applications/gcc-arm-none-eabi-5_4-2016q3/bin/../lib/gcc/arm-none-eabi/5.4.1/armv7e-m/libgcc.a(_arm_truncdfsf2.o)
+ .ARM.attributes
+                0x00000000000007a7       0x1e /Users/silviobacci/Applications/gcc-arm-none-eabi-5_4-2016q3/bin/../lib/gcc/arm-none-eabi/5.4.1/armv7e-m/libgcc.a(_arm_addsubsf3.o)
+ .ARM.attributes
+                0x00000000000007c5       0x1e /Users/silviobacci/Applications/gcc-arm-none-eabi-5_4-2016q3/bin/../lib/gcc/arm-none-eabi/5.4.1/armv7e-m/libgcc.a(_arm_muldivsf3.o)
+ .ARM.attributes
+                0x00000000000007e3       0x1e /Users/silviobacci/Applications/gcc-arm-none-eabi-5_4-2016q3/bin/../lib/gcc/arm-none-eabi/5.4.1/armv7e-m/libgcc.a(_arm_fixsfsi.o)
+ .ARM.attributes
+                0x0000000000000801       0x1e /Users/silviobacci/Applications/gcc-arm-none-eabi-5_4-2016q3/bin/../lib/gcc/arm-none-eabi/5.4.1/armv7e-m/libgcc.a(_arm_fixunssfsi.o)
+ .ARM.attributes
+                0x000000000000081f       0x30 /Users/silviobacci/Applications/gcc-arm-none-eabi-5_4-2016q3/arm-none-eabi/lib/thumb/libc.a(lib_a-exit.o)
+ .ARM.attributes
+                0x000000000000084f       0x30 /Users/silviobacci/Applications/gcc-arm-none-eabi-5_4-2016q3/arm-none-eabi/lib/thumb/libc.a(lib_a-impure.o)
+ .ARM.attributes
+                0x000000000000087f       0x30 /Users/silviobacci/Applications/gcc-arm-none-eabi-5_4-2016q3/arm-none-eabi/lib/thumb/libc.a(lib_a-init.o)
+ .ARM.attributes
+                0x00000000000008af       0x30 /Users/silviobacci/Applications/gcc-arm-none-eabi-5_4-2016q3/arm-none-eabi/lib/thumb/libc.a(lib_a-memset.o)
+ .ARM.attributes
+                0x00000000000008df       0x30 /Users/silviobacci/Applications/gcc-arm-none-eabi-5_4-2016q3/arm-none-eabi/lib/thumb/libc.a(lib_a-sprintf.o)
+ .ARM.attributes
+                0x000000000000090f       0x30 /Users/silviobacci/Applications/gcc-arm-none-eabi-5_4-2016q3/arm-none-eabi/lib/thumb/libc.a(lib_a-svfprintf.o)
+ .ARM.attributes
+                0x000000000000093f       0x30 /Users/silviobacci/Applications/gcc-arm-none-eabi-5_4-2016q3/arm-none-eabi/lib/thumb/libc.a(lib_a-__call_atexit.o)
+ .ARM.attributes
+                0x000000000000096f       0x30 /Users/silviobacci/Applications/gcc-arm-none-eabi-5_4-2016q3/arm-none-eabi/lib/thumb/libc.a(lib_a-atexit.o)
+ .ARM.attributes
+                0x000000000000099f       0x30 /Users/silviobacci/Applications/gcc-arm-none-eabi-5_4-2016q3/arm-none-eabi/lib/thumb/libc.a(lib_a-dtoa.o)
+ .ARM.attributes
+                0x00000000000009cf       0x30 /Users/silviobacci/Applications/gcc-arm-none-eabi-5_4-2016q3/arm-none-eabi/lib/thumb/libc.a(lib_a-fini.o)
+ .ARM.attributes
+                0x00000000000009ff       0x30 /Users/silviobacci/Applications/gcc-arm-none-eabi-5_4-2016q3/arm-none-eabi/lib/thumb/libc.a(lib_a-localeconv.o)
+ .ARM.attributes
+                0x0000000000000a2f       0x30 /Users/silviobacci/Applications/gcc-arm-none-eabi-5_4-2016q3/arm-none-eabi/lib/thumb/libc.a(lib_a-mallocr.o)
+ .ARM.attributes
+                0x0000000000000a5f       0x30 /Users/silviobacci/Applications/gcc-arm-none-eabi-5_4-2016q3/arm-none-eabi/lib/thumb/libc.a(lib_a-memchr-stub.o)
+ .ARM.attributes
+                0x0000000000000a8f       0x30 /Users/silviobacci/Applications/gcc-arm-none-eabi-5_4-2016q3/arm-none-eabi/lib/thumb/libc.a(lib_a-memcpy-stub.o)
+ .ARM.attributes
+                0x0000000000000abf       0x30 /Users/silviobacci/Applications/gcc-arm-none-eabi-5_4-2016q3/arm-none-eabi/lib/thumb/libc.a(lib_a-mlock.o)
+ .ARM.attributes
+                0x0000000000000aef       0x30 /Users/silviobacci/Applications/gcc-arm-none-eabi-5_4-2016q3/arm-none-eabi/lib/thumb/libc.a(lib_a-mprec.o)
+ .ARM.attributes
+                0x0000000000000b1f       0x30 /Users/silviobacci/Applications/gcc-arm-none-eabi-5_4-2016q3/arm-none-eabi/lib/thumb/libc.a(lib_a-sbrkr.o)
+ .ARM.attributes
+                0x0000000000000b4f       0x30 /Users/silviobacci/Applications/gcc-arm-none-eabi-5_4-2016q3/arm-none-eabi/lib/thumb/libc.a(lib_a-strlen-stub.o)
+ .ARM.attributes
+                0x0000000000000b7f       0x30 /Users/silviobacci/Applications/gcc-arm-none-eabi-5_4-2016q3/arm-none-eabi/lib/thumb/libc.a(lib_a-svfiprintf.o)
+ .ARM.attributes
+                0x0000000000000baf       0x30 /Users/silviobacci/Applications/gcc-arm-none-eabi-5_4-2016q3/arm-none-eabi/lib/thumb/libc.a(lib_a-__atexit.o)
+ .ARM.attributes
+                0x0000000000000bdf       0x30 /Users/silviobacci/Applications/gcc-arm-none-eabi-5_4-2016q3/arm-none-eabi/lib/thumb/libc.a(lib_a-callocr.o)
+ .ARM.attributes
+                0x0000000000000c0f       0x30 /Users/silviobacci/Applications/gcc-arm-none-eabi-5_4-2016q3/arm-none-eabi/lib/thumb/libc.a(lib_a-freer.o)
+ .ARM.attributes
+                0x0000000000000c3f       0x30 /Users/silviobacci/Applications/gcc-arm-none-eabi-5_4-2016q3/arm-none-eabi/lib/thumb/libc.a(lib_a-locale.o)
+ .ARM.attributes
+                0x0000000000000c6f       0x30 /Users/silviobacci/Applications/gcc-arm-none-eabi-5_4-2016q3/arm-none-eabi/lib/thumb/libc.a(lib_a-mbtowc_r.o)
+ .ARM.attributes
+                0x0000000000000c9f       0x30 /Users/silviobacci/Applications/gcc-arm-none-eabi-5_4-2016q3/arm-none-eabi/lib/thumb/libc.a(lib_a-memmove.o)
+ .ARM.attributes
+                0x0000000000000ccf       0x30 /Users/silviobacci/Applications/gcc-arm-none-eabi-5_4-2016q3/arm-none-eabi/lib/thumb/libc.a(lib_a-reallocr.o)
+ .ARM.attributes
+                0x0000000000000cff       0x30 /Users/silviobacci/Applications/gcc-arm-none-eabi-5_4-2016q3/arm-none-eabi/lib/thumb/libc.a(lib_a-reent.o)
+ .ARM.attributes
+                0x0000000000000d2f       0x16 /Users/silviobacci/Applications/gcc-arm-none-eabi-5_4-2016q3/arm-none-eabi/lib/thumb/libc.a(lib_a-strcmp.o)
+ .ARM.attributes
+                0x0000000000000d45       0x30 /Users/silviobacci/Applications/gcc-arm-none-eabi-5_4-2016q3/arm-none-eabi/lib/thumb/libc.a(lib_a-wctomb_r.o)
+ .ARM.attributes
+                0x0000000000000d75       0x30 /Users/silviobacci/Applications/gcc-arm-none-eabi-5_4-2016q3/arm-none-eabi/lib/thumb/libc.a(lib_a-ctype_.o)
+ .ARM.attributes
+                0x0000000000000da5       0x30 /Users/silviobacci/Applications/gcc-arm-none-eabi-5_4-2016q3/arm-none-eabi/lib/thumb/libm.a(lib_a-s_cos.o)
+ .ARM.attributes
+                0x0000000000000dd5       0x30 /Users/silviobacci/Applications/gcc-arm-none-eabi-5_4-2016q3/arm-none-eabi/lib/thumb/libm.a(lib_a-s_sin.o)
+ .ARM.attributes
+                0x0000000000000e05       0x30 /Users/silviobacci/Applications/gcc-arm-none-eabi-5_4-2016q3/arm-none-eabi/lib/thumb/libm.a(lib_a-e_rem_pio2.o)
+ .ARM.attributes
+                0x0000000000000e35       0x30 /Users/silviobacci/Applications/gcc-arm-none-eabi-5_4-2016q3/arm-none-eabi/lib/thumb/libm.a(lib_a-k_cos.o)
+ .ARM.attributes
+                0x0000000000000e65       0x30 /Users/silviobacci/Applications/gcc-arm-none-eabi-5_4-2016q3/arm-none-eabi/lib/thumb/libm.a(lib_a-k_rem_pio2.o)
+ .ARM.attributes
+                0x0000000000000e95       0x30 /Users/silviobacci/Applications/gcc-arm-none-eabi-5_4-2016q3/arm-none-eabi/lib/thumb/libm.a(lib_a-k_sin.o)
+ .ARM.attributes
+                0x0000000000000ec5       0x30 /Users/silviobacci/Applications/gcc-arm-none-eabi-5_4-2016q3/arm-none-eabi/lib/thumb/libm.a(lib_a-s_fabs.o)
+ .ARM.attributes
+                0x0000000000000ef5       0x30 /Users/silviobacci/Applications/gcc-arm-none-eabi-5_4-2016q3/arm-none-eabi/lib/thumb/libm.a(lib_a-s_floor.o)
+ .ARM.attributes
+                0x0000000000000f25       0x30 /Users/silviobacci/Applications/gcc-arm-none-eabi-5_4-2016q3/arm-none-eabi/lib/thumb/libm.a(lib_a-s_scalbn.o)
+ .ARM.attributes
+                0x0000000000000f55       0x30 /Users/silviobacci/Applications/gcc-arm-none-eabi-5_4-2016q3/arm-none-eabi/lib/thumb/libm.a(lib_a-s_copysign.o)
+ .ARM.attributes
+                0x0000000000000f85       0x30 /Users/silviobacci/Applications/gcc-arm-none-eabi-5_4-2016q3/arm-none-eabi/lib/thumb/libnosys.a(sbrk.o)
+ .ARM.attributes
+                0x0000000000000fb5       0x1e /Users/silviobacci/Applications/gcc-arm-none-eabi-5_4-2016q3/bin/../lib/gcc/arm-none-eabi/5.4.1/armv7e-m/libgcc.a(_udivsi3.o)
+ .ARM.attributes
+                0x0000000000000fd3       0x1e /Users/silviobacci/Applications/gcc-arm-none-eabi-5_4-2016q3/bin/../lib/gcc/arm-none-eabi/5.4.1/armv7e-m/libgcc.a(_divsi3.o)
+ .ARM.attributes
+                0x0000000000000ff1       0x1e /Users/silviobacci/Applications/gcc-arm-none-eabi-5_4-2016q3/bin/../lib/gcc/arm-none-eabi/5.4.1/armv7e-m/libgcc.a(_dvmd_tls.o)
+ .ARM.attributes
+                0x000000000000100f       0x1e /Users/silviobacci/Applications/gcc-arm-none-eabi-5_4-2016q3/bin/../lib/gcc/arm-none-eabi/5.4.1/armv7e-m/libgcc.a(_arm_unorddf2.o)
+ .ARM.attributes
+                0x000000000000102d       0x1e /Users/silviobacci/Applications/gcc-arm-none-eabi-5_4-2016q3/bin/../lib/gcc/arm-none-eabi/5.4.1/armv7e-m/libgcc.a(_aeabi_uldivmod.o)
+ .ARM.attributes
+                0x000000000000104b       0x2e /Users/silviobacci/Applications/gcc-arm-none-eabi-5_4-2016q3/bin/../lib/gcc/arm-none-eabi/5.4.1/armv7e-m/libgcc.a(_udivmoddi4.o)
+ .ARM.attributes
+                0x0000000000001079       0x2e /Users/silviobacci/Applications/gcc-arm-none-eabi-5_4-2016q3/bin/../lib/gcc/arm-none-eabi/5.4.1/armv7e-m/crtend.o
+ .ARM.attributes
+                0x00000000000010a7       0x1e /Users/silviobacci/Applications/gcc-arm-none-eabi-5_4-2016q3/bin/../lib/gcc/arm-none-eabi/5.4.1/armv7e-m/crtn.o
+
+.comment        0x0000000000000000       0x6e
+ .comment       0x0000000000000000       0x6e obj/Event.o
+                                         0x6f (size before relaxing)
+ .comment       0x000000000000006e       0x6f obj/STMPE811QTR.o
+ .comment       0x000000000000006e       0x6f obj/StopWatch2016.o
+ .comment       0x000000000000006e       0x6f obj/Touch.o
+ .comment       0x000000000000006e       0x6f obj/Watch.o
+ .comment       0x000000000000006e       0x6f obj/Widget.o
+ .comment       0x000000000000006e       0x6f obj/WidgetConfig.o
+ .comment       0x000000000000006e       0x6f obj/code.o
+ .comment       0x000000000000006e       0x6f obj/debug.o
+ .comment       0x000000000000006e       0x6f obj/eecfg.o
+ .comment       0x000000000000006e       0x6f obj/pictures.o
+ .comment       0x000000000000006e       0x6f obj/pkg/mcu/st_stm32_stm32f4xx/src/system_stm32f4xx.o
+ .comment       0x000000000000006e       0x6f libee.a(ee_hal_structs.o)
+ .comment       0x000000000000006e       0x6f libee.a(ee_utils.o)
+ .comment       0x000000000000006e       0x6f libee.a(ee_irqendin.o)
+ .comment       0x000000000000006e       0x6f libee.a(ee_tstub.o)
+ .comment       0x000000000000006e       0x6f libee.a(ee_lookup.o)
+ .comment       0x000000000000006e       0x6f libee.a(ee_rq_exchg.o)
+ .comment       0x000000000000006e       0x6f libee.a(ee_alsetrel.o)
+ .comment       0x000000000000006e       0x6f libee.a(ee_altick.o)
+ .comment       0x000000000000006e       0x6f libee.a(ee_context.o)
+ .comment       0x000000000000006e       0x6f libee.a(ee_tnterm.o)
+ .comment       0x000000000000006e       0x6f libee.a(ee_rq_inser.o)
+ .comment       0x000000000000006e       0x6f libee.a(ee_context.o)
+ .comment       0x000000000000006e       0x6f libee.a(ee_thendin.o)
+ .comment       0x000000000000006e       0x6f libstm32f4discovery.a(stm32f4_discovery_lcd.o)
+ .comment       0x000000000000006e       0x6f libstm32f4xxspd.a(stm32f4xx_dma.o)
+ .comment       0x000000000000006e       0x6f libstm32f4xxspd.a(stm32f4xx_fsmc.o)
+ .comment       0x000000000000006e       0x6f libstm32f4xxspd.a(stm32f4xx_gpio.o)
+ .comment       0x000000000000006e       0x6f libstm32f4xxspd.a(stm32f4xx_i2c.o)
+ .comment       0x000000000000006e       0x6f libstm32f4xxspd.a(stm32f4xx_rcc.o)
+
+.debug_info     0x0000000000000000     0xcb50
+ .debug_info    0x0000000000000000       0x41 obj/Event.o
+ .debug_info    0x0000000000000041      0xd73 obj/STMPE811QTR.o
+ .debug_info    0x0000000000000db4      0xd25 obj/StopWatch2016.o
+ .debug_info    0x0000000000001ad9      0x489 obj/Touch.o
+ .debug_info    0x0000000000001f62      0x461 obj/Watch.o
+ .debug_info    0x00000000000023c3      0x473 obj/Widget.o
+ .debug_info    0x0000000000002836      0x553 obj/WidgetConfig.o
+ .debug_info    0x0000000000002d89      0xa57 obj/code.o
+ .debug_info    0x00000000000037e0      0x191 obj/debug.o
+ .debug_info    0x0000000000003971      0x5ba obj/eecfg.o
+ .debug_info    0x0000000000003f2b      0x23c obj/pictures.o
+ .debug_info    0x0000000000004167       0xe8 obj/pkg/mcu/st_stm32_stm32f4xx/src/startup_stm32f4xx_gnu.o
+ .debug_info    0x000000000000424f      0x5c5 obj/pkg/mcu/st_stm32_stm32f4xx/src/system_stm32f4xx.o
+ .debug_info    0x0000000000004814      0x3d1 libee.a(ee_hal_structs.o)
+ .debug_info    0x0000000000004be5      0x4a8 libee.a(ee_utils.o)
+ .debug_info    0x000000000000508d       0xe7 libee.a(ee_gnu_change_context_isr.o)
+ .debug_info    0x0000000000005174      0x575 libee.a(ee_irqendin.o)
+ .debug_info    0x00000000000056e9      0x482 libee.a(ee_tstub.o)
+ .debug_info    0x0000000000005b6b      0x3d1 libee.a(ee_lookup.o)
+ .debug_info    0x0000000000005f3c      0x3ed libee.a(ee_rq_exchg.o)
+ .debug_info    0x0000000000006329      0x5c4 libee.a(ee_alsetrel.o)
+ .debug_info    0x00000000000068ed      0x9ee libee.a(ee_altick.o)
+ .debug_info    0x00000000000072db      0x3e9 libee.a(ee_context.o)
+ .debug_info    0x00000000000076c4       0xd7 libee.a(ee_gnu_oo.o)
+ .debug_info    0x000000000000779b      0x438 libee.a(ee_tnterm.o)
+ .debug_info    0x0000000000007bd3      0x40d libee.a(ee_rq_inser.o)
+ .debug_info    0x0000000000007fe0      0x453 libee.a(ee_context.o)
+ .debug_info    0x0000000000008433      0x5ff libee.a(ee_thendin.o)
+ .debug_info    0x0000000000008a32     0x1360 libstm32f4discovery.a(stm32f4_discovery_lcd.o)
+ .debug_info    0x0000000000009d92      0x741 libstm32f4xxspd.a(stm32f4xx_dma.o)
+ .debug_info    0x000000000000a4d3      0x8fd libstm32f4xxspd.a(stm32f4xx_fsmc.o)
+ .debug_info    0x000000000000add0      0x61d libstm32f4xxspd.a(stm32f4xx_gpio.o)
+ .debug_info    0x000000000000b3ed      0xb00 libstm32f4xxspd.a(stm32f4xx_i2c.o)
+ .debug_info    0x000000000000beed      0xc63 libstm32f4xxspd.a(stm32f4xx_rcc.o)
+
+.debug_abbrev   0x0000000000000000     0x2ddb
+ .debug_abbrev  0x0000000000000000       0x39 obj/Event.o
+ .debug_abbrev  0x0000000000000039      0x229 obj/STMPE811QTR.o
+ .debug_abbrev  0x0000000000000262      0x195 obj/StopWatch2016.o
+ .debug_abbrev  0x00000000000003f7      0x16a obj/Touch.o
+ .debug_abbrev  0x0000000000000561       0xfe obj/Watch.o
+ .debug_abbrev  0x000000000000065f      0x146 obj/Widget.o
+ .debug_abbrev  0x00000000000007a5      0x103 obj/WidgetConfig.o
+ .debug_abbrev  0x00000000000008a8      0x2fe obj/code.o
+ .debug_abbrev  0x0000000000000ba6       0xd6 obj/debug.o
+ .debug_abbrev  0x0000000000000c7c      0x108 obj/eecfg.o
+ .debug_abbrev  0x0000000000000d84       0x5f obj/pictures.o
+ .debug_abbrev  0x0000000000000de3       0x12 obj/pkg/mcu/st_stm32_stm32f4xx/src/startup_stm32f4xx_gnu.o
+ .debug_abbrev  0x0000000000000df5      0x138 obj/pkg/mcu/st_stm32_stm32f4xx/src/system_stm32f4xx.o
+ .debug_abbrev  0x0000000000000f2d      0x107 libee.a(ee_hal_structs.o)
+ .debug_abbrev  0x0000000000001034      0x1c7 libee.a(ee_utils.o)
+ .debug_abbrev  0x00000000000011fb       0x14 libee.a(ee_gnu_change_context_isr.o)
+ .debug_abbrev  0x000000000000120f      0x1f4 libee.a(ee_irqendin.o)
+ .debug_abbrev  0x0000000000001403      0x16c libee.a(ee_tstub.o)
+ .debug_abbrev  0x000000000000156f      0x107 libee.a(ee_lookup.o)
+ .debug_abbrev  0x0000000000001676      0x121 libee.a(ee_rq_exchg.o)
+ .debug_abbrev  0x0000000000001797      0x203 libee.a(ee_alsetrel.o)
+ .debug_abbrev  0x000000000000199a      0x2eb libee.a(ee_altick.o)
+ .debug_abbrev  0x0000000000001c85      0x11f libee.a(ee_context.o)
+ .debug_abbrev  0x0000000000001da4       0x14 libee.a(ee_gnu_oo.o)
+ .debug_abbrev  0x0000000000001db8      0x17d libee.a(ee_tnterm.o)
+ .debug_abbrev  0x0000000000001f35      0x13d libee.a(ee_rq_inser.o)
+ .debug_abbrev  0x0000000000002072      0x16e libee.a(ee_context.o)
+ .debug_abbrev  0x00000000000021e0      0x1e9 libee.a(ee_thendin.o)
+ .debug_abbrev  0x00000000000023c9      0x257 libstm32f4discovery.a(stm32f4_discovery_lcd.o)
+ .debug_abbrev  0x0000000000002620      0x157 libstm32f4xxspd.a(stm32f4xx_dma.o)
+ .debug_abbrev  0x0000000000002777      0x172 libstm32f4xxspd.a(stm32f4xx_fsmc.o)
+ .debug_abbrev  0x00000000000028e9      0x1a7 libstm32f4xxspd.a(stm32f4xx_gpio.o)
+ .debug_abbrev  0x0000000000002a90      0x166 libstm32f4xxspd.a(stm32f4xx_i2c.o)
+ .debug_abbrev  0x0000000000002bf6      0x1e5 libstm32f4xxspd.a(stm32f4xx_rcc.o)
+
+.debug_aranges  0x0000000000000000      0x438
+ .debug_aranges
+                0x0000000000000000       0x18 obj/Event.o
+ .debug_aranges
+                0x0000000000000018       0x20 obj/STMPE811QTR.o
+ .debug_aranges
+                0x0000000000000038       0x20 obj/StopWatch2016.o
+ .debug_aranges
+                0x0000000000000058       0x20 obj/Touch.o
+ .debug_aranges
+                0x0000000000000078       0x20 obj/Watch.o
+ .debug_aranges
+                0x0000000000000098       0x20 obj/Widget.o
+ .debug_aranges
+                0x00000000000000b8       0x18 obj/WidgetConfig.o
+ .debug_aranges
+                0x00000000000000d0       0x20 obj/code.o
+ .debug_aranges
+                0x00000000000000f0       0x20 obj/debug.o
+ .debug_aranges
+                0x0000000000000110       0x20 obj/eecfg.o
+ .debug_aranges
+                0x0000000000000130       0x18 obj/pictures.o
+ .debug_aranges
+                0x0000000000000148       0x30 obj/pkg/mcu/st_stm32_stm32f4xx/src/startup_stm32f4xx_gnu.o
+ .debug_aranges
+                0x0000000000000178       0x20 obj/pkg/mcu/st_stm32_stm32f4xx/src/system_stm32f4xx.o
+ .debug_aranges
+                0x0000000000000198       0x20 libee.a(ee_hal_structs.o)
+ .debug_aranges
+                0x00000000000001b8       0x20 libee.a(ee_utils.o)
+ .debug_aranges
+                0x00000000000001d8       0x20 libee.a(ee_gnu_change_context_isr.o)
+ .debug_aranges
+                0x00000000000001f8       0x20 libee.a(ee_irqendin.o)
+ .debug_aranges
+                0x0000000000000218       0x20 libee.a(ee_tstub.o)
+ .debug_aranges
+                0x0000000000000238       0x20 libee.a(ee_lookup.o)
+ .debug_aranges
+                0x0000000000000258       0x20 libee.a(ee_rq_exchg.o)
+ .debug_aranges
+                0x0000000000000278       0x20 libee.a(ee_alsetrel.o)
+ .debug_aranges
+                0x0000000000000298       0x20 libee.a(ee_altick.o)
+ .debug_aranges
+                0x00000000000002b8       0x20 libee.a(ee_context.o)
+ .debug_aranges
+                0x00000000000002d8       0x20 libee.a(ee_gnu_oo.o)
+ .debug_aranges
+                0x00000000000002f8       0x20 libee.a(ee_tnterm.o)
+ .debug_aranges
+                0x0000000000000318       0x20 libee.a(ee_rq_inser.o)
+ .debug_aranges
+                0x0000000000000338       0x20 libee.a(ee_context.o)
+ .debug_aranges
+                0x0000000000000358       0x20 libee.a(ee_thendin.o)
+ .debug_aranges
+                0x0000000000000378       0x20 libstm32f4discovery.a(stm32f4_discovery_lcd.o)
+ .debug_aranges
+                0x0000000000000398       0x20 libstm32f4xxspd.a(stm32f4xx_dma.o)
+ .debug_aranges
+                0x00000000000003b8       0x20 libstm32f4xxspd.a(stm32f4xx_fsmc.o)
+ .debug_aranges
+                0x00000000000003d8       0x20 libstm32f4xxspd.a(stm32f4xx_gpio.o)
+ .debug_aranges
+                0x00000000000003f8       0x20 libstm32f4xxspd.a(stm32f4xx_i2c.o)
+ .debug_aranges
+                0x0000000000000418       0x20 libstm32f4xxspd.a(stm32f4xx_rcc.o)
+
+.debug_line     0x0000000000000000     0x5d8a
+ .debug_line    0x0000000000000000       0x36 obj/Event.o
+ .debug_line    0x0000000000000036      0x51c obj/STMPE811QTR.o
+ .debug_line    0x0000000000000552      0x262 obj/StopWatch2016.o
+ .debug_line    0x00000000000007b4      0x24b obj/Touch.o
+ .debug_line    0x00000000000009ff      0x206 obj/Watch.o
+ .debug_line    0x0000000000000c05      0x219 obj/Widget.o
+ .debug_line    0x0000000000000e1e      0x1aa obj/WidgetConfig.o
+ .debug_line    0x0000000000000fc8      0x609 obj/code.o
+ .debug_line    0x00000000000015d1      0x190 obj/debug.o
+ .debug_line    0x0000000000001761      0x1c2 obj/eecfg.o
+ .debug_line    0x0000000000001923       0x2e obj/pictures.o
+ .debug_line    0x0000000000001951       0xf3 obj/pkg/mcu/st_stm32_stm32f4xx/src/startup_stm32f4xx_gnu.o
+ .debug_line    0x0000000000001a44      0x2de obj/pkg/mcu/st_stm32_stm32f4xx/src/system_stm32f4xx.o
+ .debug_line    0x0000000000001d22      0x209 libee.a(ee_hal_structs.o)
+ .debug_line    0x0000000000001f2b      0x24b libee.a(ee_utils.o)
+ .debug_line    0x0000000000002176       0xf2 libee.a(ee_gnu_change_context_isr.o)
+ .debug_line    0x0000000000002268      0x290 libee.a(ee_irqendin.o)
+ .debug_line    0x00000000000024f8      0x24d libee.a(ee_tstub.o)
+ .debug_line    0x0000000000002745      0x226 libee.a(ee_lookup.o)
+ .debug_line    0x000000000000296b      0x234 libee.a(ee_rq_exchg.o)
+ .debug_line    0x0000000000002b9f      0x311 libee.a(ee_alsetrel.o)
+ .debug_line    0x0000000000002eb0      0x3de libee.a(ee_altick.o)
+ .debug_line    0x000000000000328e      0x23c libee.a(ee_context.o)
+ .debug_line    0x00000000000034ca       0xdc libee.a(ee_gnu_oo.o)
+ .debug_line    0x00000000000035a6      0x254 libee.a(ee_tnterm.o)
+ .debug_line    0x00000000000037fa      0x241 libee.a(ee_rq_inser.o)
+ .debug_line    0x0000000000003a3b      0x248 libee.a(ee_context.o)
+ .debug_line    0x0000000000003c83      0x2aa libee.a(ee_thendin.o)
+ .debug_line    0x0000000000003f2d      0x84c libstm32f4discovery.a(stm32f4_discovery_lcd.o)
+ .debug_line    0x0000000000004779      0x46b libstm32f4xxspd.a(stm32f4xx_dma.o)
+ .debug_line    0x0000000000004be4      0x4c4 libstm32f4xxspd.a(stm32f4xx_fsmc.o)
+ .debug_line    0x00000000000050a8      0x3d9 libstm32f4xxspd.a(stm32f4xx_gpio.o)
+ .debug_line    0x0000000000005481      0x46c libstm32f4xxspd.a(stm32f4xx_i2c.o)
+ .debug_line    0x00000000000058ed      0x49d libstm32f4xxspd.a(stm32f4xx_rcc.o)
+
+.debug_str      0x0000000000000000     0x3e9b
+ .debug_str     0x0000000000000000       0xe1 obj/Event.o
+ .debug_str     0x00000000000000e1      0x76b obj/STMPE811QTR.o
+                                        0x8bb (size before relaxing)
+ .debug_str     0x000000000000084c      0x377 obj/StopWatch2016.o
+                                        0x50e (size before relaxing)
+ .debug_str     0x0000000000000bc3       0xf5 obj/Touch.o
+                                        0x2c8 (size before relaxing)
+ .debug_str     0x0000000000000cb8       0xbe obj/Watch.o
+                                        0x29e (size before relaxing)
+ .debug_str     0x0000000000000d76       0xee obj/Widget.o
+                                        0x2c3 (size before relaxing)
+ .debug_str     0x0000000000000e64      0x1ad obj/WidgetConfig.o
+                                        0x413 (size before relaxing)
+ .debug_str     0x0000000000001011      0x378 obj/code.o
+                                        0x6cd (size before relaxing)
+ .debug_str     0x0000000000001389       0x15 obj/debug.o
+                                        0x1d9 (size before relaxing)
+ .debug_str     0x000000000000139e      0x346 obj/eecfg.o
+                                        0x5a2 (size before relaxing)
+ .debug_str     0x00000000000016e4        0xe obj/pictures.o
+                                        0x1d6 (size before relaxing)
+ .debug_str     0x00000000000016f2      0x20e obj/pkg/mcu/st_stm32_stm32f4xx/src/system_stm32f4xx.o
+                                        0x3e5 (size before relaxing)
+ .debug_str     0x0000000000001900       0x72 libee.a(ee_hal_structs.o)
+                                        0x465 (size before relaxing)
+ .debug_str     0x0000000000001972       0xdc libee.a(ee_utils.o)
+                                        0x4cf (size before relaxing)
+ .debug_str     0x0000000000001a4e      0x26d libee.a(ee_irqendin.o)
+                                        0x660 (size before relaxing)
+ .debug_str     0x0000000000001cbb       0x99 libee.a(ee_tstub.o)
+                                        0x590 (size before relaxing)
+ .debug_str     0x0000000000001d54       0x6c libee.a(ee_lookup.o)
+                                        0x45f (size before relaxing)
+ .debug_str     0x0000000000001dc0       0x81 libee.a(ee_rq_exchg.o)
+                                        0x479 (size before relaxing)
+ .debug_str     0x0000000000001e41      0x180 libee.a(ee_alsetrel.o)
+                                        0x5ae (size before relaxing)
+ .debug_str     0x0000000000001fc1      0x20e libee.a(ee_altick.o)
+                                        0x857 (size before relaxing)
+ .debug_str     0x00000000000021cf       0x8d libee.a(ee_context.o)
+                                        0x480 (size before relaxing)
+ .debug_str     0x000000000000225c       0x97 libee.a(ee_tnterm.o)
+                                        0x4bc (size before relaxing)
+ .debug_str     0x00000000000022f3       0x7b libee.a(ee_rq_inser.o)
+                                        0x473 (size before relaxing)
+ .debug_str     0x000000000000236e       0x94 libee.a(ee_context.o)
+                                        0x4c8 (size before relaxing)
+ .debug_str     0x0000000000002402       0xca libee.a(ee_thendin.o)
+                                        0x6ac (size before relaxing)
+ .debug_str     0x00000000000024cc      0x7d5 libstm32f4discovery.a(stm32f4_discovery_lcd.o)
+                                        0xb69 (size before relaxing)
+ .debug_str     0x0000000000002ca1      0x2be libstm32f4xxspd.a(stm32f4xx_dma.o)
+                                        0x582 (size before relaxing)
+ .debug_str     0x0000000000002f5f      0x437 libstm32f4xxspd.a(stm32f4xx_fsmc.o)
+                                        0x7ca (size before relaxing)
+ .debug_str     0x0000000000003396      0x1dd libstm32f4xxspd.a(stm32f4xx_gpio.o)
+                                        0x4e3 (size before relaxing)
+ .debug_str     0x0000000000003573      0x3ec libstm32f4xxspd.a(stm32f4xx_i2c.o)
+                                        0x6a5 (size before relaxing)
+ .debug_str     0x000000000000395f      0x53c libstm32f4xxspd.a(stm32f4xx_rcc.o)
+                                        0x890 (size before relaxing)
+
+.debug_frame    0x0000000000000000     0x3e30
+ .debug_frame   0x0000000000000000      0x41c obj/STMPE811QTR.o
+ .debug_frame   0x000000000000041c      0x41c obj/StopWatch2016.o
+ .debug_frame   0x0000000000000838      0x148 obj/Touch.o
+ .debug_frame   0x0000000000000980      0x1c8 obj/Watch.o
+ .debug_frame   0x0000000000000b48      0x120 obj/Widget.o
+ .debug_frame   0x0000000000000c68      0x1e8 obj/code.o
+ .debug_frame   0x0000000000000e50       0x34 obj/debug.o
+ .debug_frame   0x0000000000000e84       0x60 obj/eecfg.o
+ .debug_frame   0x0000000000000ee4       0x7c obj/pkg/mcu/st_stm32_stm32f4xx/src/system_stm32f4xx.o
+ .debug_frame   0x0000000000000f60       0x60 libee.a(ee_hal_structs.o)
+ .debug_frame   0x0000000000000fc0       0x88 libee.a(ee_utils.o)
+ .debug_frame   0x0000000000001048       0xcc libee.a(ee_irqendin.o)
+ .debug_frame   0x0000000000001114       0x88 libee.a(ee_tstub.o)
+ .debug_frame   0x000000000000119c       0x60 libee.a(ee_lookup.o)
+ .debug_frame   0x00000000000011fc       0x88 libee.a(ee_rq_exchg.o)
+ .debug_frame   0x0000000000001284       0x88 libee.a(ee_alsetrel.o)
+ .debug_frame   0x000000000000130c      0x17c libee.a(ee_altick.o)
+ .debug_frame   0x0000000000001488       0x84 libee.a(ee_context.o)
+ .debug_frame   0x000000000000150c       0x80 libee.a(ee_tnterm.o)
+ .debug_frame   0x000000000000158c       0x88 libee.a(ee_rq_inser.o)
+ .debug_frame   0x0000000000001614       0x84 libee.a(ee_context.o)
+ .debug_frame   0x0000000000001698       0xa8 libee.a(ee_thendin.o)
+ .debug_frame   0x0000000000001740      0x710 libstm32f4discovery.a(stm32f4_discovery_lcd.o)
+ .debug_frame   0x0000000000001e50      0x308 libstm32f4xxspd.a(stm32f4xx_dma.o)
+ .debug_frame   0x0000000000002158      0x300 libstm32f4xxspd.a(stm32f4xx_fsmc.o)
+ .debug_frame   0x0000000000002458      0x23c libstm32f4xxspd.a(stm32f4xx_gpio.o)
+ .debug_frame   0x0000000000002694      0x530 libstm32f4xxspd.a(stm32f4xx_i2c.o)
+ .debug_frame   0x0000000000002bc4      0x6d4 libstm32f4xxspd.a(stm32f4xx_rcc.o)
+ .debug_frame   0x0000000000003298       0x28 /Users/silviobacci/Applications/gcc-arm-none-eabi-5_4-2016q3/arm-none-eabi/lib/thumb/libc.a(lib_a-exit.o)
+ .debug_frame   0x00000000000032c0       0x2c /Users/silviobacci/Applications/gcc-arm-none-eabi-5_4-2016q3/arm-none-eabi/lib/thumb/libc.a(lib_a-init.o)
+ .debug_frame   0x00000000000032ec       0x2c /Users/silviobacci/Applications/gcc-arm-none-eabi-5_4-2016q3/arm-none-eabi/lib/thumb/libc.a(lib_a-memset.o)
+ .debug_frame   0x0000000000003318       0x50 /Users/silviobacci/Applications/gcc-arm-none-eabi-5_4-2016q3/arm-none-eabi/lib/thumb/libc.a(lib_a-sprintf.o)
+ .debug_frame   0x0000000000003368       0x3c /Users/silviobacci/Applications/gcc-arm-none-eabi-5_4-2016q3/arm-none-eabi/lib/thumb/libc.a(lib_a-svfprintf.o)
+ .debug_frame   0x00000000000033a4       0x54 /Users/silviobacci/Applications/gcc-arm-none-eabi-5_4-2016q3/arm-none-eabi/lib/thumb/libc.a(lib_a-__call_atexit.o)
+ .debug_frame   0x00000000000033f8       0x28 /Users/silviobacci/Applications/gcc-arm-none-eabi-5_4-2016q3/arm-none-eabi/lib/thumb/libc.a(lib_a-atexit.o)
+ .debug_frame   0x0000000000003420       0x68 /Users/silviobacci/Applications/gcc-arm-none-eabi-5_4-2016q3/arm-none-eabi/lib/thumb/libc.a(lib_a-dtoa.o)
+ .debug_frame   0x0000000000003488       0x2c /Users/silviobacci/Applications/gcc-arm-none-eabi-5_4-2016q3/arm-none-eabi/lib/thumb/libc.a(lib_a-fini.o)
+ .debug_frame   0x00000000000034b4       0x40 /Users/silviobacci/Applications/gcc-arm-none-eabi-5_4-2016q3/arm-none-eabi/lib/thumb/libc.a(lib_a-localeconv.o)
+ .debug_frame   0x00000000000034f4       0x3c /Users/silviobacci/Applications/gcc-arm-none-eabi-5_4-2016q3/arm-none-eabi/lib/thumb/libc.a(lib_a-mallocr.o)
+ .debug_frame   0x0000000000003530       0x2c /Users/silviobacci/Applications/gcc-arm-none-eabi-5_4-2016q3/arm-none-eabi/lib/thumb/libc.a(lib_a-memchr-stub.o)
+ .debug_frame   0x000000000000355c       0x2c /Users/silviobacci/Applications/gcc-arm-none-eabi-5_4-2016q3/arm-none-eabi/lib/thumb/libc.a(lib_a-memcpy-stub.o)
+ .debug_frame   0x0000000000003588       0x30 /Users/silviobacci/Applications/gcc-arm-none-eabi-5_4-2016q3/arm-none-eabi/lib/thumb/libc.a(lib_a-mlock.o)
+ .debug_frame   0x00000000000035b8      0x258 /Users/silviobacci/Applications/gcc-arm-none-eabi-5_4-2016q3/arm-none-eabi/lib/thumb/libc.a(lib_a-mprec.o)
+ .debug_frame   0x0000000000003810       0x2c /Users/silviobacci/Applications/gcc-arm-none-eabi-5_4-2016q3/arm-none-eabi/lib/thumb/libc.a(lib_a-sbrkr.o)
+ .debug_frame   0x000000000000383c       0x28 /Users/silviobacci/Applications/gcc-arm-none-eabi-5_4-2016q3/arm-none-eabi/lib/thumb/libc.a(lib_a-strlen-stub.o)
+ .debug_frame   0x0000000000003864       0x68 /Users/silviobacci/Applications/gcc-arm-none-eabi-5_4-2016q3/arm-none-eabi/lib/thumb/libc.a(lib_a-svfiprintf.o)
+ .debug_frame   0x00000000000038cc       0x3c /Users/silviobacci/Applications/gcc-arm-none-eabi-5_4-2016q3/arm-none-eabi/lib/thumb/libc.a(lib_a-__atexit.o)
+ .debug_frame   0x0000000000003908       0x28 /Users/silviobacci/Applications/gcc-arm-none-eabi-5_4-2016q3/arm-none-eabi/lib/thumb/libc.a(lib_a-callocr.o)
+ .debug_frame   0x0000000000003930       0x54 /Users/silviobacci/Applications/gcc-arm-none-eabi-5_4-2016q3/arm-none-eabi/lib/thumb/libc.a(lib_a-freer.o)
+ .debug_frame   0x0000000000003984       0x8c /Users/silviobacci/Applications/gcc-arm-none-eabi-5_4-2016q3/arm-none-eabi/lib/thumb/libc.a(lib_a-locale.o)
+ .debug_frame   0x0000000000003a10       0x40 /Users/silviobacci/Applications/gcc-arm-none-eabi-5_4-2016q3/arm-none-eabi/lib/thumb/libc.a(lib_a-mbtowc_r.o)
+ .debug_frame   0x0000000000003a50       0x2c /Users/silviobacci/Applications/gcc-arm-none-eabi-5_4-2016q3/arm-none-eabi/lib/thumb/libc.a(lib_a-memmove.o)
+ .debug_frame   0x0000000000003a7c       0x3c /Users/silviobacci/Applications/gcc-arm-none-eabi-5_4-2016q3/arm-none-eabi/lib/thumb/libc.a(lib_a-reallocr.o)
+ .debug_frame   0x0000000000003ab8       0x48 /Users/silviobacci/Applications/gcc-arm-none-eabi-5_4-2016q3/arm-none-eabi/lib/thumb/libc.a(lib_a-reent.o)
+ .debug_frame   0x0000000000003b00       0x40 /Users/silviobacci/Applications/gcc-arm-none-eabi-5_4-2016q3/arm-none-eabi/lib/thumb/libc.a(lib_a-strcmp.o)
+ .debug_frame   0x0000000000003b40       0x3c /Users/silviobacci/Applications/gcc-arm-none-eabi-5_4-2016q3/arm-none-eabi/lib/thumb/libc.a(lib_a-wctomb_r.o)
+ .debug_frame   0x0000000000003b7c       0x2c /Users/silviobacci/Applications/gcc-arm-none-eabi-5_4-2016q3/arm-none-eabi/lib/thumb/libm.a(lib_a-s_cos.o)
+ .debug_frame   0x0000000000003ba8       0x2c /Users/silviobacci/Applications/gcc-arm-none-eabi-5_4-2016q3/arm-none-eabi/lib/thumb/libm.a(lib_a-s_sin.o)
+ .debug_frame   0x0000000000003bd4       0x3c /Users/silviobacci/Applications/gcc-arm-none-eabi-5_4-2016q3/arm-none-eabi/lib/thumb/libm.a(lib_a-e_rem_pio2.o)
+ .debug_frame   0x0000000000003c10       0x38 /Users/silviobacci/Applications/gcc-arm-none-eabi-5_4-2016q3/arm-none-eabi/lib/thumb/libm.a(lib_a-k_cos.o)
+ .debug_frame   0x0000000000003c48       0x3c /Users/silviobacci/Applications/gcc-arm-none-eabi-5_4-2016q3/arm-none-eabi/lib/thumb/libm.a(lib_a-k_rem_pio2.o)
+ .debug_frame   0x0000000000003c84       0x38 /Users/silviobacci/Applications/gcc-arm-none-eabi-5_4-2016q3/arm-none-eabi/lib/thumb/libm.a(lib_a-k_sin.o)
+ .debug_frame   0x0000000000003cbc       0x20 /Users/silviobacci/Applications/gcc-arm-none-eabi-5_4-2016q3/arm-none-eabi/lib/thumb/libm.a(lib_a-s_fabs.o)
+ .debug_frame   0x0000000000003cdc       0x3c /Users/silviobacci/Applications/gcc-arm-none-eabi-5_4-2016q3/arm-none-eabi/lib/thumb/libm.a(lib_a-s_floor.o)
+ .debug_frame   0x0000000000003d18       0x2c /Users/silviobacci/Applications/gcc-arm-none-eabi-5_4-2016q3/arm-none-eabi/lib/thumb/libm.a(lib_a-s_scalbn.o)
+ .debug_frame   0x0000000000003d44       0x2c /Users/silviobacci/Applications/gcc-arm-none-eabi-5_4-2016q3/arm-none-eabi/lib/thumb/libm.a(lib_a-s_copysign.o)
+ .debug_frame   0x0000000000003d70       0x20 /Users/silviobacci/Applications/gcc-arm-none-eabi-5_4-2016q3/arm-none-eabi/lib/thumb/libnosys.a(sbrk.o)
+ .debug_frame   0x0000000000003d90       0x20 /Users/silviobacci/Applications/gcc-arm-none-eabi-5_4-2016q3/bin/../lib/gcc/arm-none-eabi/5.4.1/armv7e-m/libgcc.a(_udivsi3.o)
+ .debug_frame   0x0000000000003db0       0x20 /Users/silviobacci/Applications/gcc-arm-none-eabi-5_4-2016q3/bin/../lib/gcc/arm-none-eabi/5.4.1/armv7e-m/libgcc.a(_divsi3.o)
+ .debug_frame   0x0000000000003dd0       0x2c /Users/silviobacci/Applications/gcc-arm-none-eabi-5_4-2016q3/bin/../lib/gcc/arm-none-eabi/5.4.1/armv7e-m/libgcc.a(_aeabi_uldivmod.o)
+ .debug_frame   0x0000000000003dfc       0x34 /Users/silviobacci/Applications/gcc-arm-none-eabi-5_4-2016q3/bin/../lib/gcc/arm-none-eabi/5.4.1/armv7e-m/libgcc.a(_udivmoddi4.o)
+
+.debug_ranges   0x0000000000000000       0x28
+ .debug_ranges  0x0000000000000000       0x28 obj/pkg/mcu/st_stm32_stm32f4xx/src/startup_stm32f4xx_gnu.o
